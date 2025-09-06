@@ -4,39 +4,40 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Curso</strong><br>
-    <strong>Profesor:  </strong><br>
+    <strong>Curso: Desarrollo de Soluciones IOT</strong><br>
+    <strong>Profesor: Leon Baca, Marco Antonio </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
 
 <center>
 
-#### Startup: **--**
-#### Product: **--**
+#### Startup: **Momentum**
+#### Product: **PumpUp**
 
 </center>
 
 ### <center>Team  Members:</center>
 <center>
 
-| Member                           | Code       |
+| Codigo                           | Miembro       |
 |----------------------------------|------------|
-|   |  |
+|  U202211212 | Del Castillo Bueno, Daniel Mateo |
 |        |  |
 |       |  |
 |  |  |
 |              |  |
 |          |  |
 
-<br> AGOSTO 2024
+<br> AGOSTO 2025
 </center>  
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 <center>
 
 | Version | Fecha | Autor | Descripcion de Modificacion |
 | ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 19/03/2024 |Grupo 1 |Se crea el documento |  
+| 0.0 | 31/08/2025 |Grupo 1 |Se crea el documento |  
 
 </center>
 
@@ -171,8 +172,8 @@
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|Compañero1:<br> *TB1:*  Su texto *TB2:* texto etc.. |Su texto de conclusion|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Compañero1:<br> *TB1:*  Su texto<br> *TB2:* texto etc.. |Su texto de conclusion|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta.|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
