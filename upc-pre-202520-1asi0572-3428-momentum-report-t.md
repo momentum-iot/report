@@ -37,7 +37,7 @@
 
 | Version | Fecha | Autor | Descripcion de Modificacion |
 | ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 31/08/2025 |Grupo 1 |Se crea el documento |  
+| 0.0 | 01/09/2025 |Grupo 1 |Se crea el documento |  
 
 </center>
 
@@ -73,7 +73,7 @@
 
 [1.3. Segmentos objetivo.](#13-segmentos-objetivo)  
 
-[Capítulo II: Requirements Elicitation & Analysi](#capítulo-ii-requirements-elicitation--analysis)  
+[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)  
 
 [2.1. Competidores](#21-competidores)  
 [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
@@ -90,76 +90,64 @@
 [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
 [2.3.4. Empathy Mapping](#234-empathy-mapping)  
 [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping) 
+[2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
 
-[2.4. Ubiquitous Language](#24-ubiquitous-language)  
+[2.5. Ubiquitous Language](#25-ubiquitous-language)  
 
 [Capítulo III: Requirements Specificatio](#capítulo-iii-requirements-specification)  
 
-[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)    
-[3.2. User Stories](#32-user-stories)  
-[3.3. Impact Mapping](#33-impact-mapping)  
-[3.4. Product Backlog](#34-product-backlog)  
+[3.1. User Stories](#31-user-stories)  
+[3.2. Impact Mapping](#32-impact-mapping)  
+[3.3. Product Backlog](#33-product-backlog)  
 
-[Capítulo IV: Product Desig](#capítulo-iv-product-design)  
+[Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+[4.1. Strategic-Level Domain-Driven Design.](#41-strategic-level-domain-driven-design)
+[4.1.1. Design-Level EventStorming.](#411-design-level-eventstorming)
+[4.1.1.1 Candidate Context Discovery.](#4111-candidate-context-discovery)
+[4.1.1.2 Domain Message Flows Modeling.](#4112-domain-message-flows-modeling)
+[4.1.1.3 Bounded Context Canvases.](#4113-bounded-context-canvases)
+[4.1.2. Context Mapping.](#412-context-mapping)
+[4.1.3. Software Architecture.](#413-software-architecture)
+[4.1.3.1. Software Architecture System Landscape Diagram.](#4131-software-architecture-system-landscape-diagram)
+[4.1.3.2. Software Architecture Context Level Diagrams.](#4132-software-architecture-container-level-diagrams)
+[4.1.3.2. Software Architecture Container Level Diagrams.](#4132-software-architecture-container-level-diagrams)
+[4.1.3.3. Software Architecture Deployment Diagrams.](#4133-software-architecture-deployment-diagrams)
+[4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+[4.2.X. Bounded Context: ](#42x-bounded-context)
+[4.2.X.1. Domain Layer.](#42x1-domain-layer)
+[4.2.X.2. Interface Layer.](#42x2-interface-layer)
+[4.2.X.3. Application Layer.](#42x3-application-layer)
+[4.2.X.4. Infrastructure Layer.](#42x4-infrastructure-layer)
+[4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.](#42x5-bounded-context-software-architecture-component-level-diagrams)
+[4.2.X.6. Bounded Context Software Architecture Code Level Diagrams.](#42x6-bounded-context-software-architecture-code-level-diagrams)
+[4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.](#42x61-bounded-context-domain-layer-class-diagrams)
+[4.2.X.6.2. Bounded Context Database Design Diagram.](#42x62-bounded-context-database-design-diagram)
 
-[4.1. Style Guidelines](#41-style-guidelines)  
-[4.1.1. General Style Guidelines](#411-general-style-guidelines)  
-[4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
+[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+[5.1. Style Guidelines.](#51-style-guidelines)
+[5.1.1. General Style Guidelines.](#511-general-style-guidelines)
+[5.1.2. Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
+[5.2. Information Architecture.](#52-information-architecture)
+[5.2.1. Organization Systems.](#521-organization-systems)
+[5.2.2. Labeling Systems.](#522-labeling-systems)
+[5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+[5.2.4. Searching Systems.](#524-searching-systems)
+[5.2.5. Navigation Systems.](#525-navigation-systems)
+[5.3. Landing Page UI Design.](#53-landing-page-ui-design)
+[5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
+[5.3.2. Landing Page Mock-up.](#532-landing-page-mock-up)
+[5.4. Applications UX/UI Design.](#54-applications-uxui-design)
+[5.4.1. Applications Wireframes.](#541-applications-wireframes)
+[5.4.2. Applications Wireflow Diagrams.](#542-applications-mock-ups)
+[5.4.2. Applications Mock-ups.](#542-applications-mock-ups)
+[5.4.3. Applications User Flow Diagrams.](#543-applications-user-flow-diagrams)
+[5.5. Applications Prototyping.](#55-applications-prototyping)
 
-[4.2. Information Architecture](#42-information-architecture)  
-[4.2.1. Organization Systems](#421-organization-systems)  
-[4.2.2. Labeling Systems](#422-labeling-systems)  
-[4.2.3. SEO Tags and Meta Tag](#423-seo-tags-and-meta-tags)  
-[4.2.4. Searching Systems](#424-searching-systems)   
-[4.2.5. Navigation Systems](#425-navigation-systems)  
 
-[4.3. Landing Page UI Design](#43-landing-page-ui-design)   
-[4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
-[4.3.2. Landing Page Mock-up](#432-landing-page-mock-up) 
-
-[4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)  
-[4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)  
-[4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
-[4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)   
-[4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)  
-
-[4.5. Web Applications Prototyping](#45-web-applications-prototyping)  
-
-[4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
-[4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)  
-[4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)  
-[4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)  
-
-[4.7. Software Object-Oriented Design](#47-software-object-oriented-design)  
-[4.7.1. Class Diagrams](#471-class-diagrams)  
-[4.7.2. Class Dictionary](#472-class-dictionary)  
-
-[4.8. Database Design](#48-database-design)  
-[4.8.1. Database Diagram](#481-database-diagram)  
-
-[Capítulo V: Product Implementation, Validation & Deploymen](#capítulo-v-product-implementation-validation--deployment)  
-
-[5.1. Software Configuration Management](#51-software-configuration-management)  
-[5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
-[5.1.2. Source Code Management](#512-source-code-management)  
-[5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
-[5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)  
-
-[5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
-[5.2.X. Sprint ](#52x-sprint-n)  
-[5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)  
-[5.2.X.2. Sprint Backlog n](#52x2-sprint-backlog-n)  
-[5.2.X.3. Development Evidence for Sprint Review](#52x3-development-evidence-for-sprint-review)  
-[5.2.X.4. Testing Suite Evidence for Sprint Review](#52x4-testing-suite-evidence-for-sprint-review)  
-[5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)  
-[5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)  
-[5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)  
-[5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)  
-
-[5.3. Validation Interviews](#53-validation-interviews)  
-[5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)  
-[5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)  
-[5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)  
+[6.3. Validation Interviews](#53-validation-interviews)  
+[6.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)  
+[6.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)  
+[6.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)  
 
 [5.4. Video About-the-Product](#54-video-about-the-product)  
 
@@ -332,7 +320,9 @@ As Is:
 | Doing | texto| texto | texto| texto|
 | Thinking | texto| texto | texto| texto|
 | Feeling  | texto| texto | texto| texto|
-## 2.4. Ubiquitous Language.
+## 2.4 Big Picture EventStorming.
+
+## 2.5. Ubiquitous Language.
 ```
 Texto ubiquo: Definicion de este
 ```
@@ -340,174 +330,92 @@ Texto ubiquo: Definicion de este
 ---
 
 # Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping.
 
-Segmento 1:
-
-| Fases    |  fase 1 as is | fase 2| fase 3|
-| -------- | ------- | ---- | ---------------- |
-| Doing    | | texto| texto | texto| texto|
-| Thinking | | texto| texto | texto| texto|
-| Feeling  | | texto| texto | texto| texto|
-
-Segmento 2:
-| Fases    |  fase 1 as is | fase 2| fase 3|
-| -------- | ------- | ---- | ---------------- |
-| Doing    | | texto| texto | texto| texto|
-| Thinking | | texto| texto | texto| texto|
-| Feeling  | | texto| texto | texto| texto|
-
-## 3.2. User Stories.
+## 3.1. User Stories.
 
 | HU0X | Historia Usuario | "Descripcion"  |
 |-|-|-|
 
-## 3.3. Impact Mapping.
+## 3.2. Impact Mapping.
 
 ![Impact Mapping](image.jpg)
 
-## 3.4. Product Backlog.
+## 3.3. Product Backlog.
 
 | #Orden | User Story ID | Titulo| Descripción| Story Points (1/2/3/5/8) |
 | ------ | ------------- | ----- | ---------- | ------------------------ |
 | 1      | HU01          | titulo his | desc  | 5                        |
 
-# Capítulo IV: Product Design
-## 4.1. Style Guidelines.
-### 4.1.1. General Style Guidelines.
-Descripcion del porque estos elementos seran importantes
+# Capítulo IV: Solution Software Design
+## 4.1. Strategic-Level Domain-Driven Design.
+### 4.1.1. Design-Level EventStorming.
+#### 4.1.1.1 Candidate Context Discovery.
+#### 4.1.1.2 Domain Message Flows Modeling.
+#### 4.1.1.3 Bounded Context Canvases.
+### 4.1.2. Context Mapping.
+### 4.1.3. Software Architecture.
+#### 4.1.3.1. Software Architecture System Landscape Diagram.
+#### 4.1.3.2. Software Architecture Context Level Diagrams.
+#### 4.1.3.2. Software Architecture Container Level Diagrams.
+#### 4.1.3.3. Software Architecture Deployment Diagrams.
+## 4.2. Tactical-Level Domain-Driven Design
 
-**Color:** (Descripcion de los colores escogidos y porque)  
-![Colores generales](image.jpg)
 
-**Tipografia:** (Descripcion de la tipografia escogida para el proyecto y porque)
-![Tipografias generales](image.jpg)
-**Branding** (Describir logotipo y porque)
-![Branding general](image.jpg)
-### 4.1.2. Web Style Guidelines.
-Descripcion de los elementos que se utilizaran en el web app
+### 4.2.X. Bounded Context:
+#### 4.2.X.1. Domain Layer.
+#### 4.2.X.2. Interface Layer.
+#### 4.2.X.3. Application Layer.
+#### 4.2.X.4. Infrastructure Layer.
+#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams..
 
-**Background:** (primary, secondary, terniary)  
-![Background Preview web](image.jpg)
-**Text Styles:** (H1, H2, p, a,)  
-![Text Style Preview web](image.jpg)
-**Button Styles:** (Button, dropdowns, Switches)
-![Button Preview web](image.jpg)
-**Icons:** (Fondo blanco con los iconos que vamos a usar)
-![Icons Preview web](image.jpg)
-**Misc** (Cosas como nav var o slideshows que pensemos usar)
-![Miscellaneos preview web](image.jpg)
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-Descripcion corta respecto a los sistemas de organizacion que usaremos  (Escoger)
-"Hierarchical. This structures advices to present the content in a way to distinguish the level of importance by making use of physical differences, such as size, colour, contrast, alignment etc.
+##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.X.6.2. Bounded Context Database Design Diagram.
 
-Sequential. Guide users to follow a specific path towards their goal and provide content step-by-step based on the current step. 
+# Capítulo V: Solution UI/UX Design
 
-Matrix. You can always give the users the option to choose the type of navigation they prefer, i.e. Alphabetical, Chronological, by topic."
-### 4.2.2. Labeling Systems.
-The labeling system aims at uniting the data effectively and represent them in simple way and avoid confusing great amount of information. A widely adopted way to achieve this is by creating the labels which represent loads of data in few words. 
+## 5.1. Style Guidelines.
+### 5.1.1. General Style Guidelines.
+### 5.1.2. Web, Mobile and IoT Style Guidelines.
+## 5.2. Information Architecture.
+### 5.2.1. Organization Systems.
+### 5.2.2. Labeling Systems.
+### 5.2.3. SEO Tags and Meta Tags
+### 5.2.4. Searching Systems.
+### 5.2.5. Navigation Systems.
+## 5.3. Landing Page UI Design.
+### 5.3.1. Landing Page Wireframe.
+### 5.3.2. Landing Page Mock-up.
+## 5.4. Applications UX/UI Design.
+### 5.4.1. Applications Wireframes.
+### 5.4.2. Applications Wireflow Diagrams.
+### 5.4.2. Applications Mock-ups.
+### 5.4.3. Applications User Flow Diagrams.
+## 5.5. Applications Prototyping.
 
-Como decir "home, about us, etc" basicamente lo que iria en un nav var y asi
-### 4.2.3. SEO Tags and Meta Tags
 
-**Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
-* Titulo: ```<title> ___ </title> ```
-* Descripcion: ```<meta name = "description" content = "texto descipcion"/> ```
-* Palabras Clave: ```<meta name = "keyword" content = "keyword1, 2 3"/> ```
+# Capítulo VI: Product Implementation, Validation & Deployment
+## 6.1. Software Configuration Management.
+### 6.1.1. Software Development Environment Configuration.
+### 6.1.2. Source Code Management.
+### 6.1.3. Source Code Style Guide & Conventions.
+### 6.1.4. Software Deployment Configuration.
 
-### 4.2.4. Searching Systems.
-**Que se busca?:** Que buscara el usuario  
-**Que resultados se mostraran?:** Que se mostrara  
-**Interface de busqueda:** Descripcion de como ayuda a encontrar lo deseado 
-![Search interface preview web](image.jpg)
+## 6.2. Landing Page, Services & Applications Implementation.
 
-### 4.2.5. Navigation Systems.
-Basicamente aqui definimos como funciona la navegacion del web app
-**Hierarchical Navigation System:** Main page a destination pages.
-**Global Navigation Systems** (Complemento del Hierachical) Movimiento vertical (te mueves por la pagina)con nav(debe poder regresar a la principal)
-**Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
-## 4.3. Landing Page UI Design.
-### 4.3.1. Landing Page Wireframe.
-la pagina donde te registras y ves info del web app (te manda al web app)
+### 6.2.X. Sprint n
+#### 6.2.X.1. Sprint Planning n.
+#### 6.2.X.2. Aspect Leaders and Collaborators.
+#### 6.2.X.3. Sprint Backlog n.
+#### 6.2.X.4. Development Evidence for Sprint Review.
+#### 6.2.X.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.X.6. Execution Evidence for Sprint Review.
+#### 6.2.X.7. Services Documentation Evidence for Sprint Review.
+#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
+#### 6.2.X.9. Team Collaboration Insights during Sprint.
 
-Wireframe es todo lo funcional de la pagina
-![Landing page Wireframe](image.jpg)
-### 4.3.2. Landing Page Mock-up.
-Mockup es todo lo relacionado al diseño de la pagina
-![Landing page mockup](image.jpg)
-## 4.4. Web Applications UX/UI Design.
-### 4.4.1. Web Applications Wireframes.
-lo funcional de cada aspecto del wireframe 
-![Web Aplication Wireframe](image.jpg)
-### 4.4.2. Web Applications Wireflow Diagrams.
-Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y este me regresa)
-![Web Aplication Wireflow](image.jpg)
-### 4.4.2. Web Applications Mock-ups.
-Diseño en todo aspecto
-![Web Aplication Mockup](image.jpg)
-### 4.4.3. Web Applications User Flow Diagrams.
-un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]** 
-![Web Aplication User Flow Diagram](image.jpg)
-## 4.5. Web Applications Prototyping.
-[URL del Prototipo (Hecho en figma)](https://www.example.com)
-## 4.6. Domain-Driven Software Architecture.
-### 4.6.1. Software Architecture Context Diagram.
-1. System Context Diagram: Diagrama que muestra la relacion del aplicativo con los usuarios
-se incluyen servicios externos (si hay pocos bounded context se incluyen ahi)
-
-2. Bounded Context Map: Muestra la relacion entre bounded contexts (los bounded context son como una burbuja que encapsula palabras clave en los procesos para poder diferenciarlos [Ej. Bounded context enfocado en las ventas(ventas), otro en revisar el stock(gestion) y otro enfocado en los proveedores (suministros)]) Se hace como un brainstorm y se ve en que pueden conectarse o comunicarse [se usa un circulo entre conexiones lineales (upstream o downstream) para definir comunicacion, algunos context se pueden integrar para representar por ejemplo un share model por database, tambien se mencionan los (third party context para definir los restful apis)]
-   
-### 4.6.2. Software Architecture Container Diagrams.
-1. Bounded Context Deployable / Container Diagrams. Sirve para entender como funciona y el proceso, Se especifican DB's, indexers, Search engine, las Apis que usen los bounded context y se conectan por flechas, las cuales tienen como objetivo explicar la direcion y relacion junto a que se esta enviando/comunicando (TCP) 
-
-### 4.6.3. Software Architecture Components Diagrams.
-1. Component diagrams: Estos van a mostrar las ordenes, procesos, mensajes y componentes utilizados en el uso del aplicativo, claro se deben hacer diferentes de estos para cada bounded o USER GOALS
-## 4.7. Software Object-Oriented Design.
-### 4.7.1. Class Diagrams.
-Esta yaselasaben (diagrama de clases)
-Clases(name), objetos(nombre-objeto [como objeto]), metodos("Accion") y atributos(Correo, edad,nombre como valor, ID)
-### 4.7.2. Class Dictionary.
-Inherit (ave(superclase) -> (subclase)canario )
-Polymorphism (Ej. funcion de persona hablar() -> Peruano hablar() , Gringo hablar() todos tienen una funcion que contiene persona y van cambiando sus formas)
-Abstraction (Ej. Solo muestra el usuario, pero esta su edad, correo y veces usada que uso app en la base de datos (fuera de vista))
-Encapsulation (cuando tienes tus variables y metodos en la misma clase las estas encapsulando, aun mas se encapsulan en Private y Public )
-## 4.8. Database Design.
-### 4.8.1. Database Diagram.
-Diagrama de base de datos (la relacion entre clases PK FK el Normalizar tmbn, isiyisi 🕸)
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management.
-### 5.1.1. Software Development Environment Configuration.
-Especificaciones de donde vamos a hacer el proyecto (vscode supongo)
-extensiones tmbn? nose bn q quieren aca
-### 5.1.2. Source Code Management.
-El gitjab donde tengamos el proyecto
-### 5.1.3. Source Code Style Guide & Conventions.
-Que usamos con css (en caso usemos software para SASS)
-supongo q tmbn cositas de como hacemo el code capas algun tipo de codigo para comunicarse entre comments
-### 5.1.4. Software Deployment Configuration.
-Configuraciones de donde y como deployeamos el proyecto
-## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.X. Sprint n
-#### 5.2.X.1. Sprint Planning n.
-Explicar como vamos a plannear el sprint?
-#### 5.2.X.2. Sprint Backlog n.
-![SprintBacklog n](image.jpg) Nica hago la tabla 
-#### 5.2.X.3. Development Evidence for Sprint Review.
-![Sprint review development Evidence](image.jpg)
-#### 5.2.X.4. Testing Suite Evidence for Sprint Review.
-![Sprint review Testing suite Evidence](image.jpg)
-#### 5.2.X.5. Execution Evidence for Sprint Review.
-![Sprint review Execution Evidence](image.jpg)
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
-![Sprint review Services Documentation Evidence](image.jpg)
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
-![Sprint review Software Deployment Evidence](image.jpg)
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
-![Sprint review Team Collaboration Insights](image.jpg) imagenes de colaboraciones github
-
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
 **Preguntas generales:**
 
 1. ¿Cuál es su nombre? 
@@ -526,7 +434,7 @@ Explicar como vamos a plannear el sprint?
 2. ¿Lorem?
 3. ¿Lorem?
 4. ¿Lorem? 
-### 5.3.2. Registro de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
 **Segmento 1**  
 Nombre: _____
 Edad: _ años 
@@ -540,8 +448,8 @@ Edad: _ años
 Ocupación: _____  
 ![Imagen de entrevista](image.jpg)
 {texto}
-### 5.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN ✅❌ | NOTA      |
+### 6.3.3. Evaluaciones según heurísticas.
+| HEURÍSTICA   | EVALUACIÓN | NOTA      |
 | --------------------------------------------- | ---------- | --------- |
 | Visibilidad del estado del sistema            |            | {texto}   |
 | Coincidencia entre el sistema y el mundo real |            | {texto}   |
@@ -553,7 +461,7 @@ Ocupación: _____
 | Diseño estético y minimalista                 |            | {texto}   |
 | Comunicar errores con facilidad               |            | {texto}   |
 | Ayuda y documentación                         |            | {texto}   |
-## 5.4. Video About-the-Product.
+## 6.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
 {texto}
