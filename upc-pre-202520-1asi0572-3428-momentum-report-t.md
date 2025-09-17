@@ -156,7 +156,7 @@
 [Video About-the-Team](#video-about-the-team)  
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
-
+°
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
@@ -172,8 +172,18 @@
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+El gimnasio funciona con procesos manuales para el control de accesos y el seguimiento de uso de máquinas. El registro de miembros se hace en planillas, lo que genera errores y pérdida de información. El control de aforo es manual y no refleja la ocupación en tiempo real. No existe trazabilidad confiable sobre quién ingresó, qué máquina usó o cuánto tiempo estuvo en el recinto. Los usuarios no tienen visibilidad de su historial de visitas ni métricas de esfuerzo. El personal no cuenta con herramientas para detectar alertas de uso indebido ni sobrecarga de equipos. Esto genera insatisfacción en los miembros y dificulta la gestión operativa.
+
+Who: Miembros y staff del gimnasio.
+What: Necesidad de digitalizar accesos, planes y uso de máquinas con trazabilidad.
+Where: Gimnasios urbanos con alto flujo de usuarios.
+When: Durante la operación diaria de ingreso, entrenamiento y salida.
+Why: La gestión manual genera errores, pérdidas de datos y mala experiencia de usuario.
+How: Integrando biometría, NFC, pulseras de ritmo cardiaco y una aplicación móvil.
+How much: Inversión inicial en hardware IoT, desarrollo de software y capacitación de personal.
+
 ### 1.2.2 Lean UX Process.
-#### 1.2.2.1. Lean UX Problem Statements.
+#### 1.2.2.1. Lea°n UX Problem Statements.
 #### 1.2.2.2. Lean UX Assumptions.
 |Business Assumptions|User Assumptions|
 |-|-|
@@ -183,14 +193,12 @@ Texto
 #### 1.2.2.4. Lean UX Canvas.
 (imagen con texto)
 ## 1.3. Segmentos objetivo.
-| | Segmento 1 | Segmento 2  |
+| Variables | Segmento 1 | Segmento 2  |
 | - | - |-|
-| Variables                 |  |  |
 | Geográfica                |  |  |
 | Demográfica               |  |  |
 | Psicológica               |  |  |
 | Función de comportamiento |  |  |
-
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
@@ -223,24 +231,74 @@ Texto
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
-**Preguntas generales:**
+Segmento 1: Propietarios y administradores de gimnasios independientes
 
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
+1. Datos personales y contexto
 
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
+- ¿Cuál es tu nombre y edad?
+- ¿Cuál es tu nivel de estudios?
+- ¿Qué cargo ocupas en el gimnasio?
+- ¿Cuántos años llevas en el rubro fitness o administrando tu negocio?
+- ¿Usas algún dispositivo en tu trabajo diario (computadora, tablet, celular)? ¿Cuál usas con más frecuencia?
+
+2. Operación del gimnasio
+
+- ¿Cuántos colaboradores y clientes activos tienes?
+- ¿Cómo gestionas actualmente las inscripciones, pagos y asistencia?
+- ¿Qué herramientas digitales utilizas hoy en tu negocio? (Excel, software especializado, redes sociales, apps de pago)
+
+3. Objetivos y motivaciones
+
+- ¿Cuál es tu principal meta con el gimnasio (crecer, fidelizar clientes, rentabilidad, expandirte)?
+- ¿Qué tipo de experiencia quieres dar a tus clientes?
+- ¿Qué te motivó a abrir o administrar un gimnasio pequeño en lugar de otro tipo de negocio?
+
+4. Frustraciones y retos
+
+- ¿Qué es lo más difícil de gestionar en tu día a día?
+- ¿Qué problemas frecuentes enfrentas con clientes, pagos o entrenadores?
+- ¿Qué limitaciones encuentras en la tecnología que usas actualmente?
+
+5. Decisiones y expectativas
+
+- ¿Qué factores consideras antes de invertir en un nuevo sistema o aplicación?
+- ¿Qué te haría confiar y recomendar una solución digital a otros dueños?
+- ¿Qué funcionalidades esperas que tenga una plataforma para ayudarte en la gestión del gimnasio?
+
+<h3>Segmento 2: Clientes y usuarios de servicios de entrenamiento</h3>
+
+1. Datos personales y contexto
+
+
+- ¿Cuál es tu nombre y edad?
+- ¿Cuál es tu ocupación o actividad principal?
+- ¿Qué dispositivo usas más para tus actividades diarias (celular, laptop, tablet)?
+- ¿Con qué frecuencia entrenas actualmente? ¿Dónde entrenas?
+
+2. Hábitos y comportamiento
+
+- ¿Prefieres entrenar solo, en clases grupales o con entrenador personal?
+- ¿Qué canales usas para informarte sobre gimnasios o entrenadores (redes sociales, recomendación, internet)?
+- ¿Qué aplicaciones relacionadas con salud o fitness usas?
+
+3. Objetivos y motivaciones
+
+- ¿Qué te motiva a entrenar (salud, estética, rendimiento, socializar)?
+- ¿Qué resultados esperas de un gimnasio o programa de entrenamiento?
+- ¿Qué significa para ti una “buena experiencia” en un gimnasio?
+
+4. Frustraciones y retos
+
+- ¿Qué problemas has tenido en gimnasios anteriores (horarios, saturación, trato, pagos)?
+- ¿Qué te ha hecho abandonar un gimnasio o dejar de entrenar?
+- ¿Qué dificultades encuentras en apps o plataformas de entrenamiento?
+
+5. Decisiones y expectativas
+
+- ¿Qué factores son más importantes al elegir un gimnasio (ubicación, precio, variedad de clases, entrenadores)?
+- ¿Qué funcionalidades valoras en una aplicación que complemente tu experiencia de entrenamiento?
+- ¿Qué te haría recomendar un gimnasio o app a tus amigos?
+
 ### 2.2.2. Registro de entrevistas.
 **Segmento 1**  
 Nombre: _____
