@@ -22,7 +22,7 @@
 | Codigo                           | Miembro       |
 |----------------------------------|------------|
 |  U202211212 | Del Castillo Bueno, Daniel Mateo |
-|        |  |
+|  U202015274 | Sanchez Montero, Carlos |
 |       |  |
 |  |  |
 |              |  |
@@ -300,12 +300,16 @@ Segmento 1: Propietarios y administradores de gimnasios independientes
 - ¿Qué te haría recomendar un gimnasio o app a tus amigos?
 
 ### 2.2.2. Registro de entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
+
+**Segmento 1** 
+
+Nombre: Piero Espinoza
+Edad: 25 años 
+Ocupación: Administrador de gimnasio  
+<img src="./assets/capitulo-2/entrevistas/entrevista-piero.png">  
+**Resumen:**
+Piero Espinosa tiene 25 años y es administrador de un gimnasio desde hace aproximadamente 3 años. Actualmente gestiona un equipo de 5 empleados y atienden a unos 120 clientes activos. Su principal objetivo es mantener la rentabilidad del negocio y lograr un crecimiento sostenible sin perder la calidad del servicio. Busca diferenciarse de las grandes cadenas ofreciendo un trato más personalizado y un ambiente de confianza. Considera que la experiencia del cliente es clave para su fidelización y para generar recomendaciones. Uno de sus mayores retos es competir contra el marketing y los bajos precios de las grandes cadenas. Además, enfrenta problemas recurrentes de organización relacionados con horarios y pagos que consumen mucho tiempo. Afirma que la tecnología que usan actualmente es básica y no integra todas las funciones necesarias. Al invertir en tecnología evalúa cuidadosamente el costo-beneficio, buscando herramientas fáciles de usar, con buen soporte y a bajo costo. Recomendaría una solución digital si realmente le ayudara a ahorrar tiempo, organizar mejor las operaciones y fortalecer la relación con los clientes.
+
 
 **Segmento 2**  
 Nombre: _____
