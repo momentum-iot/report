@@ -169,6 +169,7 @@
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
 |Compañero 1 	![Imagen del compañero](image.jpg)|U20...|Ingenieria de software|C++, piton .etc|
+|Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
