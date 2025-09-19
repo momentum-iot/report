@@ -156,7 +156,7 @@
 [Video About-the-Team](#video-about-the-team)  
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
-°
+
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
@@ -325,18 +325,90 @@ Ocupación: _____
 **Segmento 2:**
 {texto}
 ## 2.3. Needfinding.
-### 2.3.1. User Personas.
-**Segmento 1:**  
-![Imagen User Persona 1](image.jpg)
 
-**Segmento 2:**
-![Imagen User Persona 1](image.jpg)
+### 2.3.1. User Personas.
+**Segmento 1: Propietarios y administradores de gimnasios independientes**  
+<img src="./assets/capitulo-2/needfinding/user-admin.png">
+
+**SSegmento 2: Clientes y usuarios de servicios de entrenamiento**
+<img src="./assets/capitulo-2/needfinding/user-gymrat.png">
 
 ### 2.3.2. User Task Matrix.
-| --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
-| --- | ------ | ----------- | ------------ | ----------- | ---------- |
-| ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
-| U01X| {Texto}| Alta        | Alta         | Media       | Baja       |
+<table>
+  <thead>
+    <tr>
+      <th>User Task</th>
+      <th colspan="2">Abraham (Administrador)</th>
+      <th colspan="2">Arturo (Usuario)</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Revisar acceso y aforo del gimnasio</td>
+      <td>Very Often</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Gestionar/renovar membresías</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Monitorear métricas (ritmo cardíaco/agregados)</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Programar clases y cupos</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas (equipos/incidencias/esfuerzo)</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar recomendaciones automáticas</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Generar/recibir reportes</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Recibir recordatorios (renovación/entrenamiento)</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+      <td>Very Often</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.3.3. User Journey Mapping.
 **Registration:**
 Why would they trust us?
