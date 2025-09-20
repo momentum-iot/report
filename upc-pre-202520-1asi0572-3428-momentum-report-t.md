@@ -278,38 +278,21 @@ Ocupación: _____
   
 **Segmento Propietario/Administrador:**
 
-![User Journey Segmento1](Propietario_AdministradorGimnasio.png)
+![User Journey Segmento1](/assets/Needfinding/Propietario_AdministradorGimnasio.png)
 
 **Segmento Miembro de Gimnasio:**
 
+![User Journey Segmento2](/assets/Needfinding/MiembroGimnasio.png)
 
 ### 2.3.4. Empathy Mapping.
-**Segmento 1:**
-![Empathy Map Segmento1](image.jpg)
+**Segmento Propietario/Administrador:**
 
-**Segmento 2:**
-![Empathy Map Segmento1](image.jpg)
-### 2.3.5. As-is Scenario Mapping.
+![Empathy Map Segmento1](assets/Needfinding/Empathy_map_Propietario.png)
 
-**Segmento 1**  
-Escenario: {escenario}
+**Segmento Miembro de Gimnasio:**
 
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
+![Empathy Map Segmento1](assets/Needfinding/Empathy_map_Miembro.png)
 
-**Segmento 2**  
-Escenario: Dificultad para entender Matemáticas
-
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
 ## 2.4 Big Picture EventStorming.
 
 ## 2.5. Ubiquitous Language.
