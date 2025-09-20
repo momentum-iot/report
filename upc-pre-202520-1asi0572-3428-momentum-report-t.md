@@ -23,7 +23,7 @@
 |----------------------------------|------------|
 |  U202211212 | Del Castillo Bueno, Daniel Mateo |
 |  U202015274 | Sanchez Montero, Carlos |
-|       |  |
+|  U202213384 | Pinto Fuentes Rivera, Alvaro Felipe  |
 |  |  |
 |              |  |
 |          |  |
@@ -185,15 +185,156 @@ How: Integrando biometría, NFC, pulseras de ritmo cardiaco y una aplicación m�
 How much: Inversión inicial en hardware IoT, desarrollo de software y capacitación de personal.
 
 ### 1.2.2 Lean UX Process.
-#### 1.2.2.1. Lea°n UX Problem Statements.
+#### 1.2.2.1. Lean UX Problem Statements.
+
+**Problem Statement:**
+
+**1. Domain:**
+
+El dominio corresponde al sector fitness y bienestar, específicamente a la gestión tecnológica de gimnasios independientes y centros de entrenamiento de pequeña y mediana escala. Se centra en el uso de tecnologías IoT, biometría, sensores de actividad y plataformas digitales para automatizar procesos operativos, mejorar la experiencia del usuario y optimizar la gestión de recursos en gimnasios urbanos con alto flujo de usuarios.
+
+**2. Customer Segments:**
+
+**Propietarios y administradores de gimnasios independientes:**
+- Gestionan procesos manuales de control de accesos y seguimiento de equipos
+- Carecen de herramientas tecnológicas integradas para la gestión operativa
+- Tienen recursos económicos limitados para invertir en tecnología costosa
+- Buscan diferenciarse de las grandes cadenas con un servicio más personalizado
+- Necesitan optimizar la rentabilidad sin perder calidad en el servicio
+
+**Usuarios y miembros de gimnasios:**
+- Buscan una experiencia de entrenamiento moderna y personalizada
+- Quieren visibilidad de su progreso y métricas de rendimiento
+- Valoran la comodidad en procesos de acceso y gestión de membresías
+- Desean evitar la saturación y tener información en tiempo real del gimnasio
+
+**3. Pain Points:**
+
+**Gestión manual y propensa a errores:** Los registros en planillas generan pérdida de información, errores en facturación y dificultades para el seguimiento de miembros activos.
+
+**Falta de control de aforo en tiempo real:** El control manual no permite conocer la ocupación actual, generando sobresaturación en horas pico y subutilización en otros horarios.
+
+**Ausencia de trazabilidad de uso de equipos:** No existe información confiable sobre qué máquinas usa cada miembro, cuánto tiempo entrena, o si hay uso indebido de los equipos.
+
+**Experiencia de usuario limitada:** Los miembros no tienen acceso a su historial de visitas, métricas de progreso o información útil para mejorar su entrenamiento.
+
+**Herramientas tecnológicas fragmentadas:** Las soluciones existentes son costosas, complejas de implementar o no integran todas las funcionalidades necesarias para gimnasios pequeños.
+
+**Carga operativa excesiva para el personal:** La gestión manual consume tiempo valioso que podría dedicarse a atención al cliente y mejora del servicio.
+
+**4. Gap:**
+
+Existe una brecha crítica en el acceso a soluciones de gestión inteligente para gimnasios que sean:
+
+**Accesibles económicamente para gimnasios independientes:** El mercado está dominado por soluciones empresariales costosas, diseñadas para grandes cadenas y fuera del alcance de gimnasios pequeños y medianos.
+
+**Fáciles de implementar y usar:** Muchas tecnologías requieren infraestructura compleja, capacitación extensa o soporte técnico constante, lo cual no es viable para operaciones pequeñas.
+
+**Integradas y completas:** Las soluciones actuales suelen cubrir solo aspectos específicos (pagos, accesos, o entrenamiento) sin ofrecer una plataforma unificada.
+
+**Enfocadas en la experiencia dual:** Pocas herramientas equilibran las necesidades operativas del gimnasio con la experiencia y engagement de los usuarios.
+
+**5. Vision / Strategy:**
+
+La visión de Momentum con PumpUp es democratizar el acceso a la gestión inteligente de gimnasios, convirtiendo la tecnología IoT en una ventaja competitiva accesible para cualquier gimnasio independiente. Para eso, se propone:
+
+- Desarrollar una solución IoT modular y escalable que integre control de accesos biométrico, monitoreo de equipos y gestión de miembros en una sola plataforma.
+- Ofrecer automatización de procesos operativos críticos, reduciendo la carga administrativa y mejorando la precisión en la gestión de datos.
+- Diseñar una experiencia de usuario intuitiva tanto para administradores como para miembros, con dashboards visuales y aplicación móvil fácil de usar.
+- Proporcionar insights y analytics en tiempo real que permitan tomar decisiones informadas sobre operación, marketing y mejora del servicio.
+- Crear un ecosistema conectado que fomente la fidelización de miembros a través de gamificación, seguimiento de progreso y recomendaciones personalizadas.
 #### 1.2.2.2. Lean UX Assumptions.
-|Business Assumptions|User Assumptions|
-|-|-|
-|1. - 12. |1. - 6.|
+
+**Business Assumptions:**
+
+1. Los propietarios de gimnasios independientes están dispuestos a adoptar tecnología IoT si perciben una mejora directa en eficiencia operativa y rentabilidad.
+
+2. La creciente competencia con grandes cadenas de gimnasios generará demanda por soluciones tecnológicas que permitan diferenciación y mejor servicio al cliente.
+
+3. La tendencia post-pandemia hacia el fitness digital y el seguimiento de salud personal continuará impulsando la adopción de tecnologías de monitoreo.
+
+4. Existen líneas de financiamiento para digitalización de pequeñas empresas que podrían facilitar la adquisición de soluciones como PumpUp.
+
+5. Las regulaciones de aforo y control sanitario permanecerán como requerimientos operativos, favoreciendo sistemas de monitoreo automático.
+
+6. El mercado latinoamericano de gimnasios independientes tiene una base diversa que requiere soluciones flexibles y adaptables a diferentes tamaños de operación.
+
+7. La brecha tecnológica entre gimnasios grandes y pequeños crea una oportunidad significativa para democratizar el acceso a tecnología avanzada.
+
+8. Las recomendaciones y el marketing boca a boca serán canales clave para generar confianza y promover la adopción en el sector fitness local.
+
+**Business Outcomes:**
+
+- Aumento sostenido de ventas y adopción de PumpUp en gimnasios independientes de Lima y principales ciudades del Perú.
+- Reducción del tiempo de gestión administrativa entre 40% y 60% mediante automatización de procesos operativos.
+- Mejora en la retención de miembros hasta en un 35% gracias a mejor experiencia de usuario y engagement.
+- Expansión del mercado objetivo hacia otros países de la región con ecosistemas de gimnasios independientes similares.
+- Creación de alianzas con distribuidores de equipos de gimnasio, proveedores de software fitness y consultores del sector.
+- Posicionamiento de Momentum como referente de innovación en el sector fitness tech en eventos especializados y medios del sector.
+- Generación de datos valiosos del comportamiento de usuarios y operación de gimnasios para futuros desarrollos de producto.
+
+**User Assumptions:**
+
+**¿Quién es el usuario?**
+- Propietarios y administradores de gimnasios independientes de 25-50 años con experiencia en el sector fitness.
+- Miembros de gimnasios urbanos de 18-45 años, tech-savvy, que valoran la conveniencia y el seguimiento de su progreso fitness.
+
+**¿Qué problemas tiene nuestro producto que resolver?**
+- Gestión manual ineficiente, falta de control de aforo, ausencia de trazabilidad de uso de equipos, experiencia de usuario limitada, herramientas fragmentadas.
+
+**¿Qué características son importantes?**
+- Control de acceso biométrico/NFC, monitoreo en tiempo real de aforo y equipos, dashboard administrativo intuitivo, app móvil para miembros, analytics e insights operativos.
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?**
+- En la gestión diaria del gimnasio para administradores, y en la rutina de entrenamiento para miembros, proporcionando datos útiles y automatizando procesos manuales.
+
+**¿Cuándo y cómo es usado nuestro producto?**
+- Durante toda la operación del gimnasio; se utiliza a través de una aplicación web para administradores y móvil para miembros, funcionando con sensores IoT instalados en el gimnasio.
+
+**¿Cómo debe verse nuestro producto y cómo comportarse?**
+- Debe tener interfaces limpias y modernas, ser responsive y funcionar de manera confiable offline cuando sea necesario.
+- El sistema debe comportarse de forma predictiva, con notificaciones relevantes y procesos automatizados transparentes.
+
+**User Outcomes:**
+
+- Mayor control operativo con visibilidad en tiempo real de todos los aspectos del gimnasio (aforo, equipos, miembros).
+- Ahorro de tiempo administrativo significativo, permitiendo enfocar más recursos en atención al cliente y mejora del servicio.
+- Incremento en la satisfacción y retención de miembros gracias a una experiencia más moderna y personalizada.
+- Reducción del estrés operativo al contar con sistemas automatizados que manejan tareas repetitivas.
+- Mejor toma de decisiones basada en datos reales sobre patrones de uso, horarios pico y preferencias de miembros.
+- Adopción de una cultura de gestión basada en datos que mejore la profesionalización del negocio.
+- Mayor competitividad frente a gimnasios grandes gracias a tecnología de nivel empresarial.
+- Escalabilidad para el crecimiento del negocio sin incrementar proporcionalmente la carga operativa.
+
+**Feature Assumptions:**
+
+- Los sensores IoT podrán operar de manera confiable en el ambiente de un gimnasio (humedad, temperatura, vibraciones) sin requerir mantenimiento frecuente.
+- El sistema de control de acceso biométrico/NFC funcionará rápidamente y sin fricciones, incluso durante las horas pico.
+- La plataforma web será intuitiva y accesible desde dispositivos diversos, incluyendo tablets y smartphones de gama media.
+- La aplicación móvil funcionará eficientemente en dispositivos Android e iOS, con sincronización en tiempo real cuando haya conectividad.
+- Los reportes y analytics estarán personalizados por tipo de gimnasio, tamaño de operación y objetivos específicos del negocio.
+- El sistema tendrá capacidad de integración con otros software comunes en gimnasios (facturación, CRM, redes sociales).
+- La solución será escalable desde gimnasios pequeños (50 miembros) hasta medianos (500+ miembros) con configuración modular.
+- El producto incluirá capacitación y soporte en español, con documentación clara y videos tutoriales para facilitar la adopción.
 #### 1.2.2.3. Lean UX Hypothesis Statements.
-Texto
+
+**Creemos que** los propietarios de gimnasios independientes adoptarán PumpUp si perciben una reducción significativa en el tiempo de gestión administrativa y mayor control operativo. **Sabremos que esto es cierto cuando** al menos el 75% de los usuarios en piloto reporten una reducción del 40% o más en tiempo dedicado a tareas administrativas durante los primeros 2 meses de uso.
+
+**Creemos que** una interfaz de administración intuitiva y dashboards visuales facilitarán que administradores sin experiencia técnica puedan gestionar el sistema sin capacitación extensiva. **Sabremos que esto es cierto cuando** el 80% de los administradores puedan completar las tareas principales (revisar aforo, generar reportes, gestionar miembros) sin soporte técnico durante las pruebas de usabilidad.
+
+**Creemos que** la automatización del control de accesos y monitoreo de equipos mejorará significativamente la experiencia de los miembros del gimnasio. **Sabremos que esto es cierto cuando** el 70% de los miembros reporten mayor satisfacción con su experiencia de entrenamiento y el índice de retención aumente en al menos 25% después de 6 meses de implementación.
+
+**Creemos que** los miembros valorarán tener acceso a sus métricas de progreso y estadísticas de entrenamiento a través de la aplicación móvil. **Sabremos que esto es cierto cuando** al menos el 60% de los miembros usen activamente la app móvil al menos 3 veces por semana y el 40% compartirán sus logros en redes sociales.
+
+**Creemos que** el sistema podrá escalarse fácilmente a diferentes tamaños y tipos de gimnasios sin requerir customizaciones complejas. **Sabremos que esto es cierto cuando** al menos 3 tipos distintos de gimnasios (boutique fitness, gimnasio tradicional y centro de crossfit) implementen el sistema sin requerir modificaciones técnicas significativas.
+
+**Creemos que** un proceso de instalación guiado y soporte en español aumentará la tasa de adopción exitosa sin requerir visitas técnicas frecuentes. **Sabremos que esto es cierto cuando** más del 80% de los gimnasios completen la instalación e integración inicial sin intervención presencial del equipo de soporte técnico.
+
+**Creemos que** los insights y analytics en tiempo real ayudarán a los administradores a tomar mejores decisiones de negocio y optimizar sus operaciones. **Sabremos que esto es cierto cuando** el 65% de los usuarios reporten haber implementado al menos 2 mejoras operativas basadas en los datos proporcionados por PumpUp en los primeros 4 meses de uso.
 #### 1.2.2.4. Lean UX Canvas.
-(imagen con texto)
+
+<img src="./assets/capitulo-1/lean_ux_canvas/Lean UX Canvas.png">
+
 ## 1.3. Segmentos objetivo.
 | Variables | Segmento 1 | Segmento 2  |
 | - | - |-|
