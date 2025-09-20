@@ -275,23 +275,13 @@ Ocupación: _____
 | ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
 | U01X| {Texto}| Alta        | Alta         | Media       | Baja       |
 ### 2.3.3. User Journey Mapping.
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
   
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
+**Segmento Propietario/Administrador:**
+
+![User Journey Segmento1](Propietario_AdministradorGimnasio.png)
+
+**Segmento Miembro de Gimnasio:**
+
 
 ### 2.3.4. Empathy Mapping.
 **Segmento 1:**
