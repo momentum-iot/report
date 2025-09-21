@@ -168,7 +168,7 @@
 #### 1.1.2. Perfiles de integrantes del equipo
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
-|Compañero 1 	![Imagen del compañero](/assets/capitulo-1/miembros/Leo.jpg)|U20211G163|Ingenieria de software|C++, C#, Python, Angular, Vue, Laravel|
+|Leonardo Jose Solis Solis    ![Imagen del compañero](/assets/capitulo-1/miembros/Leo.jpg)|U20211G163|Ingenieria de software|C++, C#, Python, Angular, Vue, Laravel|
 |Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
 |Alvaro Pinto Fuentes Rivera <img src="./assets/capitulo-1/miembros/alvaro.png">|U202213384|Ingenieria de software|C++, C#, Java, Python, SQL, Vue, Angular, Flutter, Kotlin|
 |Daniel Mateo Del Castillo Bueno <img src="./assets/capitulo-1/miembros/mateo.png">|U202213384|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
