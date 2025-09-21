@@ -167,6 +167,15 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+**Momentum** es una startup peruana especializada en el desarrollo de soluciones IoT para la industria del fitness y bienestar. Fundada por un equipo de ingenieros de software apasionados por la tecnología y el deporte, la empresa se enfoca en democratizar el acceso a herramientas tecnológicas avanzadas para gimnasios independientes y centros de entrenamiento.
+
+**Misión:** Transformar la gestión de gimnasios independientes mediante soluciones IoT accesibles e innovadoras que mejoren la experiencia de los usuarios y optimicen las operaciones, permitiendo que cualquier gimnasio compita con tecnología de nivel empresarial.
+
+**Visión:** Ser la empresa líder en América Latina en soluciones IoT para el sector fitness, creando un ecosistema conectado que revolucione la forma en que las personas entrenan y los gimnasios operan, haciendo que la tecnología sea un aliado estratégico para el crecimiento y la fidelización de clientes.
+
+
+
 #### 1.1.2. Perfiles de integrantes del equipo
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
