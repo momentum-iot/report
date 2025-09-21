@@ -838,7 +838,7 @@ Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualment
 ## 4.1. Strategic-Level Domain-Driven Design.
 ### 4.1.1. Design-Level EventStorming.
 En esta sección nos reunimos todo el equipo para realizar una lluvia de ideas sobre los eventos que ocurrirían en la aplicación. Primero se empezó por poner en una pizarra todos los eventos del dominio que se nos ocurrieran que podría tener la aplicación. Despúes empezamos a agregar los commandos que desencadenan los eventos. Finalmente ya se agregaron los demás elementos como actores, políticas, aggregates, sistemas externos, y modelos de lectura. Poco a poco al hacer esto seempezaron a formar pequeños flujos de eventos que nos serviriían para el siguiente punto
-![EVENTSTORMING]()
+![EVENTSTORMING](/assets/capitulo-4/event-storming.jpg)
 #### 4.1.1.1 Candidate Context Discovery.
 En esta sección el equipo se puso a organizar los elementos resultantes el event storming. Primero nos pusimos a identificar los eventos y flujos que consideramos eran os mas importantes, para separarlos que sean el core del dominio. Despues estuvimos descomponiendo los eventos en steps secuenciales y buscando eventos clave que provoquen cambios de estado en el sistema.
 Finalmente, con todos estos pasos pudimos segmentar los eventos para que se adecuen a las necesidades del negocio, dando como resultado nuestros Bounded Context
