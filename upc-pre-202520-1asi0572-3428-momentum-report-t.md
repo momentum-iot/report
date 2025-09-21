@@ -475,7 +475,59 @@ Texto ubiquo: Definicion de este
 
 | #Orden | User Story ID | Titulo| Descripción| Story Points (1/2/3/5/8) |
 | ------ | ------------- | ----- | ---------- | ------------------------ |
-| 1      | HU01          | titulo his | desc  | 5                        |
+| 1 | US30 | Visualización de información en landing | Como miembro quiero visualizar información clara en la landing page para entender la propuesta. | 2 |
+| 2 | US31 | Formulario de contacto | Como miembro quiero llenar un formulario de contacto en la landing para solicitar más información. | 1 |
+| 3 | US32 | Registro inicial desde la landing | Como miembro quiero registrarme desde la landing para comenzar a usar la aplicación. | 2 |
+| 4 | US01 | Acceso con huella biométrica | Como miembro quiero ingresar al gimnasio con mi huella para evitar el uso de credenciales físicas. | 5 |
+| 5 | US02 | Registro de entrada y salida | Como administrador quiero que el sistema registre entradas y salidas para controlar la ocupación en tiempo real. | 5 |
+| 6 | US03 | Bloqueo de acceso | Como administrador quiero bloquear el acceso de un miembro con plan vencido para cumplir con las reglas del gimnasio. | 3 |
+| 7 | US04 | Acceso con tarjeta NFC | Como miembro quiero ingresar al gimnasio con tarjeta NFC para contar con otra opción de autenticación rápida. | 3 |
+| 8 | US05 | Consulta de estado del plan | Como miembro quiero consultar el estado de mi plan para saber si está vigente o próximo a vencer. | 2 |
+| 9 | US06 | Renovación de membresía | Como administrador quiero registrar la renovación de un plan para mantener actualizado el estado del miembro. | 3 |
+| 10 | US07 | Suspensión de membresía | Como administrador quiero suspender temporalmente un plan para atender solicitudes especiales de miembros. | 2 |
+| 11 | US08 | Validación de acceso por plan | Como miembro quiero que el sistema valide mi plan antes de ingresar para cumplir con las reglas del gimnasio. | 3 |
+| 23 | US20 | Generar reporte de ocupación por periodo | Como administrador quiero generar reportes de ocupación en un rango de fechas para analizar uso de las instalaciones. | 5 |
+| 24 | US23 | Alertas por anomalías en accesos | Como administrador quiero recibir alertas cuando se detecten patrones anormales de acceso para investigar incidentes. | 3 |
+| 25 | US21 | Exportar reportes en formato CSV | Como administrador quiero exportar reportes en CSV para realizar análisis externos. | 2 |
+| 26 | US25 | Gestión de reembolsos | Como administrador quiero procesar reembolsos en Culqi para resolver incidencias de pago. | 3 |
+| 27 | US22 | Descarga de historial personal | Como miembro quiero descargar mi historial de visitas para revisar mi asistencia. | 2 |
+| 28 | US24 | Integración con pasarela de pagos Culqi | Como miembro quiero realizar pagos mediante Culqi para completar mis transacciones en la aplicación. | 5 |
+| 29 | US27 | Registro de logs de auditoría | Como administrador quiero que todas las operaciones relevantes se registren en un log de auditoría. | 3 |
+| 30 | US26 | Registro de facturación automática | Como administrador quiero que el sistema genere comprobantes al completarse un pago con Culqi. | 3 |
+| 31 | US28 | Control de accesos por rol | Como administrador quiero definir permisos por rol para restringir acciones sensibles. | 3 |
+| 32 | US29 | Notificación de intentos fallidos | Como administrador quiero recibir notificaciones de intentos de acceso fallidos para detectar riesgos. | 2 |
+| 33 | US10 | Monitoreo de aforo por sede | Como administrador quiero visualizar el aforo por sede para supervisar la ocupación y tomar decisiones. | 5 |
+| 12 | TS01 | API de autenticación segura | Como Developer necesito implementar autenticación con JWT en Flask para proteger los recursos internos. | 5 |
+| 13 | TS03 | Configuración de base de datos MySQL | Como Developer necesito conectar el monolito en Flask a una instancia de MySQL para almacenar usuarios, membresías y datos de IoT. | 5 |
+| 14 | TS02 | Middleware de validación de token | Como Developer necesito middleware en Flask que valide tokens JWT en los endpoints protegidos. | 3 |
+| 15 | TS06 | Configuración HTTPS en Flask | Como Developer necesito habilitar HTTPS para que todas las comunicaciones cliente-servidor estén cifradas. | 3 |
+| 16 | TS07 | Implementación de CORS seguro | Como Developer necesito configurar CORS en Flask para aceptar únicamente dominios autorizados. | 2 |
+| 17 | TS09 | API de pagos con Culqi | Como Developer necesito integrar en el monolito la API de Culqi para procesar pagos de membresías. | 5 |
+| 18 | TS08 | Logs de auditoría | Como Developer necesito implementar registro de eventos de acceso y operaciones críticas en el sistema monolítico. | 3 |
+| 19 | TS04 | Gestión de equipos IoT en backend | Como Developer necesito implementar módulos internos en Flask para registrar y actualizar equipos IoT Edge. | 3 |
+| 20 | TS05 | Monitoreo y almacenamiento de sensores | Como Developer necesito que el backend reciba datos de sensores IoT Edge y los almacene en la base de datos. | 3 |
+| 21 | TS10 | Envío de notificaciones internas | Como Developer necesito implementar un módulo en Flask que gestione notificaciones por correo electrónico para administradores y miembros. | 2 |
+| 22 | US02 | Registro de entrada y salida | Como administrador quiero que el sistema registre entradas y salidas para controlar la ocupación en tiempo real. | 5 |
+| 23 | US10 | Monitoreo de aforo por sede | Como administrador quiero visualizar el aforo por sede para supervisar la ocupación y tomar decisiones. | 5 |
+| 24 | US13 | Buffer de eventos en el IoT Edge | Como administrador quiero que el gateway IoT almacene eventos localmente cuando la conexión a la nube se pierde, para evitar pérdida de datos. | 5 |
+| 25 | US14 | Autorización local durante corte de nube | Como miembro quiero que el gateway permita el acceso si mi autorización está en caché del borde cuando la nube está inalcanzable. | 3 |
+| 26 | US09 | Consulta de aforo actual | Como miembro quiero consultar el aforo en tiempo real para decidir el mejor momento de ir al gimnasio. | 3 |
+| 27 | US11 | Alertas de sobreocupación | Como administrador quiero recibir alertas cuando la ocupación supere el límite permitido. | 3 |
+| 28 | US15 | Estado operativo del IoT Edge | Como administrador quiero conocer el estado operativo del gateway para reaccionar ante fallos. | 3 |
+| 29 | US16 | Actualización remota de firmware del gateway | Como administrador quiero aplicar actualizaciones de firmware al gateway de manera remota para mantener seguridad y estabilidad. | 5 |
+| 30 | US27 | Registro de logs de auditoría | Como administrador quiero que todas las operaciones relevantes se registren en un log de auditoría. | 3 |
+| 31 | US23 | Alertas por anomalías en accesos | Como administrador quiero recibir alertas cuando se detecten patrones anormales de acceso para investigar incidentes. | 3 |
+| 32 | US29 | Notificación de intentos fallidos | Como administrador quiero recibir notificaciones de intentos de acceso fallidos para detectar riesgos. | 2 |
+| 33 | US20 | Generar reporte de ocupación por periodo | Como administrador quiero generar reportes de ocupación en un rango de fechas para analizar uso de las instalaciones. | 5 |
+| 34 | US21 | Exportar reportes en formato CSV | Como administrador quiero exportar reportes en CSV para realizar análisis externos. | 2 |
+| 35 | US24 | Integración con pasarela de pagos Culqi | Como miembro quiero realizar pagos mediante Culqi para completar mis transacciones en la aplicación. | 5 |
+| 36 | US26 | Registro de facturación automática | Como administrador quiero que el sistema genere comprobantes al completarse un pago con Culqi. | 3 |
+| 37 | US25 | Gestión de reembolsos | Como administrador quiero procesar reembolsos en Culqi para resolver incidencias de pago. | 3 |
+| 38 | US22 | Descarga de historial personal | Como miembro quiero descargar mi historial de visitas para revisar mi asistencia. | 2 |
+| 39 | US12 | Historial de visitas | Como miembro quiero consultar mi historial de visitas para llevar un registro de asistencia personal. | 2 |
+| 40 | US17 | Sincronización de usuarios desde directorio corporativo | Como administrador quiero sincronizar usuarios desde el directorio corporativo para mantener consistencia de cuentas. | 3 |
+| 41 | US18 | Autenticación con SSO corporativo | Como miembro quiero autenticarme con mis credenciales corporativas para usar la misma identidad. | 3 |
+| 42 | US19 | Propagación de cambios de roles | Como administrador quiero que los cambios de rol en el directorio se reflejen en el sistema para mantener permisos consistentes. | 2 |
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design.
