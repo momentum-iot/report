@@ -569,11 +569,40 @@ Ocupación: Coordinadora de eventos
 **Resumen:**
 Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualmente entrena 3 veces por semana en SmartFit y prefiere las clases grupales porque le brindan mayor motivación. Su principal motivación para entrenar es mantener su salud y mantenerse activa físicamente. Busca un gimnasio ideal que tenga buen ambiente, entrenadores atentos y horarios flexibles que se adapten a su rutina laboral. Para medir sus avances utiliza métodos tradicionales como el peso, las medidas corporales y su resistencia física durante los entrenamientos. Ha enfrentado dificultades en gimnasios anteriores principalmente relacionadas con horarios poco accesibles y excesiva saturación durante las horas punta. La falta de motivación y la mala atención por parte de algunos entrenadores han sido factores que la han llevado a abandonar gimnasios en el pasado. Cuando evalúa aplicaciones de fitness, encuentra problemas con interfaces en inglés, complejidad de uso y falta de adaptación a sus rutinas personales. Los factores más importantes para elegir un gimnasio son la ubicación, la calidad de los entrenadores y el precio. Se informa principalmente a través de redes sociales y valora en una aplicación digital características como facilidad de uso, recordatorios de clases y seguimiento de su progreso personal.
 
+Nombre: Katherine Mejia
+Edad: 20 años 
+Ocupación: Analista de Marketing Digital
+
+<img src="./assets/capitulo-2/entrevistas/entrevista-darlin.png">  
+
+**Enlace a la entrevista:**  
+[Ver entrevista completa]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/ETxU1L3TVeBLs5cHibYyz0ABomyxa4EorpyXIOu2karU6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NMQNqF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g163_upc_edu_pe/EfrBMtKPmuBOqpdeXgjvle0BUpDIbRT9iCfp-momPh44Cw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e1gUFN))
+
+**Resumen:**
+Katherine Mejía, de 28 años, es analista de marketing digital y entrena entre 3 y 4 veces por semana en un gimnasio cercano, utilizando principalmente su celular como herramienta diaria. Prefiere entrenar sola, aunque ocasionalmente asiste a clases grupales, y se informa sobre gimnasios a través de Instagram o recomendaciones de amigos. Además, utiliza aplicaciones como Strava y MyFitnessPal para registrar su progreso.
+Su motivación principal es mantener la salud, mejorar su rendimiento y cuidar la estética. Para ella, una buena experiencia en el gimnasio significa contar con un espacio no saturado, máquinas en buen estado y un ambiente motivador. Sin embargo, ha enfrentado frustraciones como saturación en horas pico, equipos dañados, problemas con los cobros y falta de atención del personal, lo que en ocasiones la ha llevado a abandonar gimnasios. También señala que muchas apps de entrenamiento resultan poco intuitivas, pesadas o mal integradas con wearables, convirtiéndose más en un obstáculo que en una ayuda.
+Al momento de elegir un gimnasio, Katherine prioriza la ubicación, el precio y la variedad de equipos. En cuanto a las aplicaciones complementarias, valora que le permitan ver la ocupación del gimnasio en tiempo real, reservar clases o máquinas, registrar su progreso y recibir recomendaciones personalizadas. Finalmente, afirma que recomendaría un gimnasio o app a sus amigos siempre que le facilite la vida, le ahorre tiempo y le permita entrenar sin fricciones.
+
+
 ### 2.2.3. Análisis de entrevistas.
 **Segmento 1:**
-{texto}
+
+Los administradores de gimnasios, como Piero Espinoza y Mateo Vílchez, enfrentan el reto de mantener la rentabilidad de sus negocios en un mercado competitivo dominado por grandes cadenas que ofrecen precios bajos y campañas de marketing más agresivas. Ambos coinciden en que la gestión de clientes, horarios y pagos consume mucho tiempo y genera errores, sobre todo cuando se depende de procesos manuales como cuadernos o registros básicos. La fidelización de clientes resulta complicada debido a la falta de diferenciación frente a competidores más grandes.
+
+En cuanto a la tecnología, reconocen que las herramientas actuales son básicas, no integran todas las funciones necesarias y carecen de soporte adaptado a las necesidades de gimnasios pequeños o medianos. Sin embargo, muestran disposición a invertir en soluciones digitales siempre que estas ofrezcan una buena relación costo-beneficio, sean fáciles de usar y cuenten con soporte confiable. Sus principales dolores son la pérdida de clientes, la desorganización en horarios y pagos, y la dificultad de mantener un control eficiente de las membresías. Entre los beneficios que esperan lograr, destacan el ahorro de tiempo, la reducción de errores y la posibilidad de ofrecer un servicio más profesional y organizado que fortalezca la relación con los clientes.
+
+Esto abre una oportunidad clara para diseñar un software que se adapte a gimnasios pequeños y medianos, que permita centralizar la gestión de clientes, membresías, promociones y personal, con herramientas sencillas y soporte personalizado que faciliten la adopción tecnológica.
+
 **Segmento 2:**
-{texto}
+
+Los usuarios entrevistados, como Darlin Bringas y Katherine Mejía, priorizan su salud, el bienestar físico y una experiencia de entrenamiento motivadora al momento de elegir un gimnasio. Ambas consideran factores como la ubicación, el precio y la calidad de los entrenadores como determinantes en su decisión, además de valorar un ambiente positivo y la flexibilidad de horarios. Una buena experiencia para ellas se traduce en gimnasios no saturados, con equipos en buen estado y atención personalizada.
+
+Sin embargo, han enfrentado frustraciones recurrentes: saturación en horas pico, equipos dañados, cobros poco claros y entrenadores poco motivadores. Estas situaciones las han llevado en ocasiones a abandonar gimnasios. En el ámbito digital, también señalan problemas: muchas aplicaciones de fitness resultan poco intuitivas, pesadas, con interfaces en inglés o mal integradas con wearables, lo que termina generando más frustración que ayuda.
+
+Lo que buscan en una aplicación complementaria es simplicidad y utilidad: funciones como ver la ocupación del gimnasio en tiempo real, reservar clases o equipos, recibir recordatorios de entrenamientos y llevar un seguimiento de su progreso. De esta manera, esperan optimizar su tiempo y mantener la motivación. Además, estarían dispuestas a recomendar un gimnasio o aplicación a sus amigos siempre que la experiencia sea fluida, confiable y que facilite sus rutinas de entrenamiento.
+
+Esto representa una oportunidad para desarrollar una aplicación enfocada en el usuario final, que simplifique su interacción con el gimnasio y brinde una experiencia digital personalizada y motivadora.
+
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
