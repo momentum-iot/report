@@ -803,7 +803,11 @@ Esto representa una oportunidad para desarrollar una aplicación enfocada en el 
 
 ## 3.2. Impact Mapping.
 
-![Impact Mapping](image.jpg)
+**Segmento 1:**
+![Impact Mapping 1](/assets/Needfinding/impact1.png)
+
+**Segmento 1:**
+![Impact Mapping 1](/assets/Needfinding/impact2.png)
 
 ## 3.3. Product Backlog.
 
