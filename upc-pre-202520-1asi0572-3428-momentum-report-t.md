@@ -25,8 +25,7 @@
 |  U202015274 | Sanchez Montero, Carlos |
 |  U202213384 | Pinto Fuentes Rivera, Alvaro Felipe  |
 |  U20211G163 | Solis Solis, Leonardo José |
-|              |  |
-|          |  |
+
 
 <br> AGOSTO 2025
 </center>  
@@ -38,14 +37,16 @@
 | Version | Fecha | Autor | Descripcion de Modificacion |
 | ----------- | ----------- | ----------- | ----------- |
 | 0.0 | 01/09/2025 |Grupo 1 |Se crea el documento |  
+| 0.1 | 10/09/2025 |Grupo 1 |Se termina el capitulo I |  
+| 0.2 | 15/09/2025 |Grupo 1 |Se termina el capitulo II Y III |  
+| 0.3 | 20/09/2025 |Grupo 1 |Se termina el capitulo IV |  
 
 </center>
 
 # Project Report Collaboration Insights
-[URL del repositorio](https://www.example.com)
+[URL del repositorio](https://github.com/momentum-iot/report)
 
-(Imagenes de los commits cada entrega)
-
+![TB1](image.png)
 
 # Contenido
 
@@ -172,7 +173,7 @@
 |Leonardo Jose Solis Solis    ![Imagen del compañero](/assets/capitulo-1/miembros/Leo.jpg)|U20211G163|Ingenieria de software|C++, C#, Python, Angular, Vue, Laravel|
 |Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
 |Alvaro Pinto Fuentes Rivera <img src="./assets/capitulo-1/miembros/alvaro.png">|U202213384|Ingenieria de software|C++, C#, Java, Python, SQL, Vue, Angular, Flutter, Kotlin|
-|Daniel Mateo Del Castillo Bueno <img src="./assets/capitulo-1/miembros/mateo.png">|U202213384|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
+|Daniel Mateo Del Castillo Bueno <img src="./assets/capitulo-1/miembros/mateo.jpg">|U202213384|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 El gimnasio funciona con procesos manuales para el control de accesos y el seguimiento de uso de máquinas. El registro de miembros se hace en planillas, lo que genera errores y pérdida de información. El control de aforo es manual y no refleja la ocupación en tiempo real. No existe trazabilidad confiable sobre quién ingresó, qué máquina usó o cuánto tiempo estuvo en el recinto. Los usuarios no tienen visibilidad de su historial de visitas ni métricas de esfuerzo. El personal no cuenta con herramientas para detectar alertas de uso indebido ni sobrecarga de equipos. Esto genera insatisfacción en los miembros y dificulta la gestión operativa.
