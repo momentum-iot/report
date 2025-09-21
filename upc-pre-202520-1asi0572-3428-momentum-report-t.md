@@ -893,10 +893,14 @@ Finalmente, con todos estos pasos pudimos segmentar los eventos para que se adec
 | DatabaseAdapter | Adapter             | Implementa conexión a MySQL y operaciones de lectura/escritura.            |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+![](/assets/capitulo-4/bounded/iam/container.png/)
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+![](/assets/capitulo-4/bounded/iam/class.png)
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+![](assets/capitulo-4/bounded/iam/erd.png)
 
+----
 ### 4.2.2. Bounded Context:Membership & Plans
 #### 4.2.2.1. Domain Layer.
 | Clase             | Tipo                       | Propósito                                                                 |
@@ -932,39 +936,121 @@ Finalmente, con todos estos pasos pudimos segmentar los eventos para que se adec
 | SubscriptionRepository   | Repository Impl.    | Gestiona la relación miembro-plan y operaciones de renovación/cancelación.  |
 | DatabaseAdapter          | Adapter             | Implementa conexión a MySQL y operaciones de lectura/escritura.             |
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+![](/assets/capitulo-4/bounded/plans/component.png)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+![](/assets/capitulo-4/bounded/plans/class.png)
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+![](/assets/capitulo-4/bounded/plans/erd.png)
 
+----
 ### 4.2.3. Bounded Context: Biometric Access Control
 #### 4.2.3.1. Domain Layer.
+| Clase      | Tipo    | Propósito                                                         |
+|------------|---------|-------------------------------------------------------------------|
+| Member     | Entity  | Representa al miembro registrado.                                 |
+| Enrolment  | Entity  | Guarda plantilla de huella digital y fecha de enrolamiento.        |
+| AccessLog  | Entity  | Registra eventos de acceso (MemberCheckedIn/MemberCheckedOut).     |
+| AccessType | Enum    | Tipos de acceso posibles.                                         |
+
 #### 4.2.3.2. Interface Layer.
+| Clase                | Tipo       | Propósito                                                         |
+|-----------------------|------------|-------------------------------------------------------------------|
+| StaffPortalController | Controller | Exponer endpoints para enrolamiento y consulta de logs.           |
+| AccessEventConsumer   | Consumer   | Escucha eventos de acceso generados por el IoT Gateway.           |
+
 #### 4.2.3.3. Application Layer.
+| Clase               | Tipo                  | Propósito                                                       |
+|----------------------|-----------------------|-----------------------------------------------------------------|
+| EnrolmentHandler     | Command/Event Handler | Gestiona enrolamiento de huellas.                               |
+| AccessControlHandler | Command/Event Handler | Procesa eventos de acceso y actualiza logs.                     |
+
 #### 4.2.3.4. Infrastructure Layer.
+| Clase               | Tipo             | Propósito                                                       |
+|----------------------|------------------|-----------------------------------------------------------------|
+| BiometricRepository  | Repository Impl. | Persiste enrolamientos y logs de acceso.                        |
+| IoTGatewayAdapter    | External Service | Interactúa con torniquetes y lectores biométricos.              |
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+![](/assets/capitulo-4/bounded/biometric/container.png)
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+![](/assets/capitulo-4/bounded/biometric/class.png)
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
+![](/assets/capitulo-4/bounded/biometric/erd.png)
+
 
 ### 4.2.4. Bounded Context:Occupancy & Presence
 #### 4.2.4.1. Domain Layer.
+| Clase           | Tipo    | Propósito                                              |
+|-----------------|---------|--------------------------------------------------------|
+| Location        | Entity  | Representa áreas con capacidad máxima.                 |
+| OccupancyRecord | Entity  | Mantiene conteo de ocupación en tiempo real.           |
+| AccessEvent     | Entity  | Evento de entrada/salida de miembro.                   |
+| AccessType      | Enum    | Tipos de acceso (MemberCheckedIn/MemberCheckedOut).    |
+
 #### 4.2.4.2. Interface Layer.
+| Clase                | Tipo       | Propósito                                           |
+|-----------------------|------------|---------------------------------------------------|
+| StaffPortalController | Controller | Consulta ocupación y alertas.                      |
+| AccessEventConsumer   | Consumer   | Escucha eventos de Biometric Access o IoT Gateway. |
+
 #### 4.2.4.3. Application Layer.
+| Clase            | Tipo                  | Propósito                                                      |
+|------------------|-----------------------|----------------------------------------------------------------|
+| OccupancyHandler | Command/Event Handler | Calcula ocupación en tiempo real según eventos.                |
+| OccupancyPolicy  | Policy                | Aplica reglas de capacidad máxima y alertas.                   |
+
 #### 4.2.4.4. Infrastructure Layer.
+| Clase               | Tipo             | Propósito                                         |
+|----------------------|------------------|---------------------------------------------------|
+| OccupancyRepository  | Repository Impl. | Persiste registros históricos de ocupación.       |
+| IoTGatewayAdapter    | External Service | Recibe eventos de sensores de presencia.          |
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+![](/assets/capitulo-4/bounded/ocupancy/component.png)
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
+![](/assets/capitulo-4/bounded/ocupancy/class.png)
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
-
+![](/assets/capitulo-4/bounded/ocupancy/erd.png)
 ### 4.2.5. Bounded Context: IoT Edge Gateway
 #### 4.2.5.1. Domain Layer.
+| Clase       | Tipo   | Propósito                                                                 |
+|-------------|--------|---------------------------------------------------------------------------|
+| Sensor      | Entity | Representa un sensor conectado al gateway.                                |
+| SensorEvent | Entity | Evento generado por un sensor.                                            |
+| EventBuffer | Entity | Almacena eventos temporalmente en caso de desconexión.                    |
+| SensorType  | Enum   | Tipos de sensor (Temperatura, Presión, Energía, Ocupación).               |
+| SensorStatus| Enum   | Estado del sensor (Activo, Inactivo, Error).   
 #### 4.2.5.2. Interface Layer.
+| Clase             | Tipo      | Propósito                                                               |
+|-------------------|-----------|-------------------------------------------------------------------------|
+| IoTDeviceListener | Consumer  | Escucha datos provenientes de los sensores.                             |
+| GatewayController | Controller| Permite monitoreo y gestión de dispositivos desde el monolito.          |
+
 #### 4.2.5.3. Application Layer.
+| Clase                | Tipo                  | Propósito                                                             |
+|-----------------------|-----------------------|-----------------------------------------------------------------------|
+| SensorDataHandler     | Command/Event Handler | Procesa datos recibidos de sensores.                                  |
+| EventBufferHandler    | Policy                | Gestiona buffer temporal de eventos.                                  |
+| EventPublisherHandler | Command/Event Handler | Publica eventos hacia los bounded contexts consumidores.               |
+
 #### 4.2.5.4. Infrastructure Layer.
+| Clase            | Tipo             | Propósito                                                              |
+|------------------|------------------|------------------------------------------------------------------------|
+| SensorRepository | Repository Impl. | Persiste datos históricos de sensores.                                 |
+| IoTDeviceAdapter | External Service | Interactúa con dispositivos IoT para recibir datos.                     |
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
+![](/assets/capitulo-4/bounded/iot/components.png)
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.5.6.2. Bounded Context Database Design Diagram.1
+![](/assets/capitulo-4/bounded/iot/components.png)
+##### 4.2.5.6.2. Bounded Context Database Design Diagram.
+![](/assets/capitulo-4/bounded/iot/erd.png)
+
+
+
+
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines.
