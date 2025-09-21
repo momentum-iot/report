@@ -836,35 +836,135 @@ Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualment
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design.
-
 ### 4.1.1. Design-Level EventStorming.
-
+En esta sección nos reunimos todo el equipo para realizar una lluvia de ideas sobre los eventos que ocurrirían en la aplicación. Primero se empezó por poner en una pizarra todos los eventos del dominio que se nos ocurrieran que podría tener la aplicación. Despúes empezamos a agregar los commandos que desencadenan los eventos. Finalmente ya se agregaron los demás elementos como actores, políticas, aggregates, sistemas externos, y modelos de lectura. Poco a poco al hacer esto seempezaron a formar pequeños flujos de eventos que nos serviriían para el siguiente punto
+![EVENTSTORMING]()
 #### 4.1.1.1 Candidate Context Discovery.
-
+En esta sección el equipo se puso a organizar los elementos resultantes el event storming. Primero nos pusimos a identificar los eventos y flujos que consideramos eran os mas importantes, para separarlos que sean el core del dominio. Despues estuvimos descomponiendo los eventos en steps secuenciales y buscando eventos clave que provoquen cambios de estado en el sistema.
+Finalmente, con todos estos pasos pudimos segmentar los eventos para que se adecuen a las necesidades del negocio, dando como resultado nuestros Bounded Context
+![CANDIDATE]()
 #### 4.1.1.2 Domain Message Flows Modeling.
-
+![MESSAGE]()
 #### 4.1.1.3 Bounded Context Canvases.
-
+![BDCANVASES]()
 ### 4.1.2. Context Mapping.
+![Context Mapping](/assets/capitulo-4/context-mapping.jpg)
 ### 4.1.3. Software Architecture.
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
+![Landscape](./assets/capitulo-4/landscape.png/)
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
+![Contexto](./assets/capitulo-4/context.png)
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
+![Container](./assets/capitulo-4/containers.png)
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
+![Deployment](/assets/capitulo-4/deployment.png/)
 ## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: Identity & Access (IAM)
+#### 4.2.1.1. Domain Layer.
+| Clase        | Tipo                     | Propósito                                                                                      |
+|--------------|--------------------------|------------------------------------------------------------------------------------------------|
+| User         | Aggregate Root (Entity)  | Representa un usuario del sistema (miembro o staff), mantiene estado y roles asignados, y gestiona validación de contraseña. |
+| Role         | Entity                   | Define roles posibles: Staff o Miembro.                                                        |
+| Password     | Value Object             | Encapsula la contraseña hasheada y ofrece métodos de validación segura.                        |
+| LoginAttempt | Entity / Value Object    | Representa un intento de inicio de sesión, con timestamp, resultado y dispositivo usado.        |
+| UserStatus   | Enum                     | Estados posibles: Active, Inactive, Locked.                                                    |
+| RoleType     | Enum                     | Tipos de roles: Staff, Member.                                                                 |
+
+#### 4.2.1.2. Interface Layer.
+| Clase          | Tipo                    | Propósito                                                                 |
+|----------------|-------------------------|---------------------------------------------------------------------------|
+| UserController | Controller              | Endpoints REST para login, asignación de roles y verificación de permisos. |
+| AuthMiddleware | Middleware / Consumer   | Valida JWT en cada petición y agrega contexto de usuario al request.       |
 
 
-### 4.2.X. Bounded Context:
-#### 4.2.X.1. Domain Layer.
-#### 4.2.X.2. Interface Layer.
-#### 4.2.X.3. Application Layer.
-#### 4.2.X.4. Infrastructure Layer.
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams..
+#### 4.2.1.3. Application Layer.
+| Clase                    | Tipo                  | Propósito                                                                 |
+|---------------------------|-----------------------|---------------------------------------------------------------------------|
+| LoginCommandHandler       | Command Handler       | Procesa el comando de login, valida contraseña y genera JWT temporal en memoria. |
+| AssignRoleCommandHandler  | Command Handler       | Asigna o cambia roles de usuarios según reglas de negocio.                 |
+| ValidateAccessHandler     | Command/Event Handler | Verifica si un usuario tiene permiso para ejecutar una acción específica.  |
+#### 4.2.1.4. Infrastructure Layer.
+| Clase           | Tipo                | Propósito                                                                  |
+|-----------------|---------------------|----------------------------------------------------------------------------|
+| UserRepository  | Repository Impl.    | Persistencia de usuarios (CRUD), consulta por username y estado.            |
+| RoleRepository  | Repository Impl.    | Persistencia de roles, consultas por tipo de rol.                           |
+| PasswordHasher  | Utility / Service   | Servicio para hashear y validar contraseñas.                               |
+| JWTService      | External Service    | Genera y valida tokens JWT temporal en memoria (no persiste).              |
+| DatabaseAdapter | Adapter             | Implementa conexión a MySQL y operaciones de lectura/escritura.            |
 
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.X.6.2. Bounded Context Database Design Diagram.
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
+### 4.2.2. Bounded Context:Membership & Plans
+#### 4.2.2.1. Domain Layer.
+| Clase             | Tipo                       | Propósito                                                                 |
+|-------------------|----------------------------|---------------------------------------------------------------------------|
+| Member            | Aggregate Root (Entity)    | Representa un miembro del sistema, con sus datos personales, estado de membresía y historial de reservas o pagos. |
+| Plan              | Entity                     | Define un plan o membresía, con duración, precio y características asociadas. |
+| MembershipStatus  | Enum                       | Estados posibles de la membresía: Active, Expired, Cancelled, Pending.    |
+| Subscription      | Entity / Value Object      | Representa la relación entre un miembro y un plan, incluyendo fechas de inicio y fin, renovaciones y cancelaciones. |
+
+#### 4.2.2.2. Interface Layer.
+| Clase                | Tipo                  | Propósito                                                                 |
+|-----------------------|-----------------------|---------------------------------------------------------------------------|
+| MemberController      | Controller            | Endpoints REST para crear, actualizar, eliminar y consultar miembros.     |
+| PlanController        | Controller            | Endpoints REST para crear, actualizar, eliminar y consultar planes.       |
+| MembershipMiddleware  | Middleware / Consumer | Valida el acceso del miembro según su plan activo antes de ejecutar operaciones sensibles. |
+
+#### 4.2.2.3. Application Layer.
+| Clase                       | Tipo                  | Propósito                                                                 |
+|------------------------------|-----------------------|---------------------------------------------------------------------------|
+| CreateMemberCommandHandler   | Command Handler       | Procesa la creación de un nuevo miembro.                                  |
+| UpdateMemberCommandHandler   | Command Handler       | Actualiza información de un miembro existente.                            |
+| DeleteMemberCommandHandler   | Command Handler       | Gestiona la eliminación o desactivación de un miembro.                     |
+| CreatePlanCommandHandler     | Command Handler       | Permite crear un nuevo plan o membresía.                                  |
+| UpdatePlanCommandHandler     | Command Handler       | Modifica un plan existente.                                               |
+| DeletePlanCommandHandler     | Command Handler       | Elimina o desactiva un plan.                                              |
+| ValidateMembershipHandler    | Command/Event Handler | Valida si un miembro puede acceder a funcionalidades según su plan activo.|
+
+#### 4.2.2.4. Infrastructure Layer.
+| Clase                   | Tipo                | Propósito                                                                  |
+|--------------------------|---------------------|----------------------------------------------------------------------------|
+| MemberRepository         | Repository Impl.    | Persistencia de miembros, operaciones CRUD y consultas por estado o ID.     |
+| PlanRepository           | Repository Impl.    | Persistencia de planes, consultas por tipo, precio o duración.              |
+| SubscriptionRepository   | Repository Impl.    | Gestiona la relación miembro-plan y operaciones de renovación/cancelación.  |
+| DatabaseAdapter          | Adapter             | Implementa conexión a MySQL y operaciones de lectura/escritura.             |
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+### 4.2.3. Bounded Context: Biometric Access Control
+#### 4.2.3.1. Domain Layer.
+#### 4.2.3.2. Interface Layer.
+#### 4.2.3.3. Application Layer.
+#### 4.2.3.4. Infrastructure Layer.
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
+### 4.2.4. Bounded Context:Occupancy & Presence
+#### 4.2.4.1. Domain Layer.
+#### 4.2.4.2. Interface Layer.
+#### 4.2.4.3. Application Layer.
+#### 4.2.4.4. Infrastructure Layer.
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.4.6.2. Bounded Context Database Design Diagram.
+
+### 4.2.5. Bounded Context: IoT Edge Gateway
+#### 4.2.5.1. Domain Layer.
+#### 4.2.5.2. Interface Layer.
+#### 4.2.5.3. Application Layer.
+#### 4.2.5.4. Infrastructure Layer.
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.5.6.2. Bounded Context Database Design Diagram.1
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines.
@@ -874,7 +974,7 @@ Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualment
 ### 5.2.1. Organization Systems.
 ### 5.2.2. Labeling Systems.
 ### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems.
+### 5.2.4. Searching Systems2
 ### 5.2.5. Navigation Systems.
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
@@ -884,7 +984,7 @@ Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualment
 ### 5.4.2. Applications Wireflow Diagrams.
 ### 5.4.2. Applications Mock-ups.
 ### 5.4.3. Applications User Flow Diagrams.
-## 5.5. Applications Prototyping.
+## 5.5. Applications Prototy3ing.
 
 
 # Capítulo VI: Product Implementation, Validation & Deployment
@@ -894,7 +994,7 @@ Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualment
 ### 6.1.3. Source Code Style Guide & Conventions.
 ### 6.1.4. Software Deployment Configuration.
 
-## 6.2. Landing Page, Services & Applications Implementation.
+## 6.2. Landing Page, Servic4s & Applications Implementation.
 
 ### 6.2.X. Sprint n
 #### 6.2.X.1. Sprint Planning n.
@@ -904,7 +1004,7 @@ Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualment
 #### 6.2.X.5. Testing Suite Evidence for Sprint Review.
 #### 6.2.X.6. Execution Evidence for Sprint Review.
 #### 6.2.X.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
+#### 6.2.X.8. Software Deplo5ment Evidence for Sprint Review.
 #### 6.2.X.9. Team Collaboration Insights during Sprint.
 
 ## 6.3. Validation Interviews.
