@@ -160,8 +160,8 @@
 # Student Outcome
 |Criterio Especifico|Acciones Realizadas|Conclusiones|
 |-|-|-|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta.|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta.| Daniel Del Castillo:<br/> TB1: <p>Fomenté un ambiente colaborativo organizando las metas del proyecto y comunicando claramente la arquitectura propuesta, lo que permitió planificar tareas de manera ordenada y cumplir con los objetivos trazados en equipo.<p/> Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos|Daniel Del Castillo:<br/> TB1: <p>Asumí un rol activo al guiar al grupo con la definición de la arquitectura y distribución de responsabilidades, compartiendo el liderazgo y asegurando que cada integrante aporte de manera coordinada al desarrollo.<p/> Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -531,10 +531,15 @@ Texto ubiquo: Definicion de este
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design.
+
 ### 4.1.1. Design-Level EventStorming.
+
 #### 4.1.1.1 Candidate Context Discovery.
+
 #### 4.1.1.2 Domain Message Flows Modeling.
+
 #### 4.1.1.3 Bounded Context Canvases.
+
 ### 4.1.2. Context Mapping.
 ### 4.1.3. Software Architecture.
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
@@ -647,33 +652,31 @@ Ocupación: _____
 ## 6.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
-{texto}
-# Conclusiones y recomendaciones.
-{texto}
+
+1. La arquitectura definida permitió organizar el sistema en dominios y módulos claros, favoreciendo la modularidad y la integración con servicios externos sin comprometer la coherencia del monolito planteado.
+
+2. El alcance del proyecto se centró en equilibrar la experiencia de usuario, representada principalmente en la landing page, con el desarrollo de procesos internos como la gestión de planes, reservas y pagos, asegurando valor tanto para los usuarios finales como para la operación del sistema.
+
+3. La gestión del backlog permitió mantener un control ordenado de las 42 historias de usuario, priorizando las relacionadas a la landing page y asignando esfuerzos realistas a cada tarea, lo que facilita la ejecución de sprints y el seguimiento del avance del proyecto.
+
+
 # Video About-the-Team.
 [URL del video about the team](https://www.example.com)
 
 # Bibliografía
-qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
-Recuperado 20 de junio de 2022, de [LINK](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
 
-LeaseIN. (2018). Importancia de contar con un equipo de soporte
-técnico. [Entrada en blog]. Recuperado de:
-[LINK](https://leasein.pe/blog/branding-empresarial-importanciasoporte-tecnico/)
-``` 
-formato
+Bass, L., Clements, P., & Kazman, R. (2021). Software Architecture in Practice (4th ed.). Addison-Wesley.
 
-"Apellido", Ini.Ciales. & "otroAutor", O.A. (año). titulo del articulo.
-        "nombre del articulo o lo q sea, Volumen(si es que tiene), numero  de pagina"#-#. https//link.org/eeeseneko
+Richards, M., & Ford, N. (2020). Fundamentals of Software Architecture: An Engineering Approach. O’Reilly Media.
 
-```
+Fowler, M. (2018). Patterns of Enterprise Application Architecture. Addison-Wesley.
+
+Hossain, E., Muhammad, G., & Rahman, M. (2020). Cloud and IoT-based smart security and monitoring systems: A comprehensive review. Sustainable Cities and Society, 61, 102360. https://doi.org/10.1016/j.scs.2020.102360
+
+Rozanski, N., & Woods, E. (2012). Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives (2nd ed.). Addison-Wesley.
+
 # Anexos
-
-datos, gráficos, imágenes, esquemas, mapas o referencias de otros autores
-
-![Imagen de algo no nuestro ](image.jpg)
-
-
+Entevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EXvX6UhgOwRHu-TdxGSTKJgBtMWEiwYBFuJdf7YpkJPKMQ?e=Om1c40&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 
