@@ -877,12 +877,18 @@ En esta sección nos reunimos todo el equipo para realizar una lluvia de ideas s
 #### 4.1.1.1 Candidate Context Discovery.
 En esta sección el equipo se puso a organizar los elementos resultantes el event storming. Primero nos pusimos a identificar los eventos y flujos que consideramos eran os mas importantes, para separarlos que sean el core del dominio. Despues estuvimos descomponiendo los eventos en steps secuenciales y buscando eventos clave que provoquen cambios de estado en el sistema.
 Finalmente, con todos estos pasos pudimos segmentar los eventos para que se adecuen a las necesidades del negocio, dando como resultado nuestros Bounded Context
-![CANDIDATE]()
+![CANDIDATE](/assets/capitulo-4/candidate.jpg)
 #### 4.1.1.2 Domain Message Flows Modeling.
-![MESSAGE]()
+![MESSAGE](/assets/capitulo-4/message%20flows/1.png)
+![MESSAGE](/assets/capitulo-4/message%20flows/2.png)
+![MESSAGE](/assets/capitulo-4/message%20flows/3.png)
 #### 4.1.1.3 Bounded Context Canvases.
-![BDCANVASES]()
+En esta sección sección se ha realizado Canvas para los bounded context. La finalidad es obtener un diagrama informativo sobre
+cada bounded context con información clave de este en el negocio.
+![BDCANVASES](/assets/capitulo-4/canvases/Canvas1.jpg)
 ### 4.1.2. Context Mapping.
+En esta seccion se presentara nuestro diagrama de contexto para nuestro software, este diagrama nos muestro como nuestro
+sistema interactua con sus alrededor y usuarios
 ![Context Mapping](/assets/capitulo-4/context-mapping.jpg)
 ### 4.1.3. Software Architecture.
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
