@@ -24,7 +24,7 @@
 |  U202211212 | Del Castillo Bueno, Daniel Mateo |
 |  U202015274 | Sanchez Montero, Carlos |
 |  U202213384 | Pinto Fuentes Rivera, Alvaro Felipe  |
-|  |  |
+|  U20211G163 | Solis Solis, Leonardo José |
 |              |  |
 |          |  |
 
