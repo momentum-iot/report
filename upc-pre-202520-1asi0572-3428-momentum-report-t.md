@@ -171,7 +171,7 @@
 |Compañero 1 	![Imagen del compañero](image.jpg)|U20...|Ingenieria de software|C++, piton .etc|
 |Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
 |Alvaro Pinto Fuentes Rivera <img src="./assets/capitulo-1/miembros/alvaro.png">|U202213384|Ingenieria de software|C++, C#, Java, Python, SQL, Vue, Angular, Flutter, Kotlin|
-
+|Daniel Mateo Del Castillo Bueno <img src="./assets/capitulo-1/miembros/mateo.png">|U202213384|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 El gimnasio funciona con procesos manuales para el control de accesos y el seguimiento de uso de máquinas. El registro de miembros se hace en planillas, lo que genera errores y pérdida de información. El control de aforo es manual y no refleja la ocupación en tiempo real. No existe trazabilidad confiable sobre quién ingresó, qué máquina usó o cuánto tiempo estuvo en el recinto. Los usuarios no tienen visibilidad de su historial de visitas ni métricas de esfuerzo. El personal no cuenta con herramientas para detectar alertas de uso indebido ni sobrecarga de equipos. Esto genera insatisfacción en los miembros y dificulta la gestión operativa.
@@ -312,6 +312,12 @@ Ocupación: Administrador de gimnasio
 **Resumen:**
 Piero Espinosa tiene 25 años y es administrador de un gimnasio desde hace aproximadamente 3 años. Actualmente gestiona un equipo de 5 empleados y atienden a unos 120 clientes activos. Su principal objetivo es mantener la rentabilidad del negocio y lograr un crecimiento sostenible sin perder la calidad del servicio. Busca diferenciarse de las grandes cadenas ofreciendo un trato más personalizado y un ambiente de confianza. Considera que la experiencia del cliente es clave para su fidelización y para generar recomendaciones. Uno de sus mayores retos es competir contra el marketing y los bajos precios de las grandes cadenas. Además, enfrenta problemas recurrentes de organización relacionados con horarios y pagos que consumen mucho tiempo. Afirma que la tecnología que usan actualmente es básica y no integra todas las funciones necesarias. Al invertir en tecnología evalúa cuidadosamente el costo-beneficio, buscando herramientas fáciles de usar, con buen soporte y a bajo costo. Recomendaría una solución digital si realmente le ayudara a ahorrar tiempo, organizar mejor las operaciones y fortalecer la relación con los clientes.
 
+Nombre: Mateo Vilchez
+Edad: 20 años 
+Ocupación: Asistente de administrador de gimnasio  
+<img src="./assets/capitulo-2/entrevistas/entrevista-mateo.png">  
+**Resumen:**
+Mateo Vílchez Ríos, de 20 años y estudiante universitario, administró durante medio año un gimnasio pequeño en Trujillo llamado Albert Gym, donde la gestión se hacía de forma manual en cuadernos y con carnés de cartón, apoyándose únicamente en Facebook para promociones. Su experiencia incluyó trabajar junto a otro administrador y un entrenador de planta, enfrentando como principales retos la pérdida de clientes frente a cadenas con mejores ofertas, la baja fidelidad, problemas de control de membresías vencidas y la dificultad de mantener la satisfacción de los usuarios. Su objetivo era expandir el gimnasio y modernizarlo, ofreciendo una experiencia más segura y ordenada, con apoyo de herramientas digitales que eviten errores y caídas durante el horario laboral. Al evaluar nuevas soluciones, prioriza que el software sea confiable, fácil de adaptar a un gimnasio pequeño y con soporte personalizado. Entre las funcionalidades que espera están la gestión de matriculados y sus planes, el control del personal, la administración de promociones y la posibilidad de que el entrenador de planta registre rutinas o seguimientos básicos para los clientes.
 
 **Segmento 2**  
 Nombre: Darlin Bringas
