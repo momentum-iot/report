@@ -336,12 +336,12 @@ La visión de Momentum con PumpUp es democratizar el acceso a la gestión inteli
 <img src="./assets/capitulo-1/lean_ux_canvas/Lean UX Canvas.png">
 
 ## 1.3. Segmentos objetivo.
-| Variables | Segmento 1 | Segmento 2  |
-| - | - |-|
-| Geográfica                |  |  |
-| Demográfica               |  |  |
-| Psicológica               |  |  |
-| Función de comportamiento |  |  |
+| Variables                 | Segmento 1: Jóvenes universitarios | Segmento 2: Adultos con empleo formal |
+|---------------------------|-----------------------------------|---------------------------------------|
+| Geográfica                | Zonas urbanas con acceso a gimnasios | Ciudades principales con centros de trabajo cercanos |
+| Demográfica               | 18 a 25 años, estudiantes de pregrado | 26 a 40 años, profesionales en empleo estable |
+| Psicológica               | Interés en salud, apariencia física y socialización | Interés en bienestar, control del estrés y mantenerse activos |
+| Función de comportamiento | Prefieren rutinas flexibles, apps móviles y planes económicos | Prefieren rutinas estructuradas, programas personalizados y horarios después del trabajo |
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
