@@ -207,29 +207,125 @@ Texto
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
 
-| Competitive Analysis Landscape                          |  |
-| ------------------------------------------------------- | -|
-| ¿Por qué llevar a cabo este análisis?                   | -- |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Competitive Analysis Landscape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>¿Por qué llevar a cabo este análisis?</td>
+      <td>Para identificar la posición de PumpUp frente a sus competidores y definir estrategias que potencien sus ventajas y mitiguen riesgos en el mercado fitness.</td>
+    </tr>
+  </tbody>
+</table>
 
 
-| |  | (Nosotros) | Competidor  | Comptdor |
-|-|-|-|-|-|
-| PERFIL| Overview | lorem | ipsum | lorem |
-|| Ventaja competitiva ¿Qué valor ofrece a los clientes? |  ipsu | impuz |
-|| Mercado Objetivo                                        | Jeda | asa | asa2 |
-| Perfil de marketing                                     | Estrategia de Marketing | Redes Sociales | Redes Sociales | Televisión, Redes Sociales |
-| Perfil del producto                                     | Productos y servicios | Elementos Gráficos Interactivos Enseñanza de Matemáticas Lúdica y Autodidacta Educación matemática interactiva Ámbito Freemium | Educación matemática interactiva Mas de 100 cursos en 28 idiomas diferentes | Educación general interactiva Contratos con Movistar |
-|| Precios y costos                                        | Freemium (Cuenta Premium permite personalizar los juegos) Gratis | Gratuito | Gratuito |
-|| Canales de distribución (Web y/o Móvil)                 | Web y Móvil Web | Móvil Web | Web y móvil Web |
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>PumpUp</th>
+      <th>MOKOSmart</th>
+      <th>VTAP NFC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3">PERFIL</th>
+      <td>Overview</td>
+      <td>PumpUp es una plataforma que integra una app móvil y una web para administrar gimnasios. Los usuarios ingresan con una pulsera NFC que también mide su ritmo cardíaco y muestra el rendimiento en la app. Los gimnasios gestionan membresías y monitorean asistencia y progreso desde el panel web.</td>
+      <td>Sistema que integra pulseras inteligentes (“fitness bracelets”) diseñadas para gimnasios, con sensores, conectividad y funcionalidades de monitoreo, entrada automática, análisis de actividad, salud, etc.</td>
+      <td>Solución centrada en eliminar tarjetas físicas, fobs o claves QR para ingreso y acceso en gimnasios, usando pases digitales NFC que se almacenan en Apple Wallet o Google Wallet, junto con lectores especializados (VTAP readers) para detectar esos pases.</td>
+    </tr>
+    <tr>
+      <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+      <td>PumpUp combina control de acceso inteligente y métricas de salud en tiempo real, algo que la mayoría de soluciones actuales ofrecen por separado, brindando comodidad, motivación y datos precisos en un solo ecosistema.</td>
+      <td>MOKOSmart integra control de acceso y monitoreo de salud en pulseras personalizables, ofreciendo datos en tiempo real que aumentan el engagement y optimizan el uso del gimnasio.</td>
+      <td>VTAP NFC permite un acceso rápido y seguro con pases digitales en Apple/Google Wallet, reduciendo costos y mejorando la experiencia sin cambiar toda la infraestructura.</td>
+    </tr>
+    <tr>
+      <td>Mercado Objetivo</td>
+      <td>PumpUp se dirige a gimnasios que buscan modernizar su gestión y ofrecer experiencias personalizadas a sus miembros.
+También apunta a usuarios fitness que desean controlar su progreso y acceder fácilmente con tecnología innovadora.</td>
+      <td>Dirigido a gimnasios que buscan diferenciarse con tecnología avanzada, ofreciendo pulseras personalizables para monitorear salud y optimizar el uso de sus instalaciones.</td>
+      <td>Apunta a gimnasios que quieren modernizar el control de acceso, reduciendo costos y mejorando la experiencia mediante pases digitales en dispositivos móviles.</td>
+    </tr>
+    <tr>
+      <th>Perfil de marketing</th>
+      <td>Estrategia de Marketing</td>
+      <td>PumpUp usará una estrategia B2B2C: alianzas con gimnasios para implementar su sistema y captar usuarios finales mediante promociones, pruebas gratuitas y contenido en redes. Además, destacará su tecnología innovadora en campañas digitales y demostraciones presenciales para generar confianza y adopción.</td>
+      <td>Estrategia B2B enfocada en vender soluciones personalizables de hardware IoT a gimnasios y cadenas fitness mediante alianzas y branding propio.</td>
+      <td>Estrategia B2B destacando la eficiencia, seguridad y modernidad de su sistema para atraer gimnasios que buscan digitalizar el acceso de sus miembros.</td>
+    </tr>
+    <tr>
+      <th rowspan="3">Perfil del producto</th>
+      <td>Productos y servicios</td>
+      <td>PumpUp ofrece una app móvil para usuarios, una web para gimnasios y pulseras NFC con sensor de ritmo cardíaco integradas al sistema.</td>
+      <td>Pulseras y dispositivos IoT personalizables con servicios de diseño, integración y análisis de datos para gimnasios.</td>
+      <td>Lectores NFC compatibles con Apple/Google Wallet y servicios de gestión remota e integración con sistemas de acceso.</td>
+    </tr>
+    <tr>
+      <td>Precios y costos</td>
+      <td>US$ 30-40</td>
+      <td>US$ 40-60</td>
+      <td>US$ 160-200</td>
+    </tr>
+    <tr>
+      <td>Canales de distribución (Web y/o Móvil)</td>
+      <td>Web y Móvil<br>Web</td>
+      <td>Móvil<br>Web</td>
+      <td>Web y móvil<br>Web</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 
-|Competidores ->|  | Nosotros | Competidor2| Competidor3|
-|-|-|-|-|-|
-| Análisis SWOT | Fortalezas | lorem | Lorem | lorem |
-|| Debilidades   | lorem | lorem | lorem | lorem | 
-|| Oportunidades | lorem | lorem | lorem | lorem | 
-|| Amenazas      | lorem | lorem | lorem | lorem |
+<table>
+  <thead>
+    <tr>
+      <th>Competidores</th>
+      <th></th>
+      <th>PumpUp</th>
+      <th>MOKOSmart</th>
+      <th>VTAP NFC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="4">Análisis SWOT</th>
+      <td>Fortalezas</td>
+      <td>Combina acceso NFC y monitoreo cardíaco en un solo dispositivo, centralizando datos en tiempo real para optimizar la experiencia del usuario y la gestión del gimnasio.</td>
+      <td>Ofrece pulseras IoT personalizables que combinan control de acceso y monitoreo de salud, con integración a dashboards para análisis y entrenamiento.</td>
+      <td>Brinda acceso rápido y seguro con pases digitales NFC, reduciendo costos operativos y mejorando la experiencia sin fricción para los usuarios.</td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>Requiere inversión inicial en pulseras y lectores NFC, además de depender de la correcta integración tecnológica y el mantenimiento constante de los dispositivos.</td>
+      <td>Requiere inversión y mantenimiento constante de las pulseras, además de una integración técnica compleja con otros sistemas.</td>
+      <td>Depende de que los usuarios tengan dispositivos compatibles y exige una inversión inicial alta en lectores NFC certificados.</td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>El creciente interés por el fitness digital y el uso de wearables permite posicionar a PumpUp como una solución innovadora para modernizar gimnasios y atraer a usuarios que buscan experiencias personalizadas.</td>
+      <td>Creciente demanda de experiencias fitness personalizadas permite expandir sus wearables como herramienta de seguimiento y fidelización.</td>
+      <td>La digitalización de accesos en gimnasios impulsa la adopción de pases móviles, abriendo mercado en centros que aún usan tarjetas físicas.</td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>La competencia de grandes marcas de wearables y posibles avances tecnológicos que vuelvan obsoleta la solución pueden limitar el crecimiento de PumpUp.</td>
+      <td>Competencia de wearables de marcas consolidadas como Fitbit o Apple y posibles regulaciones sobre datos biométricos.</td>
+      <td>Avances rápidos en tecnologías de acceso podrían volver obsoletos sus lectores y existe riesgo de ciberataques si no se actualizan.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
