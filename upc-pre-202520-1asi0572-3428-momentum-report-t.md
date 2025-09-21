@@ -660,59 +660,55 @@ Darlin Bringas tiene 40 años y trabaja como coordinadora de eventos. Actualment
 </table>
 
 ### 2.3.3. User Journey Mapping.
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
   
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
+**Segmento Propietario/Administrador:**
+
+![User Journey Segmento1](/assets/Needfinding/Propietario_AdministradorGimnasio.png)
+
+**Segmento Miembro de Gimnasio:**
+
+![User Journey Segmento2](/assets/Needfinding/MiembroGimnasio.png)
 
 ### 2.3.4. Empathy Mapping.
-**Segmento 1:**
-![Empathy Map Segmento1](image.jpg)
+**Segmento Propietario/Administrador:**
 
-**Segmento 2:**
-![Empathy Map Segmento1](image.jpg)
-### 2.3.5. As-is Scenario Mapping.
+![Empathy Map Segmento1](assets/Needfinding/Empathy_map_Propietario.png)
 
-**Segmento 1**  
-Escenario: {escenario}
+**Segmento Miembro de Gimnasio:**
 
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
+![Empathy Map Segmento1](assets/Needfinding/Empathy_map_Miembro.png)
 
-**Segmento 2**  
-Escenario: Dificultad para entender Matemáticas
-
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
 ## 2.4 Big Picture EventStorming.
 
-## 2.5. Ubiquitous Language.
-```
-Texto ubiquo: Definicion de este
-```
+![Big Picture EventStorming](assets/Needfinding/eventstorming.jpg)
 
----
+## 2.5. Ubiquitous Language.
+
+| **Término**             | **Definición clara en el dominio** |
+|--------------------------|-------------------------------------|
+| **Cliente de Gimnasio**              | Persona inscrita en el gimnasio con una membresía activa o vencida. |
+| **Administrador de Gimnasio**        | Staff responsable de gestionar accesos, membresías, aforo y reportes. |
+| **Membresía**            | Plan adquirido por un miembro que define acceso, vigencia y beneficios. |
+| **Check-in**             | Proceso de validación de acceso de un miembro al gimnasio (biometría, NFC, QR). |
+| **Check-out**            | Registro de salida de un miembro del gimnasio. |
+| **Acceso concedido**     | Estado que confirma que un miembro puede entrar al gimnasio. |
+| **Acceso denegado**      | Estado que indica que un miembro no puede ingresar (ej. membresía vencida). |
+| **Equipo / Máquina**     | Dispositivo de entrenamiento en el gimnasio (caminadora, bicicleta, etc.) con posible integración IoT. |
+| **Uso de máquina**       | Período de tiempo en el que un miembro utiliza un equipo, registrado por sensores IoT. |
+| **Reserva de máquina**   | Acción de apartar un equipo por tiempo determinado desde la app. |
+| **Aforo**                | Número de personas presentes en el gimnasio en tiempo real. |
+| **Reporte de uso**       | Documento digital con métricas de asistencia, ocupación y uso de equipos. |
+| **Historial de entrenamiento** | Registro individual de visitas, uso de equipos y métricas personales del miembro. |
+| **Dashboard administrativo** | Interfaz para administradores con datos en tiempo real de aforo, accesos y equipos. |
+| **Aplicación móvil (App)** | Herramienta digital para miembros que permite gestionar accesos, reservas, métricas y membresías. |
+| **Notificación push**    | Mensaje automático enviado al móvil del miembro (recordatorios, alertas, renovaciones). |
+| **Hotspot**              | Problema identificado en el flujo del gimnasio que requiere atención o mejora. |
+| **Gamificación**         | Estrategias digitales para motivar al miembro (retos, badges, logros). |
+| **IoT Sensor**           | Dispositivo conectado que mide variables de uso de equipos, presencia o ritmo cardíaco. |
+| **Renovación automática** | Proceso en el que la membresía se reactiva mediante pago recurrente. |
+| **Engagement**           | Nivel de involucramiento del miembro con el gimnasio a través de la app y servicios. |
+| **Fidelización**         | Estrategia para mantener miembros activos por más tiempo a través de experiencia y beneficios. |
+
 
 # Capítulo III: Requirements Specification
 
