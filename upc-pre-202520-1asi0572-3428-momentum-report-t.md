@@ -1105,7 +1105,20 @@ sistema interactua con sus alrededor y usuarios
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Style Guidelines.
+En esta sección se definen las reglas visuales y de tono de comunicación de una marca o producto. El objetivo es asegurar que la presentación sea consistente en todos los lugares donde la marca aparece.
 ### 5.1.1. General Style Guidelines.
+#### Logotipo
+El logotipo de "Pump Up" se caracteriza por su diseño moderno y minimalista, donde la tipografía robusta transmite energía y dinamismo. Su simplicidad lo hace versátil y fácil de reconocer en distintas aplicaciones, desde la web hasta dispositivos móviles. El uso del color en el nombre le otorga un toque distintivo.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/db9de8f7-9b09-450d-9204-0bd04acf98c0" />
+#### Paleta de Colores
+La paleta de colores de "Pump Up" se construye sobre un contraste fuerte y moderno. El negro azulado oscuro (Deep Slate) proporciona una base sólida y sofisticada. El verde lima brillante (Electric Lime) actúa como el color de acento principal, transmitiendo energía y vitalidad, ideal para elementos interactivos y llamadas a la acción. Los tonos de gris (Cool Grey y Light Grey) complementan la paleta, ofreciendo neutralidad y legibilidad para el texto y los fondos secundarios.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/4018ad80-01f3-42cf-aa56-a4666955de46" />
+####Tipografía 
+La tipografía utilizada en "Pump Up" es Inter. Esta fuente sans-serif ha sido elegida por su excelente legibilidad en pantallas y su diseño limpio y moderno. Es una tipografía versátil que se adapta bien tanto a títulos impactantes como a cuerpos de texto más largos, manteniendo la coherencia y profesionalismo en toda la interfaz. Su variedad de pesos permite establecer una clara jerarquía visual en la información, mejorando la experiencia del usuario.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/d5536e2b-99f6-48f2-be03-0a2f30243acb" />
+####Iconografía
+La iconografía de "Pump Up" se inclina por un estilo lineal y minimalista, que complementa la estética moderna de la interfaz. Los iconos son claros, sencillos y fácilmente reconocibles, lo que facilita la navegación y la comprensión de las funciones. El uso de un color consistente (blanco o verde lima para estados activos) asegura que los iconos se integren armoniosamente con la paleta de colores general y destaquen cuando sea necesario.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/6f101c5a-ed05-4597-8feb-c58341986197" />
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 ## 5.2. Information Architecture.
 ### 5.2.1. Organization Systems.
