@@ -1356,8 +1356,30 @@ El siguiente diagrama muestra la jerarquía completa de las páginas y secciones
 
 
 ## 5.3. Landing Page UI Design.
-### 5.3.1. Landing Page Wireframe.
-### 5.3.2. Landing Page Mock-up.
+### 5.3.1. Wireframe de la Landing Page
+La Landing Page de PumpUp es la primera impresión que los potenciales clientes (administradores y dueños de gimnasios) tendrán de nuestra solución. Su objetivo principal es **captar la atención, comunicar claramente el valor de PumpUp y convertir visitantes en leads** (solicitudes de demo o contacto). El diseño se centrará en la claridad, la persuasión y un llamado a la acción (CTA) prominente, manteniendo la estética profesional y moderna ya definida, aunque el wireframe será de baja fidelidad.
+**Objetivos clave:**
+1.  **Comunicar el Problema y la Solución:** Mostrar rápidamente cómo PumpUp resuelve los desafíos de la gestión de gimnasios.
+2.  **Destacar Beneficios:** Enfatizar la automatización, la digitalización y la toma de decisiones basada en datos.
+3.  **Generar Confianza:** Mostrar testimonios, logos de clientes o cifras relevantes (aunque no en este wireframe).
+4.  **Conducir a la Conversión:** Un CTA claro y fácil de encontrar para solicitar una demo.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/beaab76d-4eb8-4343-b5aa-eecb6a698689" />
+### 5.3.2. Mock-up de la Landing Page
+
+El Mock-up de la Landing Page de **PumpUp** es la representación visual de alta fidelidad, aplicando los estilos y la estética previamente definidos (dark mode, color de acento verde, tipografías modernas y limpias). Este diseño "pixel-perfect" transformará el wireframe estructural en una experiencia visual atractiva y profesional, lista para ser desarrollada.
+
+**Elementos Clave del Mock-up:**
+
+* **Paleta de Colores:** Utilización del fondo oscuro (`#1E212B` / `navy blue` oscuro) como base, texto en blanco/gris claro para legibilidad y el verde vibrante (`#28A745`) para los elementos interactivos y de llamado a la acción, siguiendo la estética de la app.
+* **Tipografía:** Fuentes sans-serif modernas y claras para todos los títulos y textos, manteniendo la coherencia con el panel de administración.
+* **Imágenes e Íconos:** Se integrarán imágenes relevantes (como un dashboard del software o un diagrama de flujo) e íconos estilizados que refuercen los puntos clave de venta.
+* **Componentes Reales:** Los botones, la barra de navegación y otros elementos replicarán los diseños propuestos en la sección 5.1.2. Pautas de Estilo.
+* **Espaciado y Layout:** El diseño mantendrá un amplio espaciado para mejorar la legibilidad y la jerarquía visual, guiando al ojo del usuario a través del contenido de manera efectiva.
+
+El objetivo de este mock-up es mostrar con precisión cómo se verá la Landing Page final, asegurando que la estética sea consistente y que la página sea altamente persuasiva para generar conversiones.
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f2c0a6bd-195d-4884-a836-b4b53e7c22a9" />
+
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
 ### 5.4.2. Applications Wireflow Diagrams.
