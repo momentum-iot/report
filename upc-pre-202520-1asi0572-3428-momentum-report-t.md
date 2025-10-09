@@ -1364,6 +1364,7 @@ La Landing Page de PumpUp es la primera impresión que los potenciales clientes 
 3.  **Generar Confianza:** Mostrar testimonios, logos de clientes o cifras relevantes (aunque no en este wireframe).
 4.  **Conducir a la Conversión:** Un CTA claro y fácil de encontrar para solicitar una demo.
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/beaab76d-4eb8-4343-b5aa-eecb6a698689" />
+
 ### 5.3.2. Mock-up de la Landing Page
 
 El Mock-up de la Landing Page de **PumpUp** es la representación visual de alta fidelidad, aplicando los estilos y la estética previamente definidos (dark mode, color de acento verde, tipografías modernas y limpias). Este diseño "pixel-perfect" transformará el wireframe estructural en una experiencia visual atractiva y profesional, lista para ser desarrollada.
