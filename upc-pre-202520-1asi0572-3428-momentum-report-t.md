@@ -25,6 +25,7 @@
 |  U202015274 | Sanchez Montero, Carlos |
 |  U202213384 | Pinto Fuentes Rivera, Alvaro Felipe  |
 |  U20211G163 | Solis Solis, Leonardo José |
+|  U20221c138 | Poma Espinoza, Gustavo Arturo |
 
 
 <br> AGOSTO 2025
@@ -184,6 +185,7 @@
 |Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg" width="100" height="200">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
 |Alvaro Pinto Fuentes Rivera <img src="./assets/capitulo-1/miembros/alvaro.png" width="200" height="200">|U202213384|Ingenieria de software|C++, C#, Java, Python, SQL, Vue, Angular, Flutter, Kotlin|
 |Daniel Mateo Del Castillo Bueno <img src="./assets/capitulo-1/miembros/mateo.jpg" width="200" height="200">|U202213384|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
+|Gustavo Arturo Poma Espinoza <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/842eca04-f2e8-433b-bdc5-468ced3e5b8d" />|U20221c138|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 El gimnasio funciona con procesos manuales para el control de accesos y el seguimiento de uso de máquinas. El registro de miembros se hace en planillas, lo que genera errores y pérdida de información. El control de aforo es manual y no refleja la ocupación en tiempo real. No existe trazabilidad confiable sobre quién ingresó, qué máquina usó o cuánto tiempo estuvo en el recinto. Los usuarios no tienen visibilidad de su historial de visitas ni métricas de esfuerzo. El personal no cuenta con herramientas para detectar alertas de uso indebido ni sobrecarga de equipos. Esto genera insatisfacción en los miembros y dificulta la gestión operativa.
@@ -1216,10 +1218,7 @@ La elección de las palabras correctas es fundamental para que la interfaz se si
     > **Alternativas Descartadas:** Analíticas, Estadísticas, Métricas.
     > **Justificación:** **"Reportes"** es una etiqueta orientada a la acción. Implica que el sistema ha procesado los datos para presentar conclusiones útiles para el negocio, que es el objetivo final de esta sección. "Analíticas" puede sonar demasiado complejo para algunos dueños de gimnasios.
 
- **Término Seleccionado: `Configuración`**
-    > **Alternativas Descartadas:** Ajustes, Opciones, Preferencias.
-    > **Justificación:** **"Configuración"** es el estándar de la industria para el área donde se realizan los ajustes globales de la cuenta y la plataforma, como datos del gimnasio, pasarelas de pago y notificaciones.
----
+ ---
 
 ## 5.2.3. SEO Tags y Meta Tags
 
