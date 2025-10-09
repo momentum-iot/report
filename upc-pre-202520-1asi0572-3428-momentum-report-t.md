@@ -1383,9 +1383,57 @@ El objetivo de este mock-up es mostrar con precisión cómo se verá la Landing 
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
-### 5.4.2. Applications Wireflow Diagrams.
-### 5.4.2. Applications Mock-ups.
-### 5.4.3. Applications User Flow Diagrams.
+**Wireframe: Panel de Control (Dashboard del Administrador - Web)**
+Este wireframe muestra la pantalla principal que verá el administrador al iniciar sesión. El diseño se centra en proporcionar una visión general rápida del estado del gimnasio. Incluye una barra de navegación lateral persistente, un área de búsqueda global superior y la sección central dividida en "widgets" o tarjetas de información clave: aforo actual, miembros activos, ingresos recientes y notificaciones importantes. Los gráficos sencillos indican tendencias sin sobrecargar al usuario.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/aa3faca2-5cdd-4f8f-b08c-3a63a8ef1e64" />
+
+**Wireframe: Lista de Miembros (Panel del Administrador - Web)**
+Este wireframe presenta la pantalla donde el administrador puede visualizar y gestionar a todos los miembros del gimnasio. La barra de navegación lateral sigue presente. La parte superior incluye una barra de búsqueda específica para la sección de miembros y un botón para "Agregar Nuevo Miembro". El contenido principal muestra una tabla con los datos clave de los miembros (nombre, plan, estado, fecha de pago) y opciones de acción (editar, ver perfil). Los filtros por "Estado" y "Plan" se ubican prominentemente para facilitar la segmentación.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b137e31c-1c3c-49fa-a7bc-0e22af3a9b9f" />
+
+**Wireframe: Registro de Pagos (Panel del Administrador - Web)**
+Esta pantalla proporciona una vista completa de todas las transacciones financieras del gimnasio. El diseño está pensado para que el administrador pueda auditar y rastrear los ingresos de manera eficiente. La interfaz incluye un filtro prominente por rango de fechas, un botón para registrar pagos manuales (ej. efectivo), y filtros adicionales por estado (completado, fallido, pendiente). La información se presenta en una tabla clara que detalla cada transacción, incluyendo el miembro, el monto, el estado y las acciones pertinentes como "Ver detalles" o "Generar recibo". La paginación en la parte inferior permite manejar un gran volumen de datos.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/03ae883c-87cd-446b-9141-8e4e3958ca71" />
+
+**Wireframe: Configuración (Panel del Administrador - Web)**
+Esta pantalla centraliza todas las opciones de configuración de la plataforma para el administrador. Está diseñada para ser clara y fácil de navegar, agrupando las opciones por categorías lógicas mediante pestañas o un sub-menú lateral dentro de la propia sección de configuración. Las opciones incluyen la gestión del perfil del gimnasio (nombre, dirección), ajustes de pagos (integraciones, impuestos), gestión de usuarios administradores (roles, permisos), notificaciones y ajustes generales de la aplicación. Cada sub-sección contendría formularios sencillos con campos de entrada y botones para guardar los cambios, manteniendo la consistencia de los elementos UI definidos anteriormente.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/36446874-de81-4ba2-98b5-f52e522d2ea5" />
+
+### 5.4.2. Diagramas de Wireflow
+
+Los Diagramas de Wireflow en **PumpUp** combinan la estructura visual de los wireframes con la lógica de un diagrama de flujo. Esto nos permite entender y comunicar cómo los usuarios (especialmente los administradores) se moverán a través de la aplicación para completar tareas específicas. Cada wireflow ilustrará la secuencia de pantallas y las acciones requeridas para alcanzar un objetivo, asegurando una experiencia de usuario lógica y eficiente.
+
+**Propósito de los Wireflows:**
+* **Visualizar Flujos Críticos:** Identificar y mapear los caminos más comunes que los usuarios tomarán en la aplicación.
+* **Validar Interacciones:** Asegurar que las transiciones entre pantallas sean intuitivas y que los elementos de navegación funcionen como se espera.
+* **Identificar Gaps:** Revelar posibles pasos faltantes o redundantes en el proceso.
+* **Comunicación:** Servir como una herramienta clara para desarrolladores, diseñadores y stakeholders para entender la experiencia del usuario.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/aed7e5e1-db87-4aee-a2b9-0a324030bd84" />
+
+### 5.4.3. Mock-ups de las Aplicaciones
+
+En esta etapa, se crea la representación visual final de cada pantalla clave de las aplicaciones de **PumpUp**. Partiendo de los wireframes de baja fidelidad, se integran todos los elementos de diseño: paleta de colores (tema oscuro con acentos verdes), tipografía, iconografía, espaciado y componentes de UI interactivos. El resultado son "mock-ups pixel-perfect" que reflejan la apariencia exacta de las aplicaciones antes de la fase de desarrollo.
+
+**Elementos Integrados en los Mock-ups:**
+* **Paleta de Colores:** Fondo oscuro (#1E212B), textos blancos/gris claro, acentos en verde vibrante (#28A745) para elementos activos y CTA.
+* **Tipografía:** Uso consistente de la fuente sans-serif moderna elegida para asegurar legibilidad y coherencia.
+* **Iconografía:** Implementación de íconos vectoriales claros y uniformes en estilo y tamaño.
+* **Componentes de UI:** Botones, campos de formulario, tarjetas y elementos de navegación con el diseño final definido en las pautas de estilo.
+* **Jerarquía Visual:** Aplicación de tamaño de fuente, peso, color y espaciado para guiar la atención del usuario a los elementos más importantes.
+
+El objetivo es asegurar que cada pantalla no solo sea funcional sino también estéticamente atractiva, coherente con la marca PumpUp y optimizada para una excelente experiencia de usuario.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f855fcca-2f57-4130-8b78-1a7ebb704936" />
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/79c96029-6664-4fde-81c1-421c13eb79a4" />
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f818a9d9-40f8-4c9d-a75c-4b2bba57ee02" />
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b3bd0c4e-2aed-4fd2-b532-a409fb997bca" />
+
+
+### 5.4.4. Applications User Flow Diagrams.
+
+
 ## 5.5. Applications Prototy3ing.
 
 
