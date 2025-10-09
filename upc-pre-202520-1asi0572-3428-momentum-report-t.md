@@ -1309,7 +1309,52 @@ Si el usuario necesita un análisis más profundo de los resultados, accederá a
      **Filtros para Pagos:** Se podrá filtrar por **Rango de Fechas**, **Estado del Pago** (Completado, Fallido) y **Método de Pago**.
 <img width="1024" height="329" alt="image" src="https://github.com/user-attachments/assets/b853080b-3bfc-413c-857c-8ed8517ccdcc" />
      
-### 5.2.5. Navigation Systems.
+### 5.2.5. Sistemas de Navegación
+
+Los sistemas de navegación en **PumpUp** están diseñados para proporcionar una experiencia de usuario fluida y predecible, tanto para los administradores en el panel web como para los miembros en la aplicación móvil. La estructura jerárquica y el etiquetado consistente (definidos en secciones anteriores) guiarán a los usuarios a través de las diferentes funcionalidades de la plataforma.
+
+#### Principios de Diseño de Navegación
+
+* **Claridad:** Los ítems de navegación son concisos y representan claramente el contenido al que dirigen.
+* **Consistencia:** La ubicación y el comportamiento de los elementos de navegación son uniformes en toda la plataforma.
+* **Eficiencia:** El usuario puede acceder a la información o realizar una acción con el menor número de clics posible.
+* **Retroalimentación:** El sistema siempre indica al usuario dónde se encuentra dentro de la estructura de navegación (ej. estado activo en menú lateral).
+
+### Sistemas de Navegación Principales
+
+#### 1. Navegación Global (Panel Web del Administrador)
+
+* **Barra de Navegación Lateral Persistente:** Es el sistema de navegación primario, visible en todo momento. Contiene los enlaces a las secciones de nivel superior del panel.
+    * `Panel` (Dashboard/Resumen)
+    * `Miembros`
+    * `Planes`
+    * `Check-ins`
+    * `Pagos`
+    * `Equipos`
+    * `Reportes`
+    * `Configuración`
+* **Búsqueda Global:** Complementa la navegación lateral permitiendo acceso directo a información específica sin recorrer la jerarquía.
+* **Navegación de Usuario/Administrador:** Acceso a perfil de administrador, ajustes de cuenta y opción de cerrar sesión (ubicada en la parte superior derecha).
+
+#### 2. Navegación Global (Aplicación Móvil para Miembros)
+
+* **Barra de Navegación Inferior (Bottom Navigation Bar):** Es el sistema principal para la app móvil, ideal para un acceso rápido y con una mano a las secciones más usadas.
+    * `Inicio` (Resumen personal, check-in rápido)
+    * `Mi Progreso` (Historial de entrenamientos, métricas)
+    * `Mi Plan` (Detalles de membresía, pagos)
+    * `Perfil` (Ajustes personales, notificaciones)
+* **Menú Lateral (Hamburger Menu) o Ajustes de Perfil:** Para acceder a opciones secundarias como "Configuración", "Ayuda", "Soporte", "Cerrar Sesión".
+
+#### 3. Navegación Contextual
+
+* **Pestañas (Tabs):** Se utilizan dentro de secciones específicas para organizar subcategorías de contenido (ej. en `Miembros`: `Todos`, `Activos`, `Inactivos`, `Pendientes`).
+* **Breadcrumbs (Migas de Pan):** Aunque no siempre explícitamente visibles en el diseño oscuro minimalista, la estructura jerárquica permite al usuario comprender su ubicación en una ruta lógica (ej. Miembros > Ver Detalles de [Nombre Miembro]).
+* **Enlaces de Acción/Internos:** Botones o enlaces dentro del contenido que dirigen a una acción o a otra sección relevante (ej. "Ver Detalles" en una tarjeta de miembro, "Pagar ahora" en la sección de planes).
+#### Mapa del Sitio (Sitemap)
+El siguiente diagrama muestra la jerarquía completa de las páginas y secciones principales de **PumpUp**, tanto para el Panel de Administrador como para la Aplicación Móvil, ilustrando cómo se relacionan entre sí.
+<img width="1024" height="329" alt="image" src="https://github.com/user-attachments/assets/05852b8e-2d18-4b2c-817a-8a3ec4eaf9f2" />
+
+
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
 ### 5.3.2. Landing Page Mock-up.
