@@ -1446,6 +1446,7 @@ A continuación, se presenta un Diagrama de Flujo de Usuario para una de las tar
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/bc64dbef-7e0c-462e-ac7f-a938cdbe474c" />
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/940193c0-2960-4e15-98ab-378bc37c6af9" />
 
 
 ## 5.5. Applications Prototy3ing.
