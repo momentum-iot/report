@@ -1139,8 +1139,86 @@ La iconografía de "Pump Up" se inclina por un estilo lineal y minimalista, que 
 **Pestañas (Tabs):** Para la navegación secundaria dentro de una misma sección (por ejemplo, en la página de "Miembros", podríamos tener pestañas para "Todos", "Activos", "Inactivos"), he diseñado un sistema de pestañas. La pestaña activa se indica con un subrayado sólido en el color de acento, una solución minimalista y efectiva que no sobrecarga la interfaz. Las pestañas inactivas permanecen en un color neutro para indicar que son seleccionables pero no están activas.
 <img width="1024" height="329" alt="image" src="https://github.com/user-attachments/assets/ee59a997-4111-40d1-9708-335c6396db29" />
 ## 5.2. Information Architecture.
-### 5.2.1. Organization Systems.
-### 5.2.2. Labeling Systems.
+## 5.2. Arquitectura de la Información (AI)
+
+Para **PumpUp**, la Arquitectura de la Información es el esqueleto digital que soporta tanto el **Panel de Administrador** como la **Aplicación Móvil**. Es nuestro plano para organizar la gran cantidad de datos (miembros, pagos, check-ins, uso de equipos) de una manera que sea intuitiva y lógica. El objetivo es que un administrador pueda encontrar un reporte de aforo tan fácilmente como un miembro consulta su progreso de entrenamiento, sin necesidad de un manual de usuario.
+
+---
+
+## 5.2.1. Sistemas de Organización
+
+Aquí definimos cómo se agruparán y presentarán los datos dentro de la plataforma. La organización se adaptará al contexto y a las necesidades de cada tipo de usuario (administradores vs. miembros).
+
+#### Para el Panel de Administrador (Web)
+
+El administrador necesita una visión macro y la capacidad de profundizar en los detalles. Su información se organizará principalmente por **esquemas temáticos y cronológicos**.
+
+* **Gestión de Miembros:**
+     **Esquema Exacto (Alfabético):** La vista principal y por defecto de la lista de miembros será un orden alfabético (A-Z) por apellido, permitiendo una búsqueda rápida y predecible.
+     **Esquema Ambiguo/Temático (Por Estado):** Se ofrecerán filtros para agrupar a los miembros por su estado actual: **Activos**, **Inactivos**, **Pago Pendiente**, **Nuevos del Mes**. Esto es crucial para la gestión diaria y las acciones de retención.
+     **Esquema Ambiguo/Temático (Por Plan):** También se podrán agrupar por el tipo de plan contratado (Ej: "Plan Ilimitado", "Plan Estudiante"), facilitando la segmentación para campañas de marketing o análisis de popularidad de los planes.
+
+* **Control de Acceso y Actividad (Check-ins):**
+     **Esquema Cronológico (Inverso):** El registro de actividad se mostrará como un *feed* en tiempo real, con la entrada más reciente en la parte superior. Esto permite al personal monitorear la actividad actual del gimnasio de un solo vistazo. Se podrá filtrar por fecha y hora para investigar incidentes o consultar datos históricos.
+
+* **Uso de Equipos (IoT):**
+     **Esquema Temático (Por Equipo):** Los datos se agruparán por cada máquina o equipo conectado. Al seleccionar un equipo (Ej: "Caminadora 3"), se podrá ver su historial de uso.
+     **Esquema Cronológico:** Dentro de cada equipo, el historial de uso se ordenará por fecha y hora, permitiendo analizar patrones de uso y planificar mantenimientos.
+
+* **Pagos y Finanzas:**
+     **Esquema Cronológico:** El listado de transacciones se organizará por fecha de pago, de la más reciente a la más antigua.
+     **Esquema Temático (Por Estado):** Se implementarán filtros clave como **Completados**, **Fallidos**, **Reembolsados**, para facilitar la contabilidad.
+
+* **Reportes:**
+     **Esquema por Audiencia/Temático:** Los reportes se categorizarán según su propósito para la toma de decisiones: **Reportes de Ocupación** (aforo, horas pico), **Reportes Financieros** (ingresos, planes más vendidos) y **Reportes de Miembros** (retención, nuevos registros).
+
+#### Para la Aplicación Móvil (Miembros)
+
+El miembro del gimnasio necesita una visión personal y centrada en su propio progreso y gestión. La organización será más simple y directa.
+
+* **Pantalla de Inicio/Resumen:**
+     **Esquema Temático:** Mostrará *widgets* o tarjetas con la información más relevante: un saludo, su próximo pago, su último entrenamiento y un acceso rápido para el check-in (NFC o QR).
+
+* **Mi Progreso/Entrenamientos:**
+     **Esquema Cronológico (Inverso):** El historial de sus entrenamientos y check-ins se mostrará del más reciente al más antiguo, permitiéndole ver su actividad reciente de forma inmediata.
+     **Esquema Temático:** Se le permitirá filtrar sus entrenamientos por tipo de actividad o máquinas utilizadas para que pueda analizar su rendimiento en áreas específicas.
+
+* **Mi Plan y Pagos:**
+     **Esquema Temático y Cronológico:** Se mostrará prominentemente su plan **actual** y la fecha del próximo cobro. Debajo, un historial cronológico de todos sus pagos anteriores.
+
+---
+
+## 5.2.2. Sistemas de Etiquetado
+
+La elección de las palabras correctas es fundamental para que la interfaz se sienta intuitiva y profesional. Usaremos un lenguaje consistente en toda la plataforma, evitando la jerga técnica. Las siguientes etiquetas serán el estándar para PumpUp.
+
+ **Término Seleccionado: `Miembros`**
+    > **Alternativas Descartadas:** Clientes, Usuarios, Atletas.
+    > **Justificación:** **"Miembros"** fomenta un sentido de pertenencia y comunidad, que es un valor clave en el sector fitness. "Clientes" es demasiado transaccional y "Usuarios" es un término muy genérico del software.
+
+ **Término Seleccionado: `Panel`**
+    > **Alternativas Descartadas:** Dashboard, Inicio, Principal.
+    > **Justificación:** **"Panel"** (o su sinónimo "Panel de Control") comunica claramente que es el centro de operaciones para el administrador, un lugar con herramientas, datos y controles, alineándose con la estética profesional de la plataforma.
+
+ **Término Seleccionado: `Check-ins`**
+    > **Alternativas Descartadas:** Control de Acceso, Entradas, Registros.
+    > **Justificación:** **"Check-ins"** es un término moderno, corto y universalmente entendido en el contexto de gimnasios y eventos. "Control de Acceso" es el nombre técnico del proceso, pero no una etiqueta amigable para la interfaz.
+
+ **Término Seleccionado: `Planes`**
+    > **Alternativas Descartadas:** Membresías, Suscripciones, Tarifas.
+    > **Justificación:** **"Planes"** es una palabra directa, concisa y flexible que engloba las diferentes ofertas que un gimnasio puede tener (Ej: Plan Mensual, Plan de 10 clases, Plan Familiar).
+
+ **Término Seleccionado: `Equipos`**
+    > **Alternativas Descartadas:** Máquinas, Activos.
+    > **Justificación:** **"Equipos"** es un término más inclusivo que "Máquinas", ya que puede abarcar caminadoras, bicicletas, estaciones de pesas, racks y otros elementos monitoreados por IoT.
+
+ **Término Seleccionado: `Reportes`**
+    > **Alternativas Descartadas:** Analíticas, Estadísticas, Métricas.
+    > **Justificación:** **"Reportes"** es una etiqueta orientada a la acción. Implica que el sistema ha procesado los datos para presentar conclusiones útiles para el negocio, que es el objetivo final de esta sección. "Analíticas" puede sonar demasiado complejo para algunos dueños de gimnasios.
+
+ **Término Seleccionado: `Configuración`**
+    > **Alternativas Descartadas:** Ajustes, Opciones, Preferencias.
+    > **Justificación:** **"Configuración"** es el estándar de la industria para el área donde se realizan los ajustes globales de la cuenta y la plataforma, como datos del gimnasio, pasarelas de pago y notificaciones.
 ### 5.2.3. SEO Tags and Meta Tags
 ### 5.2.4. Searching Systems2
 ### 5.2.5. Navigation Systems.
