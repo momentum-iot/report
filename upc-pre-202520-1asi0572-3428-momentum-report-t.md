@@ -1431,7 +1431,21 @@ El objetivo es asegurar que cada pantalla no solo sea funcional sino también es
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b3bd0c4e-2aed-4fd2-b532-a409fb997bca" />
 
 
-### 5.4.4. Applications User Flow Diagrams.
+### 5.4.4. Diagramas de Flujo de Usuario
+
+Los Diagramas de Flujo de Usuario en **PumpUp** sirven para mapear las interacciones de los usuarios con la aplicación de una manera más abstracta y centrada en la lógica de las decisiones. A diferencia de los wireflows (que muestran pantallas), estos diagramas ilustran las acciones del usuario, las decisiones del sistema y los posibles caminos alternativos para completar una tarea específica. Son cruciales para identificar puntos de fricción, optimizar la experiencia y asegurar que todos los escenarios posibles estén cubiertos.
+
+**Componentes de un Diagrama de Flujo de Usuario:**
+* **Puntos de Inicio/Fin (Terminal):** Indican el inicio o el final de un flujo.
+* **Pasos (Proceso):** Representan una acción o un paso que el sistema o el usuario realiza.
+* **Decisiones (Condición):** Bifurcaciones en el flujo donde el usuario o el sistema toma una decisión que lleva a diferentes caminos.
+* **Conectores:** Flechas que indican la dirección del flujo.
+* **Elementos de UI (Opcional):** Pueden incluirse referencias a pantallas o componentes específicos si son relevantes para el flujo.
+
+A continuación, se presenta un Diagrama de Flujo de Usuario para una de las tareas más comunes de un miembro en la aplicación móvil: **"Renovar/Pagar Membresía"**. Este diagrama detallará el proceso desde que el miembro decide realizar el pago hasta su confirmación o gestión de errores.
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/bc64dbef-7e0c-462e-ac7f-a938cdbe474c" />
+
 
 
 ## 5.5. Applications Prototy3ing.
