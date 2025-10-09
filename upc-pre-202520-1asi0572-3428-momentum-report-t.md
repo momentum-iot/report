@@ -1219,8 +1219,97 @@ La elección de las palabras correctas es fundamental para que la interfaz se si
  **Término Seleccionado: `Configuración`**
     > **Alternativas Descartadas:** Ajustes, Opciones, Preferencias.
     > **Justificación:** **"Configuración"** es el estándar de la industria para el área donde se realizan los ajustes globales de la cuenta y la plataforma, como datos del gimnasio, pasarelas de pago y notificaciones.
-### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems2
+---
+
+## 5.2.3. SEO Tags y Meta Tags
+
+En este apartado se define la estrategia de posicionamiento en buscadores (SEO) para el sitio web público de **PumpUp**. El objetivo es atraer a propietarios y administradores de gimnasios que buscan activamente soluciones para digitalizar y optimizar su gestión. El enfoque no está en los miembros del gimnasio, sino en los responsables de la toma de decisiones (B2B).
+
+### Estrategia y Palabras Clave (Keywords)
+
+Se ha definido un conjunto de palabras clave que abordan las necesidades y los "puntos de dolor" de nuestro público objetivo. Estas se dividen en categorías para cubrir diferentes intenciones de búsqueda.
+
+* **Palabras Clave Principales (Core Keywords):** Son términos de búsqueda amplios con alto volumen.
+    * `software para gimnasios`
+    * `gestión de gimnasios`
+    * `sistema para gimnasio`
+    * `app para gimnasios`
+    * `digitalización de gimnasios`
+
+* **Palabras Clave Secundarias (Secondary Keywords):** Son términos más específicos que describen funcionalidades clave.
+    * `control de acceso para gimnasio`
+    * `gestión de miembros gimnasio`
+    * `sistema de pagos para gimnasio`
+    * `app móvil para miembros`
+    * `tecnología IoT para fitness`
+    * `control de aforo gimnasio`
+
+* **Palabras Clave de Cola Larga (Long-Tail Keywords):** Frases específicas que indican una alta intención de compra o de resolver un problema concreto.
+    * `cómo automatizar la gestión de mi gimnasio`
+    * `mejor software para gimnasios pequeños`
+    * `sistema con control biométrico para gimnasios`
+    * `reducir carga administrativa en un gimnasio`
+    * `plataforma para fidelizar miembros de gimnasio`
+
+* **Palabras Clave Geolocalizadas (Geo-Targeted):** Para atraer clientes en mercados específicos. El [País/Ciudad] se reemplazará según la campaña.
+    * `software para gimnasios en Perú`
+    * `gestión de gimnasios en Lima`
+    * `sistema para centros de entrenamiento en [Ciudad]`
+
+### Definición de Meta Tags (Ejemplos por Página)
+
+Los Meta Tags son el texto que aparece en los resultados de búsqueda de Google. Deben ser atractivos, contener la palabra clave principal de la página y motivar al clic.
+
+#### Página de Inicio (Homepage)
+ **Meta Título:**
+    > PumpUp: Software de Gestión Todo-en-Uno para Gimnasios
+ **Meta Descripción:**
+    > Digitaliza y automatiza tu gimnasio con PumpUp. Control de acceso, app para miembros, gestión de pagos y reportes inteligentes. ¡Pide una demo!
+#### Página de Funcionalidades
+ **Meta Título:**
+    > Control de Acceso, IoT y App para Miembros | Funcionalidades de PumpUp
+ **Meta Descripción:**
+    > Descubre cómo nuestro control de acceso biométrico, el seguimiento de equipos con IoT y la app personalizada para miembros revolucionarán tu gimnasio.
+#### Página de Precios
+ **Meta Título:**
+    > Precios y Planes de PumpUp | Solución Escalable para tu Gimnasio
+ **Meta Descripción:**
+    > Encuentra el plan perfecto para tu gimnasio. Ofrecemos precios accesibles y modulares que se adaptan a tus necesidades. Sin contratos a largo plazo.
+#### Página de Blog
+ **Meta Título:**
+    > Blog de PumpUp | Consejos de Gestión y Tecnología para Gimnasios
+ **Meta Descripción:**
+    > Artículos, guías y noticias sobre cómo mejorar la gestión de tu gimnasio, aumentar la retención de miembros y aplicar las últimas tecnologías del sector fitness.
+#### Página de Contacto
+ **Meta Título:**
+    > Contacto | Habla con un Especialista de PumpUp
+ **Meta Descripción:**
+    > ¿Listo para llevar tu gimnasio al siguiente nivel? Contáctanos hoy mismo para solicitar una demostración personalizada o resolver tus dudas.
+    
+## 5.2.4. Sistemas de Búsqueda
+El sistema de búsqueda de **PumpUp** está diseñado para ser el centro neurálgico de la navegación y el acceso a la información dentro del Panel de Administrador. Su objetivo es proporcionar respuestas instantáneas y precisas, reduciendo el tiempo que el personal del gimnasio invierte en encontrar datos de miembros, pagos o cualquier otro registro.
+### Ubicación y Comportamiento del Campo de Búsqueda
+ **Búsqueda Global:** La barra de búsqueda principal estará ubicada de forma prominente y persistente en la cabecera de la interfaz. Esto asegura que esté accesible desde cualquier sección del panel sin necesidad de navegar a una página específica para buscar.
+ **Alcance:** La búsqueda será global, lo que significa que buscará coincidencias en las entidades más importantes de la plataforma simultáneamente: **Miembros**, **Pagos** y **Equipos**.
+### Lógica de Búsqueda y Autocompletado (Live Search)
+Para maximizar la eficiencia, la búsqueda no requerirá que el usuario presione "Enter". Los resultados aparecerán en tiempo real a medida que se escribe.
+ **Autocompletado Inteligente:** Al empezar a escribir (después del segundo carácter), se desplegará un menú de autocompletado con los resultados más relevantes, categorizados para una fácil identificación.
+ **Campos Indexados:** La búsqueda será potente y flexible, buscando en múltiples campos por cada entidad:
+    * **Miembros:** Nombre, Apellido, Correo Electrónico, Número de Identificación o Código de Miembro.
+    * **Pagos:** ID de Transacción, Nombre del Miembro asociado, Fecha.
+    * **Equipos:** Nombre del Equipo (Ej: "Caminadora 3"), Tipo (Ej: "Cardio").
+ **Acciones Rápidas:** El menú de autocompletado incluirá un enlace final de **"Ver todos los resultados..."** para dirigir al usuario a una página dedicada con la lista completa de coincidencias y opciones de filtrado avanzado.
+
+### Página de Resultados de Búsqueda
+
+Si el usuario necesita un análisis más profundo de los resultados, accederá a la página de resultados completa.
+
+ **Visualización Clara:** Los resultados se mostrarán en formato de lista o tarjetas, destacando la información clave. El término de búsqueda aparecerá resaltado en cada resultado para una rápida identificación visual.
+ **Filtros Avanzados y Contextuales:** El aspecto más importante de esta página será un panel lateral de filtros. Estos filtros cambiarán dinámicamente dependiendo de la categoría de resultados que se esté visualizando (si el usuario hace clic en la pestaña "Miembros", los filtros serán para miembros).
+     **Filtros para Miembros:** Se podrá acotar la búsqueda por **Estado** (Activo, Inactivo), **Plan Contratado** (Ilimitado, Estudiante, etc.) y **Estado de Pago** (Al día, Pendiente).
+     **Filtros para Pagos:** Se podrá filtrar por **Rango de Fechas**, **Estado del Pago** (Completado, Fallido) y **Método de Pago**.
+<img width="1024" height="329" alt="image" src="https://github.com/user-attachments/assets/b853080b-3bfc-413c-857c-8ed8517ccdcc" />
+     
 ### 5.2.5. Navigation Systems.
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
