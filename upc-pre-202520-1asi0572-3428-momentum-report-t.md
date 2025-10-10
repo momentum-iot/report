@@ -1531,6 +1531,30 @@ export default function MemberDetail() {
 ```
 
 ### 6.1.4. Software Deployment Configuration.
+<h3>Landing</h3>
+Para este producto realizamos el despliegue a través de GitHub Pages, la cual tiene un proceso de CI/CD integrado; cada que se realice un push o un merge a la rama configurada se hace un despliegue automático.
+
+A continuación, se documentará el proceso y las configuraciones realizadas.
+
+Primero, seleccionamos el repositorio y nos dirigimos a la pestaña Settings y luego a Pages. Dentro de esta sección, seleccionamos la rama principal (main o master) como la fuente para el despliegue y confirmamos la carpeta donde se encuentra el código de producción (generalmente /docs o la raíz del repositorio). Finalmente, guardamos los cambios y GitHub Pages se encarga de publicar el sitio.
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/LD1.png)
+
+
+
+<h3>Front</h3>
+Para este producto utilizamos Netlify, la cual tiene un proceso de selección de proyectos que permite una configuración rápida y un despliegue continuo desde un repositorio de Git.
+
+
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/Front.png)
+
+
+Luego, seleccionamos el proyecto del repositorio de Git que deseamos desplegar. Netlify detectará automáticamente el framework y nos sugerirá la configuración predeterminada. Establecemos el tipo de construcción, el comando de build (npm run build, por ejemplo) y la carpeta de publicación (dist o build).
+
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/Front2.png)
+
+
+Finalmente, tenemos el despliegue realizado, con un dominio en .netlify listo para ser consumido en cualquier parte del mundo y un flujo de CI/CD que asegura que cada cambio en el código se refleje automáticamente en el sitio en vivo.
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/Front3.png)
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
