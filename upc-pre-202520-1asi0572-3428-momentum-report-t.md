@@ -1566,7 +1566,16 @@ Finalmente, tenemos el despliegue realizado, con un dominio en .netlify listo pa
 #### 6.2.X.5. Testing Suite Evidence for Sprint Review.
 #### 6.2.X.6. Execution Evidence for Sprint Review.
 #### 6.2.X.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.8. Software Deplo5ment Evidence for Sprint Review.
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+La landing page desplegada se encuentra en el siguiente enlace:
+[LANDING PAGE](https://momentum-iot.github.io/PumpUp_Landing_Page/)
+
+![alt text](assets/image-2.png)
+
+La aplicacion web se encuentra desplegada en el siguiente enlace:
+[WEB APP](https://pumpup.netlify.app/)
+
+![alt text](assets/image-1.png)
 #### 6.2.X.9. Team Collaboration Insights during Sprint.
 
 ## 6.3. Validation Interviews.
