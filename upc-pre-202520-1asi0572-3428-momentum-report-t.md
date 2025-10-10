@@ -2204,13 +2204,20 @@ Ocupación: _____
 ## 6.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
+<h2>TB1</h2>
 
 1. La arquitectura definida permitió organizar el sistema en dominios y módulos claros, favoreciendo la modularidad y la integración con servicios externos sin comprometer la coherencia del monolito planteado.
 
 2. El alcance del proyecto se centró en equilibrar la experiencia de usuario, representada principalmente en la landing page, con el desarrollo de procesos internos como la gestión de planes, reservas y pagos, asegurando valor tanto para los usuarios finales como para la operación del sistema.
 
 3. La gestión del backlog permitió mantener un control ordenado de las 42 historias de usuario, priorizando las relacionadas a la landing page y asignando esfuerzos realistas a cada tarea, lo que facilita la ejecución de sprints y el seguimiento del avance del proyecto.
+<h2>TP</h2>
 
+1. El trabajo práctico permitió consolidar la arquitectura visual y funcional del sistema, traduciendo los lineamientos de diseño en componentes reutilizables y coherentes dentro del ecosistema React JSX. Se logró una interfaz moderna, responsiva y alineada con la identidad visual definida en las etapas previas.
+
+2. El desarrollo de la landing page y la aplicación web en React fortaleció la integración entre frontend y backend, asegurando una navegación fluida y una comunicación efectiva con los servicios del sistema. La codificación se orientó a la mantenibilidad, aplicando buenas prácticas de estructuración de componentes y control de estado.
+
+3. El proceso de diseño e implementación permitió validar la usabilidad de las interfaces con los usuarios finales, refinando interacciones clave y mejorando la experiencia de uso. Esto consolidó la base visual y técnica del producto, garantizando escalabilidad para futuras funcionalidades.
 
 # Video About-the-Team.
 [URL del video about the team](https://www.example.com)
