@@ -1540,7 +1540,7 @@ export default function MemberDetail() {
 En esta sección especificaremos los aspectos principales del Sprint Planning Meeting. A continuación se coloca el cuadro de resumen del sprint
 planning meeting:
 
-#### 6.2.X.1. Sprint Planning 1.
+#### 6.2.1.1. Sprint Planning 1.
 
 <table cellspacing="0" cellpadding="6">
   <tr>
@@ -1596,7 +1596,7 @@ planning meeting:
   </tr>
 </table>
 
-#### 6.2.X.2. Aspect Leaders and Collaborators.
+#### 6.2.1.2. Aspect Leaders and Collaborators.
 
 Los aspectos principales que se tomaron en cuenta fueron la creacion de la version final del landing page, el desarrollo de la primera version del frontend, y los principales aspectos del UX/UI Design.
 
@@ -1645,7 +1645,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
   </tr>
 </table>
 
-#### 6.2.X.3. Sprint Backlog 1.
+#### 6.2.1.3. Sprint Backlog 1.
 
 <table cellspacing="0" cellpadding="6">
   <thead>
@@ -1751,7 +1751,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
   </tbody>
 </table>
 
-#### 6.2.X.4. Development Evidence for Sprint Review.
+#### 6.2.1.4. Development Evidence for Sprint Review.
 
 <table cellspacing="0" cellpadding="6">
   <thead>
@@ -1912,8 +1912,8 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 
 Enlace a Github: https://github.com/orgs/momentum-iot/repositories
 
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review.
-#### 6.2.X.6. Execution Evidence for Sprint Review.
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.6. Execution Evidence for Sprint Review.
 * **Landing Page:**
 Video demostración Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/ERT6dAIFQIVDmbtbXNAKYIAB6XhpW1-fV0tRgiuG-aedfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qnzt0L
 <img src="./assets/capitulo-6/evidence-landing.png">
@@ -1925,7 +1925,7 @@ Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/
 * **Frontend Web Service:**
 <img src="./assets/capitulo-6/evidence-webservice.png">
 
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review.
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 | **Endpoint** | **Acción** | **Verbo HTTP** | **Parámetros / Request Body** | **Ejemplo** |
 |---------------|-------------|----------------|--------------------------------|--------------|
