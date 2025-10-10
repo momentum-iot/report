@@ -1454,9 +1454,83 @@ A continuación, se presenta un Diagrama de Flujo de Usuario para una de las tar
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management.
+
+En este punto, se explicará las decisiones y convenciones que el equipo utilizó para el desarrollo del projecto.
+
 ### 6.1.1. Software Development Environment Configuration.
+
+**Project Management:**
+
+Usamos la metodología SCRUM para el desarrollo y la gestión de nuestro proyecto, realizando reuniones de planificación y una revisión en retrospectiva.
+
+**Product UX/UI Design:**
+
+* **Figma:** Esta plataforma nos ayudo a diseñar y estructurar el diseño de nuestra Landing Page y aplicación web.
+
+* **LucidChart:** Se utilizó esta herramienta para diagramar el EventStorming, además de los AS-IS ScenarioMapping
+
+* **UXPressia:** Esta herramienta nos ayudó a realizar los User Persona, Emphaty Maps, Journey Maps e Impact Maps
+
+**Software Development:**
+
+* **Landing Page:** Se utilizó HTML, CSS y JavaScript para el desarrollo de la Landing Page implementando i18n.
+
+* **Frontend Web Application:** Se utilizó React con Vite para el desarrollo de la interfaz, empleando Material UI para el diseño visual y Axios para la comunicación con el backend.
+
+**Software Development:**
+
+* **Software Documentation:** Se usó Github para la documentación y el control de versiones de la Landing Page y el Frontend Web Application.
+
 ### 6.1.2. Source Code Management.
+
+* **Organización:** https://github.com/momentum-iot 
+* **Repositorio Landing Page:** https://github.com/momentum-iot/PumpUp_Landing_Page
+* **Repositorio Frontend Web Application:** https://github.com/momentum-iot/webApp
+* **Repositorio Web Services:** https://github.com/momentum-iot/backEnd 
+* **Repositorio Project Report:** https://github.com/momentum-iot/report
+
+Para el desarrollo del proyecto, se utilizaron dos ramas principales `master` y `develop`.
+
+Además, para el Project Report se creó una rama por cada punto detallado, por ejemplo las ramas `feature/interviews`, `feature/needfinding`, `feature/competitors`, `feature/lean-ux`, `feature/Strategic-Level-Domain-Driven-Design`
+
+**Convenciones de Commits:**
+
+Se hizo uso de **conventional commits** para la elaboración de este trabajo, asegurando la correcta comprensión y desarrollo de los cambios realizados. Haciendo uso de la siguiente estructura: 
+
+`<tipo>(<ámbito>): <mensaje corto en presente>`
+
 ### 6.1.3. Source Code Style Guide & Conventions.
+
+Para nuestro proyecto, el equipo adopta una nomenclatura en inglés y sigue las convenciones estándar de codificación según los lenguajes utilizados: HTML, CSS y JavaScript (React).
+
+En HTML, se usa indentación de 2 espacios, etiquetas en minúsculas y atributos entre comillas dobles.  
+Ejemplo:
+
+```html
+<section class="member-list">
+  <h2>Active Members</h2>
+</section>
+```
+
+En CSS, se sigue la metodología BEM (Block Element Modifier) para una estructura clara y escalable.  
+Ejemplo:
+
+```css
+.card { ... }
+.card__title { ... }
+.card--highlighted { ... }
+```
+
+En JavaScript (React), los componentes se nombran en PascalCase, las funciones y variables en camelCase, y los archivos en kebab-case.  
+Ejemplo:
+
+```javascript
+export default function MemberDetail() {
+  const memberName = "Momentum";
+  return <h1>{memberName}</h1>;
+}
+```
+
 ### 6.1.4. Software Deployment Configuration.
 
 ## 6.2. Landing Page, Servic4s & Applications Implementation.
