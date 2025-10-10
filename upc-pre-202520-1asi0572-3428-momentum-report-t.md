@@ -8,12 +8,10 @@
     <strong>Profesor: Leon Baca, Marco Antonio </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
-
 <center>
 
 #### Startup: **Momentum**
 #### Product: **PumpUp**
-
 </center>
 
 ### <center>Team  Members:</center>
@@ -30,6 +28,7 @@
 
 <br> AGOSTO 2025
 </center>  
+
 <div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
@@ -182,10 +181,10 @@
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
 |Leonardo Jose Solis Solis    <img src="./assets/capitulo-1/miembros/Leo.jpg" width="200" height="200"/>|U20211G163|Ingenieria de software|C++, C#, Python, Angular, Vue, Laravel|
-|Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg" width="100" height="200">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
+|Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg" width="200" height="200">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
 |Alvaro Pinto Fuentes Rivera <img src="./assets/capitulo-1/miembros/alvaro.png" width="200" height="200">|U202213384|Ingenieria de software|C++, C#, Java, Python, SQL, Vue, Angular, Flutter, Kotlin|
 |Daniel Mateo Del Castillo Bueno <img src="./assets/capitulo-1/miembros/mateo.jpg" width="200" height="200">|U202213384|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
-|Gustavo Arturo Poma Espinoza <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/842eca04-f2e8-433b-bdc5-468ced3e5b8d" />|U20221c138|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
+|Gustavo Arturo Poma Espinoza <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/842eca04-f2e8-433b-bdc5-468ced3e5b8d" />|U20221c138|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 El gimnasio funciona con procesos manuales para el control de accesos y el seguimiento de uso de máquinas. El registro de miembros se hace en planillas, lo que genera errores y pérdida de información. El control de aforo es manual y no refleja la ocupación en tiempo real. No existe trazabilidad confiable sobre quién ingresó, qué máquina usó o cuánto tiempo estuvo en el recinto. Los usuarios no tienen visibilidad de su historial de visitas ni métricas de esfuerzo. El personal no cuenta con herramientas para detectar alertas de uso indebido ni sobrecarga de equipos. Esto genera insatisfacción en los miembros y dificulta la gestión operativa.
@@ -1950,6 +1949,15 @@ Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/
 | `/api/equipment/{id}` | Eliminar equipo | **DELETE** | Path param: `id` (string) | ```json { "message": "Equipo eliminado correctamente" } ``` |
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+La landing page desplegada se encuentra en el siguiente enlace:
+[LANDING PAGE](https://momentum-iot.github.io/PumpUp_Landing_Page/)
+
+![alt text](assets/image-2.png)
+
+La aplicacion web se encuentra desplegada en el siguiente enlace:
+[WEB APP](https://pumpup.netlify.app/)
+
+![alt text](assets/image-1.png)
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
 * **Frontend Web Application:**
 <img src="./assets/capitulo-6/contributors-webapp.png">
