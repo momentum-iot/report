@@ -1450,6 +1450,10 @@ A continuación, se presenta un Diagrama de Flujo de Usuario para una de las tar
 
 ## 5.5. Applications Prototyping.
 
+<img src="./assets/capitulo-6/prototyping.png">
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EbLXYawk2ExOrcVFhCBEaNQBfKJ3_I4sB0EISeZWhXxz_g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ro5s0l
+
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management.
@@ -1913,6 +1917,119 @@ Enlace a Github: https://github.com/orgs/momentum-iot/repositories
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
+El test MemberControllerIntegrationTest verifica el correcto funcionamiento del controlador de miembros mediante solicitudes HTTP simuladas. Comprueba que los endpoints del API respondan adecuadamente en las operaciones principales (listar, obtener, crear, actualizar y eliminar miembros), así como en la consulta de pagos y check-ins, garantizando que el flujo completo de la gestión de miembros funcione correctamente dentro del contexto real de la aplicación Spring Boot.
+
+```java
+
+@SpringBootTest
+@AutoConfigureMockMvc
+class MemberControllerIntegrationTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @Autowired
+    private MemberService memberService;
+
+    @Autowired
+    private PaymentRepo paymentRepo;
+
+    @Autowired
+    private CheckInRepo checkInRepo;
+
+    private Member createdMember;
+
+    @BeforeEach
+    void setup() {
+        // Limpieza previa de registros
+        memberService.list().forEach(m -> memberService.delete(m.getId()));
+
+        // Crear miembro base
+        Member m = new Member();
+        m.setFirstName("Carlos");
+        m.setLastName("Sánchez");
+        m.setEmail("carlos@example.com");
+        m.setMembership("Gold");
+        m.setStatus("activo");
+        m.setPhone("999999999");
+        createdMember = memberService.save(m);
+    }
+
+    @Test
+    void shouldListMembers() throws Exception {
+        mockMvc.perform(get("/api/members"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$", not(empty())));
+    }
+
+    @Test
+    void shouldGetMemberById() throws Exception {
+        mockMvc.perform(get("/api/members/" + createdMember.getId()))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.email", is("carlos@example.com")))
+                .andExpect(jsonPath("$.firstName", is("Carlos")));
+    }
+
+    @Test
+    void shouldCreateMember() throws Exception {
+        String json = """
+            {
+              "firstName": "Nuevo",
+              "lastName": "Miembro",
+              "email": "nuevo@example.com",
+              "membership": "Silver",
+              "status": "activo",
+              "phone": "988888888"
+            }
+        """;
+
+        mockMvc.perform(post("/api/members")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(json))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.firstName", is("Nuevo")))
+                .andExpect(jsonPath("$.membership", is("Silver")));
+    }
+
+    @Test
+    void shouldUpdateMember() throws Exception {
+        String json = """
+            {
+              "firstName": "Carlos",
+              "lastName": "Actualizado",
+              "email": "carlos@example.com",
+              "membership": "Gold",
+              "status": "activo",
+              "phone": "999999999"
+            }
+        """;
+
+        mockMvc.perform(put("/api/members/" + createdMember.getId())
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(json))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.lastName", is("Actualizado")));
+    }
+
+    @Test
+    void shouldDeleteMember() throws Exception {
+        mockMvc.perform(delete("/api/members/" + createdMember.getId()))
+                .andExpect(status().isNoContent());
+    }
+
+    @Test
+    void shouldReturnPaymentsForMember() throws Exception {
+        mockMvc.perform(get("/api/members/" + createdMember.getId() + "/payments"))
+                .andExpect(status().isOk());
+    }
+
+    @Test
+    void shouldReturnCheckinsForMember() throws Exception {
+        mockMvc.perform(get("/api/members/" + createdMember.getId() + "/checkins"))
+                .andExpect(status().isOk());
+    }
+}
+```
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 * **Landing Page:**
