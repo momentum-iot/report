@@ -1449,7 +1449,7 @@ A continuación, se presenta un Diagrama de Flujo de Usuario para una de las tar
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/940193c0-2960-4e15-98ab-378bc37c6af9" />
 
 
-## 5.5. Applications Prototy3ing.
+## 5.5. Applications Prototyping.
 
 
 # Capítulo VI: Product Implementation, Validation & Deployment
@@ -1913,6 +1913,8 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 Enlace a Github: https://github.com/orgs/momentum-iot/repositories
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 * **Landing Page:**
 Video demostración Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/ERT6dAIFQIVDmbtbXNAKYIAB6XhpW1-fV0tRgiuG-aedfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qnzt0L
@@ -1947,8 +1949,16 @@ Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/
 | `/api/equipment/{id}` | Actualizar información del equipo | **PUT** | ```json { "name": "string", "status": "string" } ``` | ```json { "name": "Bench Press", "status": "In Maintenance" } ``` |
 | `/api/equipment/{id}` | Eliminar equipo | **DELETE** | Path param: `id` (string) | ```json { "message": "Equipo eliminado correctamente" } ``` |
 
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+#### 6.2.1.9. Team Collaboration Insights during Sprint.
+* **Frontend Web Application:**
+<img src="./assets/capitulo-6/contributors-webapp.png">
+
+* **Landing Page:**
+<img src="./assets/capitulo-6/contributors-landing.png">
+
+* **Project Report:**
+<img src="./assets/capitulo-6/contributors-report.png">
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
