@@ -1533,17 +1533,421 @@ export default function MemberDetail() {
 
 ### 6.1.4. Software Deployment Configuration.
 
-## 6.2. Landing Page, Servic4s & Applications Implementation.
+## 6.2. Landing Page, Services & Applications Implementation.
 
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
+### 6.2.1. Sprint 1
+
+En esta sección especificaremos los aspectos principales del Sprint Planning Meeting. A continuación se coloca el cuadro de resumen del sprint
+planning meeting:
+
+#### 6.2.X.1. Sprint Planning 1.
+
+<table cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 1</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-09-28</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>12:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Zoom Meetings</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Del Castillo Bueno, Daniel Mateo</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera 
+    </td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Review Summary</th>
+    <td>No aplica por ser el primer sprint</td>
+  </tr>
+  <tr>
+    <th>Sprint n – 1 Retrospective Summary</th>
+    <td>No aplica por ser el primer sprint</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal & User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td><b>Nuestro enfoque</b> está en entregar la primera version del Frontend Web Application, ademas de la versión final del Landing Page. <b>Creemos que</b> esto brinda seguridad en nuestros clientes.<b> Esto será confirmado cuando</b> los usuarios puedan acceder a visualizar nuestra primera versión.</td>
+  </tr>
+  <tr>
+    <th>Sprint n Velocity</th>
+    <td>32</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>32</td>
+  </tr>
+</table>
+
 #### 6.2.X.2. Aspect Leaders and Collaborators.
-#### 6.2.X.3. Sprint Backlog n.
+
+Los aspectos principales que se tomaron en cuenta fueron la creacion de la version final del landing page, el desarrollo de la primera version del frontend, y los principales aspectos del UX/UI Design.
+
+<table cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Creacion Landing Page<br>Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo Frontend<br>Leader (L) / Collaborator (C)</th>
+    <th>UX/UI Design<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Del Castilo Bueno, Daniel Mateo</td>
+    <td>teocchiii</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Sanchez Montero Carlos</td>
+    <td>carlossm907</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Solis Solis, Leonardo</td>
+    <td>CellBuuZer</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Poma Espinoza, Gustavo Arturo</td>
+    <td>GustavoPomaEspinoz</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Pinto Fuentes, Alvaro</td>
+    <td>AlvaroPFR</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+#### 6.2.X.3. Sprint Backlog 1.
+
+<table cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="8">Sprint #1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US30</td>
+      <td>Visualización de información en landing</td>
+      <td>TASK1</td>
+      <td>Diseñar sección de propuesta de valor</td>
+      <td>Diseñar y maquetar la sección principal de la landing con la propuesta de valor clara y atractiva.</td>
+      <td>8</td>
+      <td>Poma Espinoza Gustavo Arturo</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US31</td>
+      <td>Formulario de contacto</td>
+      <td>TASK2</td>
+      <td>Implementar formulario y validaciones</td>
+      <td>Desarrollar formulario de contacto con campos de nombre, correo, mensaje y validaciones de entrada.</td>
+      <td>10</td>
+      <td>Del Castillo Bueno Daniel Mateo</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US32</td>
+      <td>Registro inicial desde la landing</td>
+      <td>TASK3</td>
+      <td>Desarrollar flujo de registro</td>
+      <td>Implementar el formulario de registro con conexión al backend y manejo de errores.</td>
+      <td>12</td>
+      <td>Solis Solis Leonardo José</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Consulta de estado del plan</td>
+      <td>TASK4</td>
+      <td>Crear módulo de consulta de membresía</td>
+      <td>Construir interfaz que muestre estado actual del plan (vigente, próximo a vencer o vencido).</td>
+      <td>9</td>
+      <td>Sanchez Montero Carlos</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Monitoreo de aforo por sede</td>
+      <td>TASK5</td>
+      <td>Implementar dashboard de aforo</td>
+      <td>Crear un panel que visualice en tiempo real el aforo actual de cada sede.</td>
+      <td>11</td>
+      <td>Pinto Fuentes Rivera Alvaro Felipe</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Alertas de sobreocupación</td>
+      <td>TASK6</td>
+      <td>Configurar sistema de notificaciones</td>
+      <td>Desarrollar lógica para enviar alertas automáticas cuando el aforo supere el límite permitido.</td>
+      <td>10</td>
+      <td>Poma Espinoza Gustavo Arturo</td>
+      <td>To-Review</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Historial de visitas</td>
+      <td>TASK7</td>
+      <td>Construir módulo de historial</td>
+      <td>Permitir al usuario visualizar su historial de visitas y asistencia de manera cronológica.</td>
+      <td>9</td>
+      <td>Del Castillo Bueno Daniel Mateo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Generar reporte de ocupación por periodo</td>
+      <td>TASK8</td>
+      <td>Desarrollar generación de reportes</td>
+      <td>Implementar generación de reportes con total de visitas, ocupación máxima y promedio por rango de fechas.</td>
+      <td>14</td>
+      <td>Sanchez Montero Carlos</td>
+      <td>In-Process</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.X.4. Development Evidence for Sprint Review.
+
+<table cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>momentum-iot/backEnd</td>
+      <td>main</td>
+      <td>c24df03</td>
+      <td>chore: update gitignore</td>
+      <td>Actualización del archivo .gitignore para excluir dependencias y archivos temporales innecesarios.</td>
+      <td>Oct 9, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/backEnd</td>
+      <td>main</td>
+      <td>92665d1</td>
+      <td>refactor: updated application.properties</td>
+      <td>Refactorización del archivo application.properties para mejorar la configuración y la legibilidad del entorno.</td>
+      <td>Oct 9, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/backEnd</td>
+      <td>main</td>
+      <td>53b1e99</td>
+      <td>chore: added dotenv dependency</td>
+      <td>Se añadió la dependencia dotenv para gestionar variables de entorno de manera más segura y eficiente.</td>
+      <td>Oct 8, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/backEnd</td>
+      <td>main</td>
+      <td>9b16060</td>
+      <td>chore: added .gitignore</td>
+      <td>Se creó el archivo .gitignore para excluir carpetas de compilación y archivos locales del repositorio.</td>
+      <td>Oct 8, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/backEnd</td>
+      <td>main</td>
+      <td>e2c3221</td>
+      <td>chore: initial commit</td>
+      <td>Commit inicial del proyecto con estructura base del backend configurada.</td>
+      <td>Oct 8, 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>momentum-iot/webApp</td>
+      <td>develop</td>
+      <td>97a06c3</td>
+      <td>style: webapp colors changed</td>
+      <td>Se actualizaron los colores principales de la aplicación web para mejorar la consistencia visual y el contraste del tema.</td>
+      <td>Oct 9, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/webApp</td>
+      <td>develop</td>
+      <td>50259a6</td>
+      <td>feat(equipment): edit equipment added</td>
+      <td>Se implementó la funcionalidad para editar los datos de los equipos desde la interfaz administrativa.</td>
+      <td>Oct 9, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/webApp</td>
+      <td>develop</td>
+      <td>1f7265b</td>
+      <td>style(equipmentdetail): buttons style changed</td>
+      <td>Se mejoró el estilo y la disposición de los botones dentro del componente de detalle de equipos.</td>
+      <td>Oct 9, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/webApp</td>
+      <td>develop</td>
+      <td>af7c8b9</td>
+      <td>chore: added dependencies to the project</td>
+      <td>Se añadieron las dependencias iniciales necesarias para la configuración del proyecto web.</td>
+      <td>Oct 8, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/webApp</td>
+      <td>develop</td>
+      <td>fc34b6a</td>
+      <td>chore: initial commit</td>
+      <td>Commit inicial del proyecto con estructura base creada e inicialización del entorno de desarrollo.</td>
+      <td>Oct 8, 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>momentum-iot/PumpUp_Landing_Page</td>
+      <td>main</td>
+      <td>4430ec7</td>
+      <td>feat: colors updated</td>
+      <td>Actualización de la paleta de colores para mejorar la coherencia visual y contraste en la landing page.</td>
+      <td>Oct 9, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/PumpUp_Landing_Page</td>
+      <td>main</td>
+      <td>59036e8</td>
+      <td>feat: styles updated</td>
+      <td>Se refactorizaron los estilos CSS generales para optimizar la presentación y mejorar la experiencia del usuario.</td>
+      <td>Oct 9, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/PumpUp_Landing_Page</td>
+      <td>main</td>
+      <td>5ea78ff</td>
+      <td>feat: Added i18n and styles tweaks</td>
+      <td>Se implementó la internacionalización (i18n) y se realizaron ajustes menores en los estilos visuales.</td>
+      <td>Oct 6, 2025</td>
+    </tr>
+    <tr>
+      <td>momentum-iot/PumpUp_Landing_Page</td>
+      <td>main</td>
+      <td>d604c2d</td>
+      <td>chore: initial commit</td>
+      <td>Commit inicial del proyecto con estructura base de la landing page y configuración inicial.</td>
+      <td>Oct 4, 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+Enlace a Github: https://github.com/orgs/momentum-iot/repositories
+
 #### 6.2.X.5. Testing Suite Evidence for Sprint Review.
 #### 6.2.X.6. Execution Evidence for Sprint Review.
+* **Landing Page:**
+Video demostración Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/ERT6dAIFQIVDmbtbXNAKYIAB6XhpW1-fV0tRgiuG-aedfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qnzt0L
+<img src="./assets/capitulo-6/evidence-landing.png">
+
+* **Frontend Web Application:**
+Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EXf98cFeMeVDqmc87M_RT8MBeT10xY6wftWNMz9gfHKOBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QduhOb 
+<img src="./assets/capitulo-6/evidence-front.png">
+
+* **Frontend Web Service:**
+<img src="./assets/capitulo-6/evidence-webservice.png">
+
 #### 6.2.X.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.8. Software Deplo5ment Evidence for Sprint Review.
+
+| **Endpoint** | **Acción** | **Verbo HTTP** | **Parámetros / Request Body** | **Ejemplo** |
+|---------------|-------------|----------------|--------------------------------|--------------|
+| `/api/checkins` | Registrar un nuevo check-in | **POST** | ```json { "memberId": "string", "checkInTime": "2025-10-09T18:30:00Z" } ``` | ```json { "memberId": "cld123abc", "checkInTime": "2025-10-09T18:30:00Z" } ``` |
+| `/api/checkins` | Obtener todos los check-ins | **GET** | N/A | ```json [ { "id": "chk-01", "memberId": "mem-001", "checkInTime": "2025-10-09T18:30:00Z" } ] ``` |
+| `/api/plans` | Obtener lista de planes disponibles | **GET** | N/A | ```json [ { "id": "plan-001", "name": "Mensual", "price": 120, "durationDays": 30 } ] ``` |
+| `/api/payments` | Consultar pagos registrados | **GET** | N/A | ```json [ { "id": "pay-001", "memberId": "mem-001", "amount": 120.00, "date": "2025-10-01" } ] ``` |
+| `/api/occupancy` | Obtener estado actual del aforo | **GET** | N/A | ```json { "currentOccupancy": 35, "maxCapacity": 50, "percentage": 70 } ``` |
+| `/api/health` | Verificar estado de salud del sistema | **GET** | N/A | ```json { "status": "UP", "timestamp": "2025-10-09T23:00:00Z" } ``` |
+| `/api/members` | Registrar un nuevo miembro | **POST** | ```json { "firstName": "string", "lastName": "string", "email": "string", "membershipType": "string" } ``` | ```json { "firstName": "Carlos", "lastName": "Sánchez", "email": "carlos@example.com", "membershipType": "Premium" } ``` |
+| `/api/members/{id}` | Obtener información de un miembro | **GET** | Path param: `id` (string) | ```json { "id": "mem-001", "firstName": "Carlos", "email": "carlos@example.com" } ``` |
+| `/api/members/{id}` | Actualizar datos de un miembro | **PUT** | ```json { "firstName": "string", "lastName": "string", "membershipType": "string" } ``` | ```json { "firstName": "Carlos", "lastName": "Sánchez Montero", "membershipType": "VIP" } ``` |
+| `/api/members/{id}` | Eliminar un miembro | **DELETE** | Path param: `id` (string) | ```json { "message": "Miembro eliminado correctamente" } ``` |
+| `/api/members/{id}/payments` | Obtener pagos asociados a un miembro | **GET** | Path param: `id` (string) | ```json [ { "paymentId": "pay-001", "amount": 120.00, "date": "2025-10-01" } ] ``` |
+| `/api/members/{id}/checkins` | Obtener check-ins de un miembro | **GET** | Path param: `id` (string) | ```json [ { "checkInId": "chk-001", "checkInTime": "2025-10-09T18:30:00Z" } ] ``` |
+| `/api/equipment` | Registrar nuevo equipo | **POST** | ```json { "name": "string", "category": "string", "status": "Available" } ``` | ```json { "name": "Treadmill Pro", "category": "Cardio", "status": "Available" } ``` |
+| `/api/equipment` | Listar todos los equipos | **GET** | N/A | ```json [ { "id": "eq-001", "name": "Treadmill Pro", "status": "Available" } ] ``` |
+| `/api/equipment/{id}` | Obtener detalles de un equipo | **GET** | Path param: `id` (string) | ```json { "id": "eq-001", "name": "Treadmill Pro", "category": "Cardio", "status": "Available" } ``` |
+| `/api/equipment/{id}` | Actualizar información del equipo | **PUT** | ```json { "name": "string", "status": "string" } ``` | ```json { "name": "Bench Press", "status": "In Maintenance" } ``` |
+| `/api/equipment/{id}` | Eliminar equipo | **DELETE** | Path param: `id` (string) | ```json { "message": "Equipo eliminado correctamente" } ``` |
+
+#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
 #### 6.2.X.9. Team Collaboration Insights during Sprint.
 
 ## 6.3. Validation Interviews.
