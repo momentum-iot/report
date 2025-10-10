@@ -8,12 +8,10 @@
     <strong>Profesor: Leon Baca, Marco Antonio </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
-
 <center>
 
 #### Startup: **Momentum**
 #### Product: **PumpUp**
-
 </center>
 
 ### <center>Team  Members:</center>
@@ -30,6 +28,7 @@
 
 <br> AGOSTO 2025
 </center>  
+
 <div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
@@ -182,10 +181,10 @@
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
 |Leonardo Jose Solis Solis    <img src="./assets/capitulo-1/miembros/Leo.jpg" width="200" height="200"/>|U20211G163|Ingenieria de software|C++, C#, Python, Angular, Vue, Laravel|
-|Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg" width="100" height="200">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
+|Carlos Sanchez Montero <img src="./assets/capitulo-1/miembros/carlos.jpeg" width="200" height="200">|U202015274|Ingenieria de software|C++, C#, Python, JavaScript, Java, Flutter, Vue, Angular|
 |Alvaro Pinto Fuentes Rivera <img src="./assets/capitulo-1/miembros/alvaro.png" width="200" height="200">|U202213384|Ingenieria de software|C++, C#, Java, Python, SQL, Vue, Angular, Flutter, Kotlin|
 |Daniel Mateo Del Castillo Bueno <img src="./assets/capitulo-1/miembros/mateo.jpg" width="200" height="200">|U202213384|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
-|Gustavo Arturo Poma Espinoza <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/842eca04-f2e8-433b-bdc5-468ced3e5b8d" />|U20221c138|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
+|Gustavo Arturo Poma Espinoza <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/842eca04-f2e8-433b-bdc5-468ced3e5b8d" />|U20221c138|Ingenieria de software|C++, Java, Flask, SQL, Vue, Angular, Flutter, React|
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 El gimnasio funciona con procesos manuales para el control de accesos y el seguimiento de uso de máquinas. El registro de miembros se hace en planillas, lo que genera errores y pérdida de información. El control de aforo es manual y no refleja la ocupación en tiempo real. No existe trazabilidad confiable sobre quién ingresó, qué máquina usó o cuánto tiempo estuvo en el recinto. Los usuarios no tienen visibilidad de su historial de visitas ni métricas de esfuerzo. El personal no cuenta con herramientas para detectar alertas de uso indebido ni sobrecarga de equipos. Esto genera insatisfacción en los miembros y dificulta la gestión operativa.
@@ -1532,8 +1531,32 @@ export default function MemberDetail() {
 ```
 
 ### 6.1.4. Software Deployment Configuration.
+<h3>Landing</h3>
+Para este producto realizamos el despliegue a través de GitHub Pages, la cual tiene un proceso de CI/CD integrado; cada que se realice un push o un merge a la rama configurada se hace un despliegue automático.
 
-## 6.2. Landing Page, Servic4s & Applications Implementation.
+A continuación, se documentará el proceso y las configuraciones realizadas.
+
+Primero, seleccionamos el repositorio y nos dirigimos a la pestaña Settings y luego a Pages. Dentro de esta sección, seleccionamos la rama principal (main o master) como la fuente para el despliegue y confirmamos la carpeta donde se encuentra el código de producción (generalmente /docs o la raíz del repositorio). Finalmente, guardamos los cambios y GitHub Pages se encarga de publicar el sitio.
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/LD1.png)
+
+
+
+<h3>Front</h3>
+Para este producto utilizamos Netlify, la cual tiene un proceso de selección de proyectos que permite una configuración rápida y un despliegue continuo desde un repositorio de Git.
+
+
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/Front.png)
+
+
+Luego, seleccionamos el proyecto del repositorio de Git que deseamos desplegar. Netlify detectará automáticamente el framework y nos sugerirá la configuración predeterminada. Establecemos el tipo de construcción, el comando de build (npm run build, por ejemplo) y la carpeta de publicación (dist o build).
+
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/Front2.png)
+
+
+Finalmente, tenemos el despliegue realizado, con un dominio en .netlify listo para ser consumido en cualquier parte del mundo y un flujo de CI/CD que asegura que cada cambio en el código se refleje automáticamente en el sitio en vivo.
+![](/assets/capitulo-6/sprint-1/SoftwareDeploymentConfiguration/Front3.png)
+
+## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.X. Sprint n
 #### 6.2.X.1. Sprint Planning n.
