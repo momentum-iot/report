@@ -1466,13 +1466,24 @@ En esta etapa, se crea la representación visual final de cada pantalla clave de
 * **Jerarquía Visual:** Aplicación de tamaño de fuente, peso, color y espaciado para guiar la atención del usuario a los elementos más importantes.
 
 El objetivo es asegurar que cada pantalla no solo sea funcional sino también estéticamente atractiva, coherente con la marca PumpUp y optimizada para una excelente experiencia de usuario.
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f855fcca-2f57-4130-8b78-1a7ebb704936" />
+* Web
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/79c96029-6664-4fde-81c1-421c13eb79a4" />
+<img width="1918" height="899" alt="image" src="https://github.com/user-attachments/assets/6fcf7640-9d50-44f6-ae75-50295d640b57" />
+<img width="1881" height="885" alt="image" src="https://github.com/user-attachments/assets/9e64a3ca-3b2f-4ec5-a9e9-ce46a0358f74" />
+<img width="1884" height="879" alt="image" src="https://github.com/user-attachments/assets/15f7e6ac-d7db-42a4-ac5d-c2ead9271588" />
+<img width="1885" height="886" alt="image" src="https://github.com/user-attachments/assets/2f956967-59b0-4958-8c63-5a9a3381f8a7" />
+<img width="1893" height="875" alt="image" src="https://github.com/user-attachments/assets/8b038349-101f-4504-b8b6-084b46795d39" />
+<img width="1892" height="888" alt="image" src="https://github.com/user-attachments/assets/9651765c-a6f6-46cc-bc4b-34c041588ce2" />
+<img width="1894" height="883" alt="image" src="https://github.com/user-attachments/assets/fb07d54e-d103-4448-9392-a947bce5b9b6" />
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f818a9d9-40f8-4c9d-a75c-4b2bba57ee02" />
+* Mobil
+<img width="377" height="830" alt="image" src="https://github.com/user-attachments/assets/531015fb-664b-4af1-917d-ded1e504bc56" />
+<img width="382" height="834" alt="image" src="https://github.com/user-attachments/assets/f926c4bf-c247-4455-9705-5167a4f8cfa7" />
+<img width="365" height="835" alt="image" src="https://github.com/user-attachments/assets/0f14c0f6-5189-4216-af14-e9f9c7021ccd" />
+<img width="378" height="836" alt="image" src="https://github.com/user-attachments/assets/8bf71087-4925-4f52-9a8e-cb994c28ebb6" />
+<img width="428" height="915" alt="image" src="https://github.com/user-attachments/assets/a24f3814-ddb6-49d1-809d-b274d7189826" />
+<img width="368" height="791" alt="image" src="https://github.com/user-attachments/assets/e64c1ffe-7382-43c4-9acd-fac19cff62c2" />
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b3bd0c4e-2aed-4fd2-b532-a409fb997bca" />
 
 
 ### 5.4.4. Diagramas de Flujo de Usuario
