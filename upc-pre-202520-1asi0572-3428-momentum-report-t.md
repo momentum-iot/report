@@ -1718,110 +1718,167 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 </table>
 
 #### 6.2.1.3. Sprint Backlog 1.
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #1</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Task Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status</th> </tr> </thead> <tbody>
+<!-- US30 -->
+<tr>
+  <td rowspan="2">US30</td>
+  <td rowspan="2">Visualización de información en landing</td>
+  <td>T30-1</td>
+  <td>Diseñar sección de propuesta de valor</td>
+  <td>Diseñar y maquetar la sección principal con la propuesta de valor destacada.</td>
+  <td>8</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T30-2</td>
+  <td>Diseñar sección secundaria informativa</td>
+  <td>Crear la sección adicional de servicios, beneficios o características relevantes.</td>
+  <td>6</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>To-do</td>
+</tr>
 
-<table cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th colspan="8">Sprint #1</th>
-    </tr>
-    <tr>
-      <th colspan="2">User Story</th>
-      <th colspan="6">Work-Item / Task</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Estimation (Hours)</th>
-      <th>Assigned To</th>
-      <th>Status (To-do / In-Process / To-Review / Done)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US30</td>
-      <td>Visualización de información en landing</td>
-      <td>TASK1</td>
-      <td>Diseñar sección de propuesta de valor</td>
-      <td>Diseñar y maquetar la sección principal de la landing con la propuesta de valor clara y atractiva.</td>
-      <td>8</td>
-      <td>Poma Espinoza Gustavo Arturo</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>US31</td>
-      <td>Formulario de contacto</td>
-      <td>TASK2</td>
-      <td>Implementar formulario y validaciones</td>
-      <td>Desarrollar formulario de contacto con campos de nombre, correo, mensaje y validaciones de entrada.</td>
-      <td>10</td>
-      <td>Del Castillo Bueno Daniel Mateo</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>US32</td>
-      <td>Registro inicial desde la landing</td>
-      <td>TASK3</td>
-      <td>Desarrollar flujo de registro</td>
-      <td>Implementar el formulario de registro con conexión al backend y manejo de errores.</td>
-      <td>12</td>
-      <td>Solis Solis Leonardo José</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Consulta de estado del plan</td>
-      <td>TASK4</td>
-      <td>Crear módulo de consulta de membresía</td>
-      <td>Construir interfaz que muestre estado actual del plan (vigente, próximo a vencer o vencido).</td>
-      <td>9</td>
-      <td>Sanchez Montero Carlos</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Monitoreo de aforo por sede</td>
-      <td>TASK5</td>
-      <td>Implementar dashboard de aforo</td>
-      <td>Crear un panel que visualice en tiempo real el aforo actual de cada sede.</td>
-      <td>11</td>
-      <td>Pinto Fuentes Rivera Alvaro Felipe</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Alertas de sobreocupación</td>
-      <td>TASK6</td>
-      <td>Configurar sistema de notificaciones</td>
-      <td>Desarrollar lógica para enviar alertas automáticas cuando el aforo supere el límite permitido.</td>
-      <td>10</td>
-      <td>Poma Espinoza Gustavo Arturo</td>
-      <td>To-Review</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Historial de visitas</td>
-      <td>TASK7</td>
-      <td>Construir módulo de historial</td>
-      <td>Permitir al usuario visualizar su historial de visitas y asistencia de manera cronológica.</td>
-      <td>9</td>
-      <td>Del Castillo Bueno Daniel Mateo</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US20</td>
-      <td>Generar reporte de ocupación por periodo</td>
-      <td>TASK8</td>
-      <td>Desarrollar generación de reportes</td>
-      <td>Implementar generación de reportes con total de visitas, ocupación máxima y promedio por rango de fechas.</td>
-      <td>14</td>
-      <td>Sanchez Montero Carlos</td>
-      <td>In-Process</td>
-    </tr>
-  </tbody>
-</table>
+<!-- US31 -->
+<tr>
+  <td rowspan="2">US31</td>
+  <td rowspan="2">Formulario de contacto</td>
+  <td>T31-1</td>
+  <td>Implementar formulario y validaciones</td>
+  <td>Crear campos de nombre, correo y mensaje con validaciones.</td>
+  <td>10</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>T31-2</td>
+  <td>Integrar envío al backend</td>
+  <td>Configurar endpoint, manejo de errores y confirmación de envío.</td>
+  <td>5</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US32 -->
+<tr>
+  <td rowspan="2">US32</td>
+  <td rowspan="2">Registro inicial desde la landing</td>
+  <td>T32-1</td>
+  <td>Desarrollar flujo de registro</td>
+  <td>Crear formulario y conectar al backend.</td>
+  <td>12</td>
+  <td>Solis Solis Leonardo José</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T32-2</td>
+  <td>Manejar validaciones y errores</td>
+  <td>Implementar validación de credenciales, duplicados y manejo de rechazos.</td>
+  <td>6</td>
+  <td>Solis Solis Leonardo José</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US05 -->
+<tr>
+  <td rowspan="2">US05</td>
+  <td rowspan="2">Consulta de estado del plan</td>
+  <td>T05-1</td>
+  <td>Crear interfaz de estado de membresía</td>
+  <td>Mostrar plan vigente, fecha de expiración y avisos.</td>
+  <td>9</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T05-2</td>
+  <td>Integración con backend</td>
+  <td>Consumir endpoint para traer estado real del plan.</td>
+  <td>5</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>Done</td>
+</tr>
+
+<!-- US10 -->
+<tr>
+  <td rowspan="2">US10</td>
+  <td rowspan="2">Monitoreo de aforo por sede</td>
+  <td>T10-1</td>
+  <td>Implementar dashboard de aforo</td>
+  <td>Crear panel visual con gráficos del aforo en tiempo real.</td>
+  <td>11</td>
+  <td>Pinto Fuentes Rivera Alvaro Felipe</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T10-2</td>
+  <td>Conectar datos en tiempo real</td>
+  <td>Integrar sockets o polling para actualizar el aforo.</td>
+  <td>7</td>
+  <td>Pinto Fuentes Rivera Alvaro Felipe</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US11 -->
+<tr>
+  <td rowspan="2">US11</td>
+  <td rowspan="2">Alertas de sobreocupación</td>
+  <td>T11-1</td>
+  <td>Configurar sistema de notificaciones</td>
+  <td>Crear lógica para enviar alertas cuando el límite sea superado.</td>
+  <td>10</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>To-Review</td>
+</tr>
+<tr>
+  <td>T11-2</td>
+  <td>Configurar reglas y umbrales</td>
+  <td>Definir niveles de alerta, límites y parámetros configurables.</td>
+  <td>5</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US12 -->
+<tr>
+  <td rowspan="2">US12</td>
+  <td rowspan="2">Historial de visitas</td>
+  <td>T12-1</td>
+  <td>Construir módulo de historial</td>
+  <td>Mostrar visitas ordenadas cronológicamente.</td>
+  <td>9</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T12-2</td>
+  <td>Integrar filtros</td>
+  <td>Agregar filtros por rango de fechas y tipo de actividad.</td>
+  <td>6</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>Done</td>
+</tr>
+
+<!-- US20 -->
+<tr>
+  <td rowspan="2">US20</td>
+  <td rowspan="2">Reporte de ocupación por periodo</td>
+  <td>T20-1</td>
+  <td>Desarrollar generación de reportes</td>
+  <td>Generar datos de visitas, máximos y promedios.</td>
+  <td>14</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T20-2</td>
+  <td>Exportar reporte</td>
+  <td>Permitir exportar en PDF o Excel.</td>
+  <td>8</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>To-do</td>
+</tr>
+</tbody> </table>
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
