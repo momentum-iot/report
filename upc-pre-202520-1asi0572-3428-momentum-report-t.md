@@ -2959,11 +2959,22 @@ Ocupación: _____
 {texto mucho}
 
 **Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
+
+
+
+Nombre: Santiago Román
+
+Edad: 22 años 
+
+Ocupación: Analista de sistemas 
+
+![Imagen de entrevista](/assets/capitulo-6/Santiago_Entrevista.png)
+
+Enlace a la entrevista:
+[Ver entrevista completa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQBu-U-TtvjaQZgWvWfpTbosAUqz02kFiImkmQUtECfULeE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pNc1ot)
+
+Santiago Román, un joven de 22 años que trabaja como analista de sistemas y entrena 3–4 veces por semana, prefiere rutinas claras para entrenar solo y se informa sobre gimnasios mediante redes sociales y reseñas, aunque actualmente no usa aplicaciones fitness. Sus principales motivaciones son sentirse bien, manejar el estrés y ver progreso, pero se frustra con gimnasios saturados, máquinas averiadas y falta de orientación, así como con apps que ofrecen rutinas genéricas y poca claridad técnica. Al elegir un gimnasio prioriza la ubicación, el equipamiento, la limpieza, el precio y la cantidad de personas, y en una aplicación valora la personalización, el seguimiento del progreso, videos claros, integración con dispositivos y recordatorios. Recomendaría un gimnasio o app solo si le ofrece mejoras reales, facilidad de uso, buena atención y una experiencia ordenada y confiable, lo que representa para PumpUp una oportunidad de ofrecer una solución más personalizada, clara y orientada al progreso que lo motive a mantenerse constante.
+
 ### 6.3.3. Evaluaciones según heurísticas.
 | HEURÍSTICA   | EVALUACIÓN | NOTA      |
 | --------------------------------------------- | ---------- | --------- |
