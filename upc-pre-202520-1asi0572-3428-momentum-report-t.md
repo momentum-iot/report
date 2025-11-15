@@ -2213,7 +2213,14 @@ La aplicacion web se encuentra desplegada en el siguiente enlace:
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2.
+
+
 #### 6.2.2.2. Aspect Leaders and Collaborators.
+
+Los aspectos principales que se tomaron en cuenta fueron la creacion de la version funcional del aplicativo móvil, aplicación web y backend
+
+<table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 1</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-14</td> </tr> <tr> <th>Time</th> <td>12:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 1 Review Summary</th> <td>No aplica por ser el primer sprint</td> </tr> <tr> <th>Sprint n – 1 Retrospective Summary</th> <td>No aplica por ser el primer sprint</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 1 Goal</th> <td> <b>Nuestro enfoque</b> está en entregar la primera versión estable del sistema de accesos, ocupación y membresías sin componentes IoT. <b>Creemos que</b> este avance permitirá validar flujos críticos del negocio. <b>Esto será confirmado cuando</b> los usuarios puedan consultar su plan, ingresar correctamente, ver su aforo, historial y generar sus reportes iniciales. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>40</td> </tr> <tr> <th>Sum of Story Points</th> <td>40</td> </tr> </table>
+
 #### 6.2.2.3. Sprint Backlog 2.
 <table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #1</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody>
 <!-- US01 -->
