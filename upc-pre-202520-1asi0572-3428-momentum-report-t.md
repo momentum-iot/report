@@ -2816,24 +2816,70 @@ FrontEnd
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
-**Preguntas generales:**
+### Preguntas generales
 
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
+1. ¿Cuál es tu nombre?  
+2. ¿Qué edad tienes?  
+3. ¿A qué te dedicas?  
+4. ¿Qué opinas sobre sistemas o aplicaciones para la gestión de gimnasios o entrenamiento?
 
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
+### Entrevistas – Segmento 1: Propietarios y administradores de gimnasios
+
+#### Datos personales y contexto
+1. ¿Cuál es tu nombre y edad?  
+2. ¿Cuál es tu nivel de estudios?  
+3. ¿Qué cargo ocupas dentro del gimnasio?  
+4. ¿Cuántos años llevas administrando o trabajando en el rubro fitness?  
+5. ¿Qué dispositivo usas más en tu trabajo diario (computadora, tablet, celular)?
+
+#### Operación del gimnasio
+1. ¿Cuántos colaboradores y clientes activos tienes?  
+2. ¿Cómo gestionas actualmente inscripciones, pagos y asistencia?  
+3. ¿Qué herramientas digitales utilizas hoy? (Excel, WhatsApp, software especializado, apps de pago)
+
+#### Objetivos y motivaciones
+1. ¿Cuál es tu principal meta con el gimnasio?  
+2. ¿Qué tipo de experiencia quieres ofrecer a tus clientes?  
+3. ¿Qué te motivó a abrir o administrar un gimnasio pequeño?
+
+#### Frustraciones y retos
+1. ¿Qué es lo más difícil de gestionar en tu día a día?  
+2. ¿Qué problemas frecuentes enfrentas con clientes, pagos o entrenadores?  
+3. ¿Qué limitaciones encuentras en la tecnología actual?
+
+#### Decisiones y expectativas
+1. ¿Qué factores consideras antes de invertir en un nuevo sistema o aplicación?  
+2. ¿Qué te haría confiar y recomendar una solución digital?  
+3. ¿Qué funcionalidades esperas que tenga una plataforma ideal para tu gimnasio?
+
+### Entrevistas – Segmento 2: Clientes y usuarios de servicios de entrenamiento
+
+#### Datos personales y contexto
+1. ¿Cuál es tu nombre y edad?  
+2. ¿Cuál es tu ocupación o actividad principal?  
+3. ¿Qué dispositivo usas más para actividades diarias?  
+4. ¿Con qué frecuencia entrenas y dónde lo haces?
+
+#### Hábitos y comportamiento
+1. ¿Prefieres entrenar solo, en clases grupales o con entrenador personal?  
+2. ¿Qué canales usas para informarte sobre gimnasios o entrenadores?  
+3. ¿Qué aplicaciones de salud o fitness utilizas?
+
+#### Objetivos y motivaciones
+1. ¿Qué te motiva a entrenar?  
+2. ¿Qué resultados esperas de un gimnasio o programa de entrenamiento?  
+3. ¿Qué significa para ti una “buena experiencia” en un gimnasio?
+
+#### Frustraciones y retos
+1. ¿Qué problemas has tenido en gimnasios anteriores?  
+2. ¿Qué te ha hecho abandonar un gimnasio o dejar de entrenar?  
+3. ¿Qué dificultades encuentras en apps o plataformas de entrenamiento?
+
+#### Decisiones y expectativas
+1. ¿Qué factores son más importantes al elegir un gimnasio?  
+2. ¿Qué funcionalidades valoras en una aplicación que complemente tu entrenamiento?  
+3. ¿Qué te haría recomendar un gimnasio o app a tus amigos?
+
 ### 6.3.2. Registro de Entrevistas.
 **Segmento 1**  
 Nombre: _____
