@@ -2787,11 +2787,79 @@ describe("HeartRateScreen", () => {
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
-https://deepwiki.com/momentum-iot/frontEnd
+### Front
+#### Propósito y Alcance
 
-https://deepwiki.com/momentum-iot/backEnd
+Este documento ofrece una introducción general a la aplicación frontend, incluyendo su propósito de negocio, el stack tecnológico, el enfoque arquitectónico y los conceptos centrales del dominio.
+Para información detallada sobre la implementación de clean architecture y la descripción capa por capa, consulta Architecture & Design.
+Para documentación específica sobre funcionalidades, revisa Core Features.
 
-https://deepwiki.com/momentum-iot/MobileApp
+#### Propósito del Sistema
+
+Esta aplicación es un sistema de gestión de gimnasios y centros deportivos diseñado para el mercado peruano.
+Permite que los miembros del gimnasio realicen check-in y check-out al ingresar o salir del local, revisen su historial de visitas y administren sus perfiles.
+Al mismo tiempo, brinda a los administradores herramientas para monitorear la concurrencia en tiempo real y gestionar a los miembros.
+
+#### Casos de Uso Principales
+
+Check-in y check-out de miembros en la entrada y salida del gimnasio
+
+Seguimiento en tiempo real de la ocupación del establecimiento y gestión de aforo
+
+Gestión de perfiles de usuario con planes de membresía (BÁSICO, PREMIUM)
+
+Autenticación y autorización con control de acceso basado en roles (USER, ADMIN)
+
+Registro de duración de visitas y analíticas de asistencia
+
+El sistema aplica reglas de negocio específicas de la operación de gimnasios, incluyendo validación de estado del usuario (ACTIVO, RETIRADO, SIN_PAGAR), restricciones basadas en el tipo de membresía y límites de capacidad del local.
+![alt text](assets/capitulo-6/sprint2/documentation/image-1.png)
+
+### Backend
+
+
+
+### Mobile
+#### Propósito y Alcance
+
+Este documento ofrece una visión general de **PumpUp Mobile**, una aplicación móvil desarrollada en React Native para la gestión de gimnasios. Permite a los miembros realizar check-in y check-out, ver la ocupación del gimnasio en tiempo real y registrar mediciones de ritmo cardíaco.  
+Este resumen abarca el propósito del sistema, su tecnología y los principales flujos de usuario.
+
+Para información detallada, consultar:  
+- Autenticación: *Authentication System*  
+- Navegación: *Navigation System*  
+- Manejo de estado: *State Management with Contexts*  
+- Arquitectura: *Architecture Overview*
+
+#### Propósito de la Aplicación
+
+PumpUp Mobile es una app multiplataforma creada con React Native y Expo que funciona como herramienta complementaria para los miembros del gimnasio. Sus funciones principales son:
+
+- **Gestión de Check-In/Check-Out:** registrar entrada y salida del gimnasio.  
+- **Ocupación en Tiempo Real:** visualizar capacidad y porcentaje de aforo.  
+- **Ritmo Cardíaco:** registrar mediciones y ver historial.
+
+La app se comunica con una API REST para almacenar datos, manejar sesiones de usuario y sincronizar la ocupación del gimnasio.
+
+#### Stack Tecnológico
+
+| Categoría | Tecnología | Uso |
+|----------|------------|-----|
+| Framework | React Native 0.81.5 | Desarrollo móvil multiplataforma |
+| Routing | expo-router 6.0.14 | Navegación basada en archivos |
+| Runtime | Expo SDK ~54.0.22 | Construcción y despliegue |
+| HTTP Client | axios 1.13.2 | Comunicación con API |
+| Estado | React Context API | Estado global |
+| UI | react-native-paper 5.14.5 | Componentes Material Design |
+| Almacenamiento | async-storage 2.2.0 | Tokens y datos locales |
+| Gráficos | react-native-chart-kit 6.12.0 | Visualización de ritmo cardíaco |
+| Lenguaje | TypeScript 5.9.2 | Tipado estático |
+
+
+![alt text](assets/capitulo-6/sprint2/documentation/image-2.png)
+
+![alt text](assets/capitulo-6/sprint2/documentation/image.png)
+
 
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
