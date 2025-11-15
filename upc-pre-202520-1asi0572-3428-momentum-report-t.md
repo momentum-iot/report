@@ -2211,6 +2211,307 @@ La aplicacion web se encuentra desplegada en el siguiente enlace:
 * **Project Report:**
 <img src="./assets/capitulo-6/contributors-report.png">
 
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+#### 6.2.2.2. Aspect Leaders and Collaborators.
+#### 6.2.2.3. Sprint Backlog 2.
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #1</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody>
+<!-- US01 -->
+<tr>
+  <td>US01</td>
+  <td>Acceso con huella biométrica</td>
+  <td>TASK01</td>
+  <td>Implementar validación de huella</td>
+  <td>Crear módulo que valide la huella enrolada del usuario al ingresar.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US01</td>
+  <td>Acceso con huella biométrica</td>
+  <td>TASK02</td>
+  <td>Registrar intentos fallidos</td>
+  <td>Guardar en bitácora cada intento fallido de acceso por huella.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US02 -->
+<tr>
+  <td>US02</td>
+  <td>Registro de entrada y salida</td>
+  <td>TASK03</td>
+  <td>Registrar ingreso</td>
+  <td>Implementar registro de hora de entrada del usuario.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US02</td>
+  <td>Registro de entrada y salida</td>
+  <td>TASK04</td>
+  <td>Registrar salida</td>
+  <td>Guardar hora de salida y actualizar el historial del usuario.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US03 -->
+<tr>
+  <td>US03</td>
+  <td>Bloqueo de acceso</td>
+  <td>TASK05</td>
+  <td>Verificación de estado del plan</td>
+  <td>Validar si el plan está vencido antes de permitir ingreso.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US03</td>
+  <td>Bloqueo de acceso</td>
+  <td>TASK06</td>
+  <td>Registro de bloqueos</td>
+  <td>Registrar intentos de acceso cuando el plan está vencido.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US04 -->
+<tr>
+  <td>US04</td>
+  <td>Acceso con tarjeta NFC</td>
+  <td>TASK07</td>
+  <td>Validación de tarjeta</td>
+  <td>Verificar si la tarjeta NFC está asociada a un usuario activo.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US04</td>
+  <td>Acceso con tarjeta NFC</td>
+  <td>TASK08</td>
+  <td>Registro de intentos fallidos</td>
+  <td>Almacenar intentos de acceso con tarjetas no registradas.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US05 -->
+<tr>
+  <td>US05</td>
+  <td>Consulta de estado del plan</td>
+  <td>TASK09</td>
+  <td>Implementar consulta de membresía</td>
+  <td>Mostrar estado vigente, vencido o próximo a vencer.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US05</td>
+  <td>Consulta de estado del plan</td>
+  <td>TASK10</td>
+  <td>Cálculo de vigencia</td>
+  <td>Implementar lógica de fechas para determinar vigencia actual.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US06 -->
+<tr>
+  <td>US06</td>
+  <td>Renovación de membresía</td>
+  <td>TASK11</td>
+  <td>Registrar renovación</td>
+  <td>Guardar nueva vigencia al renovar el plan.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US06</td>
+  <td>Renovación de membresía</td>
+  <td>TASK12</td>
+  <td>Actualizar fechas</td>
+  <td>Actualizar fechas y estado del miembro tras la renovación.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US07 -->
+<tr>
+  <td>US07</td>
+  <td>Suspensión de membresía</td>
+  <td>TASK13</td>
+  <td>Implementar suspensión</td>
+  <td>Cambiar estado del miembro a suspendido temporalmente.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US07</td>
+  <td>Suspensión de membresía</td>
+  <td>TASK14</td>
+  <td>Registrar evento de suspensión</td>
+  <td>Guardar bitácora con la razón y fechas de suspensión.</td>
+  <td>4</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US08 -->
+<tr>
+  <td>US08</td>
+  <td>Validación de acceso por plan</td>
+  <td>TASK15</td>
+  <td>Implementar validación</td>
+  <td>Verificar si el plan está vigente al intentar ingresar.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US08</td>
+  <td>Validación de acceso por plan</td>
+  <td>TASK16</td>
+  <td>Manejo de rechazo</td>
+  <td>Enviar respuesta indicando motivo del rechazo.</td>
+  <td>4</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US09 -->
+<tr>
+  <td>US09</td>
+  <td>Consulta de aforo actual</td>
+  <td>TASK17</td>
+  <td>Obtener aforo actual</td>
+  <td>Consultar número de usuarios dentro de la sede.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US09</td>
+  <td>Consulta de aforo actual</td>
+  <td>TASK18</td>
+  <td>Mostrar porcentaje de ocupación</td>
+  <td>Calcular y presentar porcentaje total de aforo usado.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US10 -->
+<tr>
+  <td>US10</td>
+  <td>Monitoreo de aforo por sede</td>
+  <td>TASK19</td>
+  <td>Implementar dashboard por sede</td>
+  <td>Crear panel de visualización del aforo agrupado por sede.</td>
+  <td>9</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US10</td>
+  <td>Monitoreo de aforo por sede</td>
+  <td>TASK20</td>
+  <td>Mostrar usuarios activos</td>
+  <td>Mostrar número exacto de usuarios presentes.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US11 -->
+<tr>
+  <td>US11</td>
+  <td>Alertas de sobreocupación</td>
+  <td>TASK21</td>
+  <td>Configurar umbrales</td>
+  <td>Crear lógica que detecte si el aforo supera el límite.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US11</td>
+  <td>Alertas de sobreocupación</td>
+  <td>TASK22</td>
+  <td>Enviar notificaciones</td>
+  <td>Notificar a administradores cuando se supere el aforo máximo.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US12 -->
+<tr>
+  <td>US12</td>
+  <td>Historial de visitas</td>
+  <td>TASK23</td>
+  <td>Construir módulo de historial</td>
+  <td>Implementar lista cronológica de entradas y salidas.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US12</td>
+  <td>Historial de visitas</td>
+  <td>TASK24</td>
+  <td>Ordenar registros</td>
+  <td>Ordenar los datos según timestamp más reciente.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US20 -->
+<tr>
+  <td>US20</td>
+  <td>Generar reporte de ocupación por periodo</td>
+  <td>TASK25</td>
+  <td>Crear generador de reportes</td>
+  <td>Generar datos de ocupación por fecha y sede.</td>
+  <td>9</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US20</td>
+  <td>Generar reporte de ocupación por periodo</td>
+  <td>TASK26</td>
+  <td>Formatear reporte final</td>
+  <td>Calcular total, máximo y promedio del periodo.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+</tbody> </table>
+
+#### 6.2.2.4. Development Evidence for Sprint Review.
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+#### 6.2.2.6. Execution Evidence for Sprint Review.
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+#### 6.2.2.9. Team Collaboration Insights during Sprint.
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 **Preguntas generales:**
