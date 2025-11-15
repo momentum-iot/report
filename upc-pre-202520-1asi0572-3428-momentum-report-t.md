@@ -44,7 +44,7 @@
 </center>
 
 # Project Report Collaboration Insights
-[URL del repositorio](https://github.com/momentum-iot/report)
+https://github.com/momentum-iot/report
 
 TB1:
 <img src="/assets/contributions/image.png" alt="TB1" width="400" height="400"/>
@@ -634,7 +634,9 @@ Ocupación: Analista de Marketing Digital
 <img src="./assets/capitulo-2/entrevistas/entrevista-katherine.png">  
 
 **Enlace a la entrevista:**  
-[Ver entrevista completa]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/ETxU1L3TVeBLs5cHibYyz0ABomyxa4EorpyXIOu2karU6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NMQNqF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g163_upc_edu_pe/EfrBMtKPmuBOqpdeXgjvle0BUpDIbRT9iCfp-momPh44Cw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e1gUFN))
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/ETxU1L3TVeBLs5cHibYyz0ABomyxa4EorpyXIOu2karU6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NMQNqF
+
+(https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g163_upc_edu_pe/EfrBMtKPmuBOqpdeXgjvle0BUpDIbRT9iCfp-momPh44Cw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e1gUFN))
 
 **Resumen:**
 Katherine Mejía, de 28 años, es analista de marketing digital y entrena entre 3 y 4 veces por semana en un gimnasio cercano, utilizando principalmente su celular como herramienta diaria. Prefiere entrenar sola, aunque ocasionalmente asiste a clases grupales, y se informa sobre gimnasios a través de Instagram o recomendaciones de amigos. Además, utiliza aplicaciones como Strava y MyFitnessPal para registrar su progreso.
@@ -2976,7 +2978,8 @@ Ocupación: _____
 | Comunicar errores con facilidad               |            | {texto}   |
 | Ayuda y documentación                         |            | {texto}   |
 ## 6.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
+
+
 # Conclusiones
 <h2>TB1</h2>
 
@@ -2994,7 +2997,7 @@ Ocupación: _____
 3. El proceso de diseño e implementación permitió validar la usabilidad de las interfaces con los usuarios finales, refinando interacciones clave y mejorando la experiencia de uso. Esto consolidó la base visual y técnica del producto, garantizando escalabilidad para futuras funcionalidades.
 
 # Video About-the-Team.
-[URL del video about the team](https://www.example.com)
+
 
 # Bibliografía
 
