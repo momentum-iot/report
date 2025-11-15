@@ -2511,14 +2511,309 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 </tbody> </table>
 
 #### 6.2.2.4. Development Evidence for Sprint Review.
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited on (Date)</th> </tr> </thead> <tbody> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>ff75611</td> <td>feat(check): add check use cases</td> <td>Se añadieron los casos de uso para el módulo de checks.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>bfcf8c8</td> <td>feat(auth): add auth use cases</td> <td>Se agregaron los casos de uso relacionados a autenticación.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>28b5a39</td> <td>fix: change type of time</td> <td>Ajuste en el tipo de dato utilizado para valores de tiempo.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>12aecf3</td> <td>feat(check): create check repository and implementation</td> <td>Creación del repositorio e implementación para el módulo de checks.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>fe29407</td> <td>feat(auth): create auth repository and implementation</td> <td>Implementación del repositorio de autenticación y su lógica.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>b20a725</td> <td>feat: create api configuration</td> <td>Se configuró la base de la comunicación con la API.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>8751eeb</td> <td>feat: add http client</td> <td>Se agregó el cliente HTTP para manejar solicitudes externas.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>cf9fc64</td> <td>feat(auth): create token storage</td> <td>Creación del almacenamiento seguro para tokens de autenticación.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>35263e5</td> <td>fix: user and check entities imports</td> <td>Corrección de importaciones en las entidades user y check.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>bf13ec3</td> <td>feat: add login form validation</td> <td>Se añadió validación al formulario de inicio de sesión.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>0d2632e</td> <td>feat: add axios dependency</td> <td>Se incorporó Axios como dependencia para el manejo de solicitudes.</td> <td>Nov 14, 2025</td> </tr> </tbody> </table>
+
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited on (Date)</th> </tr> </thead> <tbody>
+<!-- Commits from 3 days ago -->
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat(iam): added refresh token</td>
+  <td>Se añadió soporte para refresh token en el módulo IAM.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat: update data loader</td>
+  <td>Actualización del cargador de datos.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat: update user repo and service</td>
+  <td>Se actualizaron el repositorio y el servicio de usuario.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat: payment and checkin repo changed</td>
+  <td>Se modificaron los repositorios de pagos y check-in.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat: update class checkin and payments</td>
+  <td>Actualización de las clases de check-in y pagos.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat: update class user</td>
+  <td>Actualización de la clase User.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat: added value objects for user</td>
+  <td>Se añadieron value objects para la entidad Usuario.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat: class member deleted</td>
+  <td>Se eliminó un miembro de clase no utilizado.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>fix: allowed access to login and register endpoints</td>
+  <td>Corrección para permitir acceso a los endpoints de login y register.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<!-- Commits from Nov 10 -->
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat(iam): rename UserController to AuthController and update service references</td>
+  <td>Reemplazo de UserController por AuthController y ajuste de referencias del servicio.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat(iam): implement JWT authentication and role-based access control</td>
+  <td>Implementación de autenticación JWT y control de acceso basado en roles.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>feat(iam): add user role management and JWT authentication</td>
+  <td>Se agregó gestión de roles de usuario junto con autenticación JWT.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>(no-id)</td>
+  <td>chore: added user role</td>
+  <td>Se añadió la definición de rol de usuario.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+</tbody> </table>
+
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited on (Date)</th> </tr> </thead> <tbody>
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>c739391</td>
+  <td>feat: delete progress screen</td>
+  <td>Se eliminó la pantalla de progreso del proyecto.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>3f51912</td>
+  <td>design: change icons color</td>
+  <td>Se modificaron los colores de los íconos para mejorar la interfaz.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>041bf10</td>
+  <td>feat(heart-rate): add heart rate routes</td>
+  <td>Se añadieron las rutas necesarias para el módulo de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>b81b02b</td>
+  <td>feat(heart-rate): add heart rate screen</td>
+  <td>Se creó la pantalla de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>e0e8ae2</td>
+  <td>feat(heart-rate): add heart rate context</td>
+  <td>Se añadió el contexto para manejar el flujo del ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>ccc6409</td>
+  <td>feat(heart-rate): add heart rate use cases</td>
+  <td>Se agregaron los casos de uso del módulo de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>9d6c444</td>
+  <td>feat(heart-rate): add heart rate repository</td>
+  <td>Se implementó el repositorio del módulo de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>079cccd</td>
+  <td>feat(heart-rate): add heart rateresponse entity</td>
+  <td>Se añadió la entidad HeartRateResponse.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+</tbody> </table>
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
+Backend
+```java
+
+public class AuthControllerTest {
+
+    private final AuthService authService = Mockito.mock(AuthService.class);
+
+    private final MockMvc mockMvc = MockMvcBuilders
+            .standaloneSetup(new AuthController(authService))
+            .build();
+
+    @Test
+    void shouldGenerateJwtTokenWhenLoginIsValid() throws Exception {
+
+        Mockito.when(authService.login("user@email.com", "123456"))
+                .thenReturn("fake.jwt.token");
+
+        LoginRequest request = new LoginRequest("user@email.com", "123456");
+
+        mockMvc.perform(
+                post("/api/auth/login")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(new ObjectMapper().writeValueAsString(request))
+        )
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$.token").value("fake.jwt.token"));
+    }
+}
+```
+Web Application
+```javascript
+jest.mock("axios");
+
+describe("HeartRateRepository", () => {
+  test("should fetch heart rate data from API", async () => {
+    const mockData = { bpm: 78, timestamp: "2025-11-14T12:00:00Z" };
+
+    axios.get.mockResolvedValue({ data: mockData });
+
+    const repo = new HeartRateRepository();
+    const result = await repo.getHeartRate();
+
+    expect(result).toEqual(mockData);
+    expect(axios.get).toHaveBeenCalledWith("/heart-rate");
+  });
+});
+
+```
+Mobile
+```typescript 
+import React from "react";
+import { render, waitFor } from "@testing-library/react-native";
+import HeartRateScreen from "../src/screens/HeartRateScreen";
+import * as useCases from "../src/modules/heart-rate/application/getHeartRateUseCase";
+
+jest.spyOn(useCases, "getHeartRateUseCase")
+    .mockResolvedValue({ bpm: 85 });
+
+describe("HeartRateScreen", () => {
+  test("should display BPM after use case loads the data", async () => {
+    const screen = render(<HeartRateScreen />);
+
+    await waitFor(() => {
+      expect(screen.getByText(/85 BPM/i)).toBeTruthy();
+    });
+  });
+});
+
+```
+
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+https://deepwiki.com/momentum-iot/frontEnd
+
+https://deepwiki.com/momentum-iot/backEnd
+
+https://deepwiki.com/momentum-iot/MobileApp
+
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+La aplicacion web se encuentra desplegada en el siguiente enlace:
+https://pumpup.netlify.app/
+
+![alt text](assets/image-1.png)
+
+
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+Backend
+![alt text](assets/capitulo-6/sprint2/contributions/image.png)
+
+Mobile
+![alt text](assets/capitulo-6/sprint2/contributions/image-1.png)
+
+FrontEnd
+![alt text](assets/capitulo-6/sprint2/contributions/image-2.png)
+
+
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 **Preguntas generales:**
