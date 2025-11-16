@@ -44,7 +44,7 @@
 </center>
 
 # Project Report Collaboration Insights
-[URL del repositorio](https://github.com/momentum-iot/report)
+https://github.com/momentum-iot/report
 
 TB1:
 <img src="/assets/contributions/image.png" alt="TB1" width="400" height="400"/>
@@ -205,8 +205,8 @@ TP:
 # Student Outcome
 | Criterio Específico| Acciones Realizadas| Conclusiones|
 | --- | --- | -- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | Leonardo Jose Solis Solis:<br/> **TB1:** <p>En esta entrega lideré al equipo en la elaboración de *User Journey Mapping*, *Empathy Mapping* e *Impact Mapping*, guiando la toma de decisiones conjuntas y fomentando la coordinación entre los integrantes.</p><br/> **TP:** <p>Durante el trabajo final consolidé el liderazgo conjunto del equipo en la integración de resultados y conclusiones del proyecto, coordinando la presentación final y el cumplimiento de los entregables.</p><br/><br/> Daniel Mateo del Castillo Bueno:<br/> **TB1:** <p>En esta entrega brindé liderazgo en la definición de *User Stories* y el *Product Backlog*, asegurando una visión clara y compartida que guió el trabajo del equipo de manera conjunta.</p><br/> **TP:** <p>En el trabajo final coordiné la integración técnica de los módulos del sistema, promoviendo la comunicación entre los integrantes para garantizar la coherencia de la solución completa.</p><br/><br/> Alvaro Pinto Fuentes Rivera:<br/> **TB1:** <p>En esta entrega guié al equipo en la aplicación del proceso *Lean UX*, asegurando que todos los integrantes participaran activamente en la toma de decisiones conjuntas.</p><br/> **TP:** <p>Durante la fase final facilité la retroalimentación entre áreas de diseño y desarrollo, consolidando el liderazgo compartido para cumplir los objetivos globales del proyecto.</p><br/><br/> Carlos Zósimo Sánchez Montero:<br/> **TB1:** <p>En esta entrega lideré el análisis de competidores y la definición de estrategias y tácticas, orientando al equipo hacia la construcción de una visión compartida del mercado.</p><br/> **TP:** <p>En la fase final dirigí la integración de resultados de validación del mercado y métricas, aportando al liderazgo colectivo en la toma de decisiones estratégicas.</p><br/><br/> Gustavo Poma Espinosa:<br/> **TB1:** <p>En esta entrega apoyé el liderazgo del equipo en la documentación de requerimientos y validación de hipótesis, colaborando en la organización de las tareas del grupo.</p><br/> **TP:** <p>Durante el trabajo final asumí un rol activo en la coordinación de tareas de desarrollo, contribuyendo al liderazgo conjunto para garantizar la finalización del sistema.</p>                               | **Conclusión TB1:** <p>El equipo demostró liderazgo compartido en distintas áreas del proyecto, logrando coordinar esfuerzos y orientar las decisiones de forma conjunta para cumplir los objetivos trazados.</p><br/> **Conclusión TP:** <p>En el trabajo final el equipo consolidó su liderazgo colaborativo, integrando los aportes de cada integrante y garantizando la coherencia técnica, funcional y estratégica del proyecto.</p>                                      |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Leonardo Jose Solis Solis:<br/> **TB1:** <p>En esta entrega fomenté un entorno colaborativo e inclusivo al organizar las metas relacionadas con el mapeo de experiencias de usuario, facilitando la planificación de tareas y el cumplimiento de los objetivos establecidos.</p><br/> **TP:** <p>En el trabajo final promoví un ambiente inclusivo al coordinar las tareas de cierre y la organización de resultados, asegurando la participación activa de todos los integrantes.</p><br/><br/> Daniel Mateo del Castillo Bueno:<br/> **TB1:** <p>En esta entrega creé un entorno colaborativo e inclusivo al coordinar entrevistas a usuarios y la arquitectura de software, estableciendo metas claras, planificando tareas y alcanzando los objetivos propuestos.</p><br/> **TP:** <p>Durante el trabajo final organicé la integración de entregables y validé que las metas propuestas se cumplieran mediante la coordinación con todas las áreas del equipo.</p><br/><br/> Alvaro Pinto Fuentes Rivera:<br/> **TB1:** <p>En esta entrega promoví un entorno inclusivo durante las entrevistas a usuarios, facilitando la colaboración entre el equipo, la definición de metas y el cumplimiento de los objetivos.</p><br/> **TP:** <p>En la fase final consolidé la planificación del flujo de trabajo conjunto, asegurando que las metas fueran cumplidas con participación equitativa del grupo.</p><br/><br/> Carlos Zósimo Sánchez Montero:<br/> **TB1:** <p>En esta entrega establecí un entorno colaborativo e inclusivo al organizar las metas vinculadas al análisis competitivo, planificando tareas con el equipo y asegurando el logro de los objetivos.</p><br/> **TP:** <p>Durante el trabajo final mantuve la coordinación en la planificación de tareas analíticas y la validación de resultados, reforzando la cooperación entre los integrantes.</p><br/><br/> Gustavo Poma Espinosa:<br/> **TB1:** <p>En esta entrega fomenté la colaboración en la definición de objetivos técnicos y la planificación de desarrollo, contribuyendo a un entorno de trabajo inclusivo.</p><br/> **TP:** <p>En el trabajo final participé activamente en la organización del cronograma de pruebas y validación, apoyando la planificación colectiva para cumplir los objetivos generales.</p> | **Conclusión TB1:** <p>El equipo generó un entorno inclusivo y organizado, donde se establecieron metas claras, se planificaron tareas de forma conjunta y se lograron los objetivos propuestos en colaboración.</p><br/> **Conclusión TP:** <p>Durante el trabajo final, el equipo fortaleció su capacidad de planificación conjunta y trabajo colaborativo, garantizando la participación activa de todos los integrantes y el cumplimiento de los objetivos planteados.</p> |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | Leonardo Jose Solis Solis:<br/> **TB1:** <p>En esta entrega lideré al equipo en la elaboración de *User Journey Mapping*, *Empathy Mapping* e *Impact Mapping*, guiando la toma de decisiones conjuntas y fomentando la coordinación entre los integrantes.</p><br/> **TP:** <p>Durante el trabajo final consolidé el liderazgo conjunto del equipo en la integración de resultados y conclusiones del proyecto, coordinando la presentación final y el cumplimiento de los entregables.</p><br/><br/><p>**TB2:** En esta fase reforcé el liderazgo conjunto coordinando la validación de los flujos principales del sistema y facilitando discusiones para integrar mejoras propuestas por cada integrante. Contribuí a mantener la alineación del equipo en las decisiones estratégicas bajo un liderazgo compartido.</p> Daniel Mateo del Castillo Bueno:<br/> **TB1:** <p>En esta entrega brindé liderazgo en la definición de *User Stories* y el *Product Backlog*, asegurando una visión clara y compartida que guió el trabajo del equipo de manera conjunta.</p><br/> **TP:** <p>En el trabajo final coordiné la integración técnica de los módulos del sistema, promoviendo la comunicación entre los integrantes para garantizar la coherencia de la solución completa.</p><p>**TB2:** En TB2 lideré junto al equipo la integración técnica entre módulos, gestionando problemas encontrados durante pruebas y facilitando reuniones para alinear decisiones técnicas. Mi rol se centró en asegurar cohesión y liderazgo distribuido. </p> <br/><br/> Alvaro Pinto Fuentes Rivera:<br/> **TB1:** <p>En esta entrega guié al equipo en la aplicación del proceso *Lean UX*, asegurando que todos los integrantes participaran activamente en la toma de decisiones conjuntas.</p><br/> **TP:** <p>Durante la fase final facilité la retroalimentación entre áreas de diseño y desarrollo, consolidando el liderazgo compartido para cumplir los objetivos globales del proyecto.</p><p>**TB2:** Durante esta etapa promoví el liderazgo conjunto al dirigir sesiones de análisis de retroalimentación de usuarios, facilitando que el equipo tomara decisiones informadas y equitativas respecto a mejoras de diseño.</p> <br/><br/> Carlos Zósimo Sánchez Montero:<br/> **TB1:** <p>En esta entrega lideré el análisis de competidores y la definición de estrategias y tácticas, orientando al equipo hacia la construcción de una visión compartida del mercado.</p><br/> **TP:** <p>En la fase final dirigí la integración de resultados de validación del mercado y métricas, aportando al liderazgo colectivo en la toma de decisiones estratégicas.</p> <p>**TB2:** En TB2 asumí liderazgo grupal en el análisis de resultados de validación del mercado, discutiendo con el equipo las implicancias estratégicas y orientando decisiones compartidas para mejorar el producto.</p> <br/><br/> Gustavo Poma Espinosa:<br/> **TB1:** <p>En esta entrega apoyé el liderazgo del equipo en la documentación de requerimientos y validación de hipótesis, colaborando en la organización de las tareas del grupo.</p><br/> **TP:** <p>Durante el trabajo final asumí un rol activo en la coordinación de tareas de desarrollo, contribuyendo al liderazgo conjunto para garantizar la finalización del sistema.</p><p>**TB2:** En esta fase apoyé el liderazgo conjunto al coordinar con el equipo la solución de incidencias técnicas y organizar tareas de refinamiento, asegurando que cada integrante aportara de manera equilibrada en la toma de decisiones.</p>                              | **Conclusión TB1:** <p>El equipo demostró liderazgo compartido en distintas áreas del proyecto, logrando coordinar esfuerzos y orientar las decisiones de forma conjunta para cumplir los objetivos trazados.</p><br/> **Conclusión TP:** <p>En el trabajo final el equipo consolidó su liderazgo colaborativo, integrando los aportes de cada integrante y garantizando la coherencia técnica, funcional y estratégica del proyecto.<p> **Conclusión TB2:** <p>Durante TB2 el equipo fortaleció su liderazgo conjunto mediante la integración de resultados de validación y la coordinación de mejoras iterativas. La participación activa de todos los integrantes permitió mantener decisiones coherentes y un liderazgo distribuido en cada etapa del proceso.</p><br/>                                     |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Leonardo Jose Solis Solis:<br/> **TB1:** <p>En esta entrega fomenté un entorno colaborativo e inclusivo al organizar las metas relacionadas con el mapeo de experiencias de usuario, facilitando la planificación de tareas y el cumplimiento de los objetivos establecidos.</p><br/> **TP:** <p>En el trabajo final promoví un ambiente inclusivo al coordinar las tareas de cierre y la organización de resultados, asegurando la participación activa de todos los integrantes.</p><p>**TB2:**En esta fase reforcé el liderazgo conjunto coordinando la validación de los flujos principales del sistema y facilitando discusiones para integrar mejoras propuestas por cada integrante. Contribuí a mantener la alineación del equipo en las decisiones estratégicas bajo un liderazgo compartido. </p> <br/><br/> Daniel Mateo del Castillo Bueno:<br/> **TB1:** <p>En esta entrega creé un entorno colaborativo e inclusivo al coordinar entrevistas a usuarios y la arquitectura de software, estableciendo metas claras, planificando tareas y alcanzando los objetivos propuestos.</p><br/> **TP:** <p>Durante el trabajo final organicé la integración de entregables y validé que las metas propuestas se cumplieran mediante la coordinación con todas las áreas del equipo.</p> <p>**TB2:** En TB2 lideré junto al equipo la integración técnica entre módulos, gestionando problemas encontrados durante pruebas y facilitando reuniones para alinear decisiones técnicas. Mi rol se centró en asegurar cohesión y liderazgo distribuido.</p> <br/><br/> Alvaro Pinto Fuentes Rivera:<br/> **TB1:** <p>En esta entrega promoví un entorno inclusivo durante las entrevistas a usuarios, facilitando la colaboración entre el equipo, la definición de metas y el cumplimiento de los objetivos.</p><br/> **TP:** <p>En la fase final consolidé la planificación del flujo de trabajo conjunto, asegurando que las metas fueran cumplidas con participación equitativa del grupo.</p> <p>**TB2:**Durante esta etapa promoví el liderazgo conjunto al dirigir sesiones de análisis de retroalimentación de usuarios, facilitando que el equipo tomara decisiones informadas y equitativas respecto a mejoras de diseño. </p> <br/><br/> Carlos Zósimo Sánchez Montero:<br/> **TB1:** <p>En esta entrega establecí un entorno colaborativo e inclusivo al organizar las metas vinculadas al análisis competitivo, planificando tareas con el equipo y asegurando el logro de los objetivos.</p><br/> **TP:** <p>Durante el trabajo final mantuve la coordinación en la planificación de tareas analíticas y la validación de resultados, reforzando la cooperación entre los integrantes.</p><p>**TB2:** En TB2 asumí liderazgo grupal en el análisis de resultados de validación del mercado, discutiendo con el equipo las implicancias estratégicas y orientando decisiones compartidas para mejorar el producto.</p> <br/><br/> Gustavo Poma Espinosa:<br/> **TB1:** <p>En esta entrega fomenté la colaboración en la definición de objetivos técnicos y la planificación de desarrollo, contribuyendo a un entorno de trabajo inclusivo.</p><br/> **TP:** <p>En el trabajo final participé activamente en la organización del cronograma de pruebas y validación, apoyando la planificación colectiva para cumplir los objetivos generales.</p><p>**TB2:** En esta fase apoyé el liderazgo conjunto al coordinar con el equipo la solución de incidencias técnicas y organizar tareas de refinamiento, asegurando que cada integrante aportara de manera equilibrada en la toma de decisiones.</p>  | **Conclusión TB1:** <p>El equipo generó un entorno inclusivo y organizado, donde se establecieron metas claras, se planificaron tareas de forma conjunta y se lograron los objetivos propuestos en colaboración.</p><br/> **Conclusión TP:** <p>Durante el trabajo final, el equipo fortaleció su capacidad de planificación conjunta y trabajo colaborativo, garantizando la participación activa de todos los integrantes y el cumplimiento de los objetivos planteados.</p>**Conclusión TB2:** <p>Durante TB2 el equipo fortaleció el entorno colaborativo e inclusivo mediante la planificación de iteraciones y la integración de la retroalimentación obtenida en pruebas. La participación equitativa de todos los integrantes permitió ajustar metas y avanzar de manera coordinada hacia los objetivos establecidos.</p><br/> |
 
 
 # Capítulo I: Introducción
@@ -528,7 +528,7 @@ También apunta a usuarios fitness que desean controlar su progreso y acceder f�
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
-Segmento 1: Propietarios y administradores de gimnasios independientes
+<h3>Segmento 1: Propietarios y administradores de gimnasios independientes</h3>
 
 1. Datos personales y contexto
 
@@ -634,7 +634,9 @@ Ocupación: Analista de Marketing Digital
 <img src="./assets/capitulo-2/entrevistas/entrevista-katherine.png">  
 
 **Enlace a la entrevista:**  
-[Ver entrevista completa]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/ETxU1L3TVeBLs5cHibYyz0ABomyxa4EorpyXIOu2karU6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NMQNqF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g163_upc_edu_pe/EfrBMtKPmuBOqpdeXgjvle0BUpDIbRT9iCfp-momPh44Cw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e1gUFN))
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/ETxU1L3TVeBLs5cHibYyz0ABomyxa4EorpyXIOu2karU6w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NMQNqF
+
+(https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g163_upc_edu_pe/EfrBMtKPmuBOqpdeXgjvle0BUpDIbRT9iCfp-momPh44Cw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=e1gUFN))
 
 **Resumen:**
 Katherine Mejía, de 28 años, es analista de marketing digital y entrena entre 3 y 4 veces por semana en un gimnasio cercano, utilizando principalmente su celular como herramienta diaria. Prefiere entrenar sola, aunque ocasionalmente asiste a clases grupales, y se informa sobre gimnasios a través de Instagram o recomendaciones de amigos. Además, utiliza aplicaciones como Strava y MyFitnessPal para registrar su progreso.
@@ -1729,110 +1731,167 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 </table>
 
 #### 6.2.1.3. Sprint Backlog 1.
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #1</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Task Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status</th> </tr> </thead> <tbody>
+<!-- US30 -->
+<tr>
+  <td rowspan="2">US30</td>
+  <td rowspan="2">Visualización de información en landing</td>
+  <td>T30-1</td>
+  <td>Diseñar sección de propuesta de valor</td>
+  <td>Diseñar y maquetar la sección principal con la propuesta de valor destacada.</td>
+  <td>8</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T30-2</td>
+  <td>Diseñar sección secundaria informativa</td>
+  <td>Crear la sección adicional de servicios, beneficios o características relevantes.</td>
+  <td>6</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>To-do</td>
+</tr>
 
-<table cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th colspan="8">Sprint #1</th>
-    </tr>
-    <tr>
-      <th colspan="2">User Story</th>
-      <th colspan="6">Work-Item / Task</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Estimation (Hours)</th>
-      <th>Assigned To</th>
-      <th>Status (To-do / In-Process / To-Review / Done)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US30</td>
-      <td>Visualización de información en landing</td>
-      <td>TASK1</td>
-      <td>Diseñar sección de propuesta de valor</td>
-      <td>Diseñar y maquetar la sección principal de la landing con la propuesta de valor clara y atractiva.</td>
-      <td>8</td>
-      <td>Poma Espinoza Gustavo Arturo</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>US31</td>
-      <td>Formulario de contacto</td>
-      <td>TASK2</td>
-      <td>Implementar formulario y validaciones</td>
-      <td>Desarrollar formulario de contacto con campos de nombre, correo, mensaje y validaciones de entrada.</td>
-      <td>10</td>
-      <td>Del Castillo Bueno Daniel Mateo</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>US32</td>
-      <td>Registro inicial desde la landing</td>
-      <td>TASK3</td>
-      <td>Desarrollar flujo de registro</td>
-      <td>Implementar el formulario de registro con conexión al backend y manejo de errores.</td>
-      <td>12</td>
-      <td>Solis Solis Leonardo José</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Consulta de estado del plan</td>
-      <td>TASK4</td>
-      <td>Crear módulo de consulta de membresía</td>
-      <td>Construir interfaz que muestre estado actual del plan (vigente, próximo a vencer o vencido).</td>
-      <td>9</td>
-      <td>Sanchez Montero Carlos</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Monitoreo de aforo por sede</td>
-      <td>TASK5</td>
-      <td>Implementar dashboard de aforo</td>
-      <td>Crear un panel que visualice en tiempo real el aforo actual de cada sede.</td>
-      <td>11</td>
-      <td>Pinto Fuentes Rivera Alvaro Felipe</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Alertas de sobreocupación</td>
-      <td>TASK6</td>
-      <td>Configurar sistema de notificaciones</td>
-      <td>Desarrollar lógica para enviar alertas automáticas cuando el aforo supere el límite permitido.</td>
-      <td>10</td>
-      <td>Poma Espinoza Gustavo Arturo</td>
-      <td>To-Review</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Historial de visitas</td>
-      <td>TASK7</td>
-      <td>Construir módulo de historial</td>
-      <td>Permitir al usuario visualizar su historial de visitas y asistencia de manera cronológica.</td>
-      <td>9</td>
-      <td>Del Castillo Bueno Daniel Mateo</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>US20</td>
-      <td>Generar reporte de ocupación por periodo</td>
-      <td>TASK8</td>
-      <td>Desarrollar generación de reportes</td>
-      <td>Implementar generación de reportes con total de visitas, ocupación máxima y promedio por rango de fechas.</td>
-      <td>14</td>
-      <td>Sanchez Montero Carlos</td>
-      <td>In-Process</td>
-    </tr>
-  </tbody>
-</table>
+<!-- US31 -->
+<tr>
+  <td rowspan="2">US31</td>
+  <td rowspan="2">Formulario de contacto</td>
+  <td>T31-1</td>
+  <td>Implementar formulario y validaciones</td>
+  <td>Crear campos de nombre, correo y mensaje con validaciones.</td>
+  <td>10</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>T31-2</td>
+  <td>Integrar envío al backend</td>
+  <td>Configurar endpoint, manejo de errores y confirmación de envío.</td>
+  <td>5</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US32 -->
+<tr>
+  <td rowspan="2">US32</td>
+  <td rowspan="2">Registro inicial desde la landing</td>
+  <td>T32-1</td>
+  <td>Desarrollar flujo de registro</td>
+  <td>Crear formulario y conectar al backend.</td>
+  <td>12</td>
+  <td>Solis Solis Leonardo José</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T32-2</td>
+  <td>Manejar validaciones y errores</td>
+  <td>Implementar validación de credenciales, duplicados y manejo de rechazos.</td>
+  <td>6</td>
+  <td>Solis Solis Leonardo José</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US05 -->
+<tr>
+  <td rowspan="2">US05</td>
+  <td rowspan="2">Consulta de estado del plan</td>
+  <td>T05-1</td>
+  <td>Crear interfaz de estado de membresía</td>
+  <td>Mostrar plan vigente, fecha de expiración y avisos.</td>
+  <td>9</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T05-2</td>
+  <td>Integración con backend</td>
+  <td>Consumir endpoint para traer estado real del plan.</td>
+  <td>5</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>Done</td>
+</tr>
+
+<!-- US10 -->
+<tr>
+  <td rowspan="2">US10</td>
+  <td rowspan="2">Monitoreo de aforo por sede</td>
+  <td>T10-1</td>
+  <td>Implementar dashboard de aforo</td>
+  <td>Crear panel visual con gráficos del aforo en tiempo real.</td>
+  <td>11</td>
+  <td>Pinto Fuentes Rivera Alvaro Felipe</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T10-2</td>
+  <td>Conectar datos en tiempo real</td>
+  <td>Integrar sockets o polling para actualizar el aforo.</td>
+  <td>7</td>
+  <td>Pinto Fuentes Rivera Alvaro Felipe</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US11 -->
+<tr>
+  <td rowspan="2">US11</td>
+  <td rowspan="2">Alertas de sobreocupación</td>
+  <td>T11-1</td>
+  <td>Configurar sistema de notificaciones</td>
+  <td>Crear lógica para enviar alertas cuando el límite sea superado.</td>
+  <td>10</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>To-Review</td>
+</tr>
+<tr>
+  <td>T11-2</td>
+  <td>Configurar reglas y umbrales</td>
+  <td>Definir niveles de alerta, límites y parámetros configurables.</td>
+  <td>5</td>
+  <td>Poma Espinoza Gustavo Arturo</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US12 -->
+<tr>
+  <td rowspan="2">US12</td>
+  <td rowspan="2">Historial de visitas</td>
+  <td>T12-1</td>
+  <td>Construir módulo de historial</td>
+  <td>Mostrar visitas ordenadas cronológicamente.</td>
+  <td>9</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T12-2</td>
+  <td>Integrar filtros</td>
+  <td>Agregar filtros por rango de fechas y tipo de actividad.</td>
+  <td>6</td>
+  <td>Del Castillo Bueno Daniel Mateo</td>
+  <td>Done</td>
+</tr>
+
+<!-- US20 -->
+<tr>
+  <td rowspan="2">US20</td>
+  <td rowspan="2">Reporte de ocupación por periodo</td>
+  <td>T20-1</td>
+  <td>Desarrollar generación de reportes</td>
+  <td>Generar datos de visitas, máximos y promedios.</td>
+  <td>14</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>In-Process</td>
+</tr>
+<tr>
+  <td>T20-2</td>
+  <td>Exportar reporte</td>
+  <td>Permitir exportar en PDF o Excel.</td>
+  <td>8</td>
+  <td>Sanchez Montero Carlos</td>
+  <td>To-do</td>
+</tr>
+</tbody> </table>
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
@@ -2147,12 +2206,12 @@ Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 La landing page desplegada se encuentra en el siguiente enlace:
-[LANDING PAGE](https://momentum-iot.github.io/PumpUp_Landing_Page/)
+https://momentum-iot.github.io/PumpUp_Landing_Page/
 
 ![alt text](assets/image-2.png)
 
 La aplicacion web se encuentra desplegada en el siguiente enlace:
-[WEB APP](https://pumpup.netlify.app/)
+(https://pumpup.netlify.app/)
 
 ![alt text](assets/image-1.png)
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
@@ -2165,56 +2224,881 @@ La aplicacion web se encuentra desplegada en el siguiente enlace:
 * **Project Report:**
 <img src="./assets/capitulo-6/contributors-report.png">
 
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators.
+
+Los aspectos principales que se tomaron en cuenta fueron la creacion de la version funcional del aplicativo móvil, aplicación web y backend
+
+<table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 2</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-14</td> </tr> <tr> <th>Time</th> <td>12:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 2 Review Summary</th> <td>Se realizo el desarrollo de la aplicación móvil de Pump Up. Además se hizo un rediseño del frontend del mismo</td> </tr> <tr> <th>Sprint n – 2 Retrospective Summary</th> <td>El equipo trabajó de manera proactiva en todas las reuniones y tareas asignadas, contribuyendo a trabajar en un menor tiempo.</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 2 Goal</th> <td> <b>Nuestro enfoque</b> está en entregar la primera versión estable del sistema de accesos, ocupación y membresías sin componentes IoT. <b>Creemos que</b> este avance permitirá validar flujos críticos del negocio. <b>Esto será confirmado cuando</b> los usuarios puedan consultar su plan, ingresar correctamente, ver su aforo, historial y generar sus reportes iniciales. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>40</td> </tr> <tr> <th>Sum of Story Points</th> <td>40</td> </tr> </table>
+
+#### 6.2.2.3. Sprint Backlog 2.
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #1</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody>
+<!-- US01 -->
+<tr>
+  <td>US01</td>
+  <td>Acceso con huella biométrica</td>
+  <td>TASK01</td>
+  <td>Implementar validación de huella</td>
+  <td>Crear módulo que valide la huella enrolada del usuario al ingresar.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US01</td>
+  <td>Acceso con huella biométrica</td>
+  <td>TASK02</td>
+  <td>Registrar intentos fallidos</td>
+  <td>Guardar en bitácora cada intento fallido de acceso por huella.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US02 -->
+<tr>
+  <td>US02</td>
+  <td>Registro de entrada y salida</td>
+  <td>TASK03</td>
+  <td>Registrar ingreso</td>
+  <td>Implementar registro de hora de entrada del usuario.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US02</td>
+  <td>Registro de entrada y salida</td>
+  <td>TASK04</td>
+  <td>Registrar salida</td>
+  <td>Guardar hora de salida y actualizar el historial del usuario.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US03 -->
+<tr>
+  <td>US03</td>
+  <td>Bloqueo de acceso</td>
+  <td>TASK05</td>
+  <td>Verificación de estado del plan</td>
+  <td>Validar si el plan está vencido antes de permitir ingreso.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US03</td>
+  <td>Bloqueo de acceso</td>
+  <td>TASK06</td>
+  <td>Registro de bloqueos</td>
+  <td>Registrar intentos de acceso cuando el plan está vencido.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US04 -->
+<tr>
+  <td>US04</td>
+  <td>Acceso con tarjeta NFC</td>
+  <td>TASK07</td>
+  <td>Validación de tarjeta</td>
+  <td>Verificar si la tarjeta NFC está asociada a un usuario activo.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US04</td>
+  <td>Acceso con tarjeta NFC</td>
+  <td>TASK08</td>
+  <td>Registro de intentos fallidos</td>
+  <td>Almacenar intentos de acceso con tarjetas no registradas.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US05 -->
+<tr>
+  <td>US05</td>
+  <td>Consulta de estado del plan</td>
+  <td>TASK09</td>
+  <td>Implementar consulta de membresía</td>
+  <td>Mostrar estado vigente, vencido o próximo a vencer.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US05</td>
+  <td>Consulta de estado del plan</td>
+  <td>TASK10</td>
+  <td>Cálculo de vigencia</td>
+  <td>Implementar lógica de fechas para determinar vigencia actual.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US06 -->
+<tr>
+  <td>US06</td>
+  <td>Renovación de membresía</td>
+  <td>TASK11</td>
+  <td>Registrar renovación</td>
+  <td>Guardar nueva vigencia al renovar el plan.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US06</td>
+  <td>Renovación de membresía</td>
+  <td>TASK12</td>
+  <td>Actualizar fechas</td>
+  <td>Actualizar fechas y estado del miembro tras la renovación.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US07 -->
+<tr>
+  <td>US07</td>
+  <td>Suspensión de membresía</td>
+  <td>TASK13</td>
+  <td>Implementar suspensión</td>
+  <td>Cambiar estado del miembro a suspendido temporalmente.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US07</td>
+  <td>Suspensión de membresía</td>
+  <td>TASK14</td>
+  <td>Registrar evento de suspensión</td>
+  <td>Guardar bitácora con la razón y fechas de suspensión.</td>
+  <td>4</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US08 -->
+<tr>
+  <td>US08</td>
+  <td>Validación de acceso por plan</td>
+  <td>TASK15</td>
+  <td>Implementar validación</td>
+  <td>Verificar si el plan está vigente al intentar ingresar.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US08</td>
+  <td>Validación de acceso por plan</td>
+  <td>TASK16</td>
+  <td>Manejo de rechazo</td>
+  <td>Enviar respuesta indicando motivo del rechazo.</td>
+  <td>4</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US09 -->
+<tr>
+  <td>US09</td>
+  <td>Consulta de aforo actual</td>
+  <td>TASK17</td>
+  <td>Obtener aforo actual</td>
+  <td>Consultar número de usuarios dentro de la sede.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US09</td>
+  <td>Consulta de aforo actual</td>
+  <td>TASK18</td>
+  <td>Mostrar porcentaje de ocupación</td>
+  <td>Calcular y presentar porcentaje total de aforo usado.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US10 -->
+<tr>
+  <td>US10</td>
+  <td>Monitoreo de aforo por sede</td>
+  <td>TASK19</td>
+  <td>Implementar dashboard por sede</td>
+  <td>Crear panel de visualización del aforo agrupado por sede.</td>
+  <td>9</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US10</td>
+  <td>Monitoreo de aforo por sede</td>
+  <td>TASK20</td>
+  <td>Mostrar usuarios activos</td>
+  <td>Mostrar número exacto de usuarios presentes.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US11 -->
+<tr>
+  <td>US11</td>
+  <td>Alertas de sobreocupación</td>
+  <td>TASK21</td>
+  <td>Configurar umbrales</td>
+  <td>Crear lógica que detecte si el aforo supera el límite.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US11</td>
+  <td>Alertas de sobreocupación</td>
+  <td>TASK22</td>
+  <td>Enviar notificaciones</td>
+  <td>Notificar a administradores cuando se supere el aforo máximo.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US12 -->
+<tr>
+  <td>US12</td>
+  <td>Historial de visitas</td>
+  <td>TASK23</td>
+  <td>Construir módulo de historial</td>
+  <td>Implementar lista cronológica de entradas y salidas.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US12</td>
+  <td>Historial de visitas</td>
+  <td>TASK24</td>
+  <td>Ordenar registros</td>
+  <td>Ordenar los datos según timestamp más reciente.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+
+<!-- US20 -->
+<tr>
+  <td>US20</td>
+  <td>Generar reporte de ocupación por periodo</td>
+  <td>TASK25</td>
+  <td>Crear generador de reportes</td>
+  <td>Generar datos de ocupación por fecha y sede.</td>
+  <td>9</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+<tr>
+  <td>US20</td>
+  <td>Generar reporte de ocupación por periodo</td>
+  <td>TASK26</td>
+  <td>Formatear reporte final</td>
+  <td>Calcular total, máximo y promedio del periodo.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>To-do</td>
+</tr>
+</tbody> </table>
+
+#### 6.2.2.4. Development Evidence for Sprint Review.
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited on (Date)</th> </tr> </thead> <tbody> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>ff75611</td> <td>feat(check): add check use cases</td> <td>Se añadieron los casos de uso para el módulo de checks.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>bfcf8c8</td> <td>feat(auth): add auth use cases</td> <td>Se agregaron los casos de uso relacionados a autenticación.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>28b5a39</td> <td>fix: change type of time</td> <td>Ajuste en el tipo de dato utilizado para valores de tiempo.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>12aecf3</td> <td>feat(check): create check repository and implementation</td> <td>Creación del repositorio e implementación para el módulo de checks.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>fe29407</td> <td>feat(auth): create auth repository and implementation</td> <td>Implementación del repositorio de autenticación y su lógica.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>b20a725</td> <td>feat: create api configuration</td> <td>Se configuró la base de la comunicación con la API.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>8751eeb</td> <td>feat: add http client</td> <td>Se agregó el cliente HTTP para manejar solicitudes externas.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>cf9fc64</td> <td>feat(auth): create token storage</td> <td>Creación del almacenamiento seguro para tokens de autenticación.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>35263e5</td> <td>fix: user and check entities imports</td> <td>Corrección de importaciones en las entidades user y check.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>bf13ec3</td> <td>feat: add login form validation</td> <td>Se añadió validación al formulario de inicio de sesión.</td> <td>Nov 14, 2025</td> </tr> <tr> <td>momentum-iot/frontEnd</td> <td>main</td> <td>0d2632e</td> <td>feat: add axios dependency</td> <td>Se incorporó Axios como dependencia para el manejo de solicitudes.</td> <td>Nov 14, 2025</td> </tr> </tbody> </table>
+
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited on (Date)</th> </tr> </thead> <tbody>
+<!-- Commits from 3 days ago -->
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>da3542</td>
+  <td>feat(iam): added refresh token</td>
+  <td>Se añadió soporte para refresh token en el módulo IAM.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>fc3243</td>
+  <td>feat: update data loader</td>
+  <td>Actualización del cargador de datos.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>b57a56</td>
+  <td>feat: update user repo and service</td>
+  <td>Se actualizaron el repositorio y el servicio de usuario.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>b75a56</td>
+  <td>feat: payment and checkin repo changed</td>
+  <td>Se modificaron los repositorios de pagos y check-in.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>345ba56</td>
+  <td>feat: update class checkin and payments</td>
+  <td>Actualización de las clases de check-in y pagos.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>45ba256</td>
+  <td>feat: update class user</td>
+  <td>Actualización de la clase User.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>bca356</td>
+  <td>feat: added value objects for user</td>
+  <td>Se añadieron value objects para la entidad Usuario.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>b54a56</td>
+  <td>feat: class member deleted</td>
+  <td>Se eliminó un miembro de clase no utilizado.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>ba52366</td>
+  <td>fix: allowed access to login and register endpoints</td>
+  <td>Corrección para permitir acceso a los endpoints de login y register.</td>
+  <td>Nov 11, 2025</td>
+</tr>
+
+<!-- Commits from Nov 10 -->
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>b35a56</td>
+  <td>feat(iam): rename UserController to AuthController and update service references</td>
+  <td>Reemplazo de UserController por AuthController y ajuste de referencias del servicio.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>ba5634</td>
+  <td>feat(iam): implement JWT authentication and role-based access control</td>
+  <td>Implementación de autenticación JWT y control de acceso basado en roles.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>ba5667</td>
+  <td>feat(iam): add user role management and JWT authentication</td>
+  <td>Se agregó gestión de roles de usuario junto con autenticación JWT.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/backEnd</td>
+  <td>main</td>
+  <td>b734391</td>
+  <td>chore: added user role</td>
+  <td>Se añadió la definición de rol de usuario.</td>
+  <td>Nov 10, 2025</td>
+</tr>
+
+</tbody> </table>
+
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited on (Date)</th> </tr> </thead> <tbody>
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>c739391</td>
+  <td>feat: delete progress screen</td>
+  <td>Se eliminó la pantalla de progreso del proyecto.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>3f51912</td>
+  <td>design: change icons color</td>
+  <td>Se modificaron los colores de los íconos para mejorar la interfaz.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>041bf10</td>
+  <td>feat(heart-rate): add heart rate routes</td>
+  <td>Se añadieron las rutas necesarias para el módulo de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>b81b02b</td>
+  <td>feat(heart-rate): add heart rate screen</td>
+  <td>Se creó la pantalla de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>e0e8ae2</td>
+  <td>feat(heart-rate): add heart rate context</td>
+  <td>Se añadió el contexto para manejar el flujo del ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>ccc6409</td>
+  <td>feat(heart-rate): add heart rate use cases</td>
+  <td>Se agregaron los casos de uso del módulo de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>9d6c444</td>
+  <td>feat(heart-rate): add heart rate repository</td>
+  <td>Se implementó el repositorio del módulo de ritmo cardíaco.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+<tr>
+  <td>momentum-iot/mobileApp</td>
+  <td>main</td>
+  <td>079cccd</td>
+  <td>feat(heart-rate): add heart rateresponse entity</td>
+  <td>Se añadió la entidad HeartRateResponse.</td>
+  <td>Nov 14, 2025</td>
+</tr>
+
+</tbody> </table>
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+Backend
+```java
+
+public class AuthControllerTest {
+
+    private final AuthService authService = Mockito.mock(AuthService.class);
+
+    private final MockMvc mockMvc = MockMvcBuilders
+            .standaloneSetup(new AuthController(authService))
+            .build();
+
+    @Test
+    void shouldGenerateJwtTokenWhenLoginIsValid() throws Exception {
+
+        Mockito.when(authService.login("user@email.com", "123456"))
+                .thenReturn("fake.jwt.token");
+
+        LoginRequest request = new LoginRequest("user@email.com", "123456");
+
+        mockMvc.perform(
+                post("/api/auth/login")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(new ObjectMapper().writeValueAsString(request))
+        )
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$.token").value("fake.jwt.token"));
+    }
+}
+```
+Web Application
+```javascript
+jest.mock("axios");
+
+describe("HeartRateRepository", () => {
+  test("should fetch heart rate data from API", async () => {
+    const mockData = { bpm: 78, timestamp: "2025-11-14T12:00:00Z" };
+
+    axios.get.mockResolvedValue({ data: mockData });
+
+    const repo = new HeartRateRepository();
+    const result = await repo.getHeartRate();
+
+    expect(result).toEqual(mockData);
+    expect(axios.get).toHaveBeenCalledWith("/heart-rate");
+  });
+});
+
+```
+Mobile
+```typescript 
+import React from "react";
+import { render, waitFor } from "@testing-library/react-native";
+import HeartRateScreen from "../src/screens/HeartRateScreen";
+import * as useCases from "../src/modules/heart-rate/application/getHeartRateUseCase";
+
+jest.spyOn(useCases, "getHeartRateUseCase")
+    .mockResolvedValue({ bpm: 85 });
+
+describe("HeartRateScreen", () => {
+  test("should display BPM after use case loads the data", async () => {
+    const screen = render(<HeartRateScreen />);
+
+    await waitFor(() => {
+      expect(screen.getByText(/85 BPM/i)).toBeTruthy();
+    });
+  });
+});
+
+```
+
+#### 6.2.2.6. Execution Evidence for Sprint Review.
+* **Landing Page:**
+Video demostración Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/ERT6dAIFQIVDmbtbXNAKYIAB6XhpW1-fV0tRgiuG-aedfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qnzt0L
+<img src="./assets/capitulo-6/evidence-landing.png">
+
+* **Frontend Web Application:**
+Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EXf98cFeMeVDqmc87M_RT8MBeT10xY6wftWNMz9gfHKOBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QduhOb 
+<img src="./assets/capitulo-6/evidence-front.png">
+
+* **Frontend Web Service:**
+<img src="./assets/capitulo-6/Captura de pantalla 2025-11-15 193049.png">
+
+* **App movil** 
+![alt text](</assets/capitulo-6/sprint2/Imagen de WhatsApp 2025-11-15 a las 15.45.41_b4ca33a2.jpg>)
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+### Frontend
+#### Propósito y Alcance
+
+Este documento ofrece una introducción general a la aplicación frontend, incluyendo su propósito de negocio, el stack tecnológico, el enfoque arquitectónico y los conceptos centrales del dominio.
+Para información detallada sobre la implementación de clean architecture y la descripción capa por capa, consulta Architecture & Design.
+Para documentación específica sobre funcionalidades, revisa Core Features.
+
+#### Propósito del Sistema
+
+Esta aplicación es un sistema de gestión de gimnasios y centros deportivos diseñado para el mercado peruano.
+Permite que los miembros del gimnasio realicen check-in y check-out al ingresar o salir del local, revisen su historial de visitas y administren sus perfiles.
+Al mismo tiempo, brinda a los administradores herramientas para monitorear la concurrencia en tiempo real y gestionar a los miembros.
+
+![alt text](assets/capitulo-6/sprint2/documentation/image-1.png)
+
+### Backend
+#### Overview
+
+Este documento presenta una introducción general al sistema **gym-admin-backend**, una API REST desarrollada con Spring Boot para la gestión de operaciones de un gimnasio.  
+Incluye el propósito del sistema, su arquitectura, el stack tecnológico y los subsistemas principales.
+
+Para información detallada sobre funcionalidades específicas, consulta:
+
+- Authentication – implementación de seguridad  
+- User Management – operaciones de usuario  
+- Domain Model – entidades del sistema  
+- API Reference – documentación de endpoints  
+
+#### Archivos fuente relevantes
+
+Los archivos principales relacionados con esta documentación incluyen los módulos de autenticación, controladores REST, servicios de dominio y configuraciones del proyecto.
+
+
+
+#### Propósito del Sistema
+
+**gym-admin-backend** es una aplicación RESTful que provee servicios backend para administrar un gimnasio.  
+El sistema cubre los siguientes procesos principales:
+
+- **Gestión de Miembros:** registro de usuarios, autenticación, manejo de perfiles y control de acceso basado en roles.  
+- **Operaciones Financieras:** seguimiento de pagos, control de fechas de vencimiento y facturación de membresías.  
+- **Acceso a la Instalación:** registro de check-in y check-out con monitoreo en tiempo real del aforo.  
+- **Gestión de Equipos:** inventario de máquinas y programación de mantenimiento.  
+- **Monitoreo de Salud:** recolección de datos biométricos como mediciones de ritmo cardíaco.  
+- **Planes de Membresía:** servicios organizados por niveles (BÁSICO, PREMIUM).
+
+### Mobile
+#### Propósito y Alcance
+
+Este documento ofrece una visión general de **PumpUp Mobile**, una aplicación móvil desarrollada en React Native para la gestión de gimnasios. Permite a los miembros realizar check-in y check-out, ver la ocupación del gimnasio en tiempo real y registrar mediciones de ritmo cardíaco.  
+Este resumen abarca el propósito del sistema, su tecnología y los principales flujos de usuario.
+
+#### Propósito de la Aplicación
+
+PumpUp Mobile es una app multiplataforma creada con React Native y Expo que funciona como herramienta complementaria para los miembros del gimnasio. Sus funciones principales son:
+
+- **Gestión de Check-In/Check-Out:** registrar entrada y salida del gimnasio.  
+- **Ocupación en Tiempo Real:** visualizar capacidad y porcentaje de aforo.  
+- **Ritmo Cardíaco:** registrar mediciones y ver historial.
+
+La app se comunica con una API REST para almacenar datos, manejar sesiones de usuario y sincronizar la ocupación del gimnasio.
+
+#### Stack Tecnológico
+
+| Categoría | Tecnología | Uso |
+|----------|------------|-----|
+| Framework | React Native 0.81.5 | Desarrollo móvil multiplataforma |
+| Routing | expo-router 6.0.14 | Navegación basada en archivos |
+| Runtime | Expo SDK ~54.0.22 | Construcción y despliegue |
+| HTTP Client | axios 1.13.2 | Comunicación con API |
+| Estado | React Context API | Estado global |
+| UI | react-native-paper 5.14.5 | Componentes Material Design |
+| Almacenamiento | async-storage 2.2.0 | Tokens y datos locales |
+| Gráficos | react-native-chart-kit 6.12.0 | Visualización de ritmo cardíaco |
+| Lenguaje | TypeScript 5.9.2 | Tipado estático |
+
+
+![alt text](assets/capitulo-6/sprint2/documentation/image-2.png)
+
+![alt text](assets/capitulo-6/sprint2/documentation/image.png)
+
+
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+La aplicacion web se encuentra desplegada en el siguiente enlace:
+https://pumpup.netlify.app/
+
+![alt text](assets/image-1.png)
+
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+#### Backend
+![alt text](assets/capitulo-6/sprint2/contributions/image.png)
+
+#### Mobile
+![alt text](assets/capitulo-6/sprint2/contributions/image-1.png)
+
+#### FrontEnd
+![alt text](assets/capitulo-6/sprint2/contributions/image-2.png)
+
+
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
-**Preguntas generales:**
+<h3>Preguntas generales (enfocadas en interfaz)</h3>
 
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
+1. ¿Te resultó fácil entender lo que muestra la pantalla al abrir la aplicación?  
+2. ¿Encontraste rápidamente las funciones principales (check-in, check-out, aforo, ritmo cardíaco)?  
+3. ¿Hubo algo en la interfaz que te generó confusión?  
+4. ¿Qué tan intuitiva te pareció la navegación entre pantallas?
 
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
+<h3>Segmento 1: Propietarios y administradores de gimnasios</h3>
+Evaluación de interfaz administrativa, paneles, aforo, flujo de check-in
+
+#### Visibilidad del estado del sistema
+1. ¿El sistema muestra claramente el estado del gimnasio (aforo, capacidad, usuarios dentro)?  
+2. ¿Puedes saber en qué parte de la app estás sin confundirte?  
+
+#### Coincidencia entre el sistema y el mundo real
+1. ¿Usa palabras o conceptos fáciles de entender según tu experiencia en gimnasios (check-in, membresía, aforo)?  
+2. ¿Los iconos y etiquetas representan bien las acciones que esperas?
+
+#### Control y libertad del usuario
+1. ¿Pudiste deshacer o corregir errores fácilmente (ejemplo: check-in mal realizado)?  
+2. ¿Te sientes en control al navegar entre pantallas sin perder el contexto?
+
+#### Consistencia y estándares
+1. ¿Los botones, colores y estructuras se sienten coherentes en toda la aplicación?  
+2. ¿Los textos siguen un formato claro y uniforme?
+
+#### Prevención de errores
+1. ¿La interfaz evita que realices acciones incorrectas (como registrar dos veces un check-in)?  
+2. ¿Se te advierte cuando estás a punto de realizar algo importante?
+
+#### Mostrar antes que recordar
+1. ¿La información clave aparece visible sin necesidad de memorizar dónde estaba?  
+2. ¿Las opciones más importantes están accesibles desde la pantalla principal?
+
+#### Flexibilidad y eficiencia de uso
+1. ¿Los accesos rápidos o botones principales te ayudan a trabajar más rápido?  
+2. ¿Encontraste alguna acción que sientes que debería ser más directa?
+
+#### Diseño estético y minimalista
+1. ¿La interfaz se ve limpia y sin elementos innecesarios?  
+2. ¿Los colores y tamaños ayudan a identificar lo importante?
+
+#### Comunicación de errores
+1. ¿Los mensajes de error son claros y te explican qué ocurrió?  
+2. ¿Entendiste cómo solucionar los errores cuando aparecieron?
+
+#### Ayuda y documentación
+1. ¿La app te da orientación o mensajes explicativos cuando no sabes qué hacer?  
+2. ¿Te gustaría ver tutoriales o texto adicional en alguna parte?
+
+<h3>Segmento 2: Clientes y usuarios del gimnasio</h3>
+Evaluación de usabilidad móvil: check-in, ocupación, ritmo cardíaco, navegación general
+
+#### Visibilidad del estado del sistema
+1. ¿La app te muestra claramente si estás en estado “Check-In” o “Check-Out”?  
+2. ¿Entendiste de inmediato el nivel de ocupación del gimnasio?
+
+#### Coincidencia entre el sistema y el mundo real
+1. ¿Los términos y botones coinciden con lo que esperas en un gimnasio?  
+2. ¿Los iconos son fáciles de interpretar sin explicación?
+
+#### Control y libertad del usuario
+1. ¿Pudiste volver atrás sin perder tu progreso o confundirte?  
+2. ¿Puedes cancelar acciones equivocadas fácilmente?
+
+#### Consistencia y estándares
+1. ¿Las pantallas siguen un estilo similar o sentiste cambios bruscos?  
+2. ¿Los botones funcionan igual en todas las secciones?
+
+#### Prevención de errores
+1. ¿La app evita que presiones opciones incorrectas?  
+2. ¿Te avisa antes de registrar acciones importantes?
+
+#### Mostrar antes que recordar
+1. ¿La información que necesitas aparece sin que tengas que recordar pasos previos?  
+2. ¿El historial de visitas y ritmo cardíaco es fácil de encontrar?
+
+#### Flexibilidad y eficiencia de uso
+1. ¿Te tomó pocos pasos realizar check-in o check-out?  
+2. ¿Hubo acciones que sentiste más lentas o complicadas?
+
+#### Diseño estético y minimalista
+1. ¿La interfaz se siente limpia y moderna?  
+2. ¿Hay partes que se ven demasiado cargadas o vacías?
+
+#### Comunicación de errores
+1. ¿Los mensajes de error fueron claros si ocurrió alguno?  
+2. ¿La interfaz te guía para corregir lo sucedido?
+
+#### Ayuda y documentación
+1. ¿Necesitaste instrucciones adicionales para usar la app?  
+2. ¿Qué tipo de ayuda te gustaría tener dentro de la interfaz?
+
+
 ### 6.3.2. Registro de Entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
 
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
+<h3>Segmento 1: Propietarios y administradores de gimnasios independientes</h3>
+
+**Entrevista 1**
+
+**Nombre:** Mateo Mateo Vílchez  
+**Edad:** 21 años  
+**Ocupación:** Estudiante Universitario Administrador de gimnasio (8 meses de experiencia)
+
+![alt text](/assets/capitulo-6/sprint2/images.png)
+
+
+Resumen: El entrevistado, Mateo Vílchez, tiene 21 años y cuenta con alrededor de 8 meses de experiencia administrando un gimnasio pequeño. Indicó que la gestión del negocio se realizaba completamente de manera manual, usando un cuaderno grande para registrar matriculados, pagos y asistencias. Los cobros se realizaban en efectivo o mediante Yape/Plin. Durante su experiencia contó con 3 a 4 colaboradores por turno, incluyendo recepcionistas y entrenadores.
+
+Mateo destacó que su principal meta como administrador era lograr un mayor control de matriculados, evitar que personas no registradas ingresen al gimnasio y mejorar la seguridad general del local, ya que anteriormente se presentaban casos de personas que ingresaban sin pagar o revisaban lockers sin autorización.
+
+Se le mostró el prototipo móvil de PumpUp, explicando el flujo de registro, visualización del aforo, membresías y funciones de salud como ritmo cardíaco. Consideró que ofrecer esta aplicación a sus clientes sería beneficioso, ya que permitiría un mayor control y orden dentro del gimnasio.
+
+Respecto a la visibilidad del estado del sistema, Mateo comentó que la información es clara y útil, especialmente la relacionada al aforo y membresías. Sobre consistencia y estándares, mencionó que la aplicación es sencilla, directa y coherente en sus elementos visuales. En cuanto al diseño estético, indicó que es entendible y minimalista, valorando especialmente su simplicidad.
+
+En general, calificó la aplicación como práctica, funcional y alineada con las necesidades de un gimnasio pequeño, mencionando que facilitaría la gestión, la seguridad y el control de pagos.
+
+**Entrevista 2**
+
+Nombre: Danae Pacheco
+
+Edad: 22 años 
+
+Ocupación: Psicología
+
+<img src="./assets/capitulo-6/entrevista-danae.png">
+
+Resumen: La entrevistada, Danae Pacheco, tiene 22 años, estudia psicología y planea abrir un gimnasio en una zona con alta demanda. Se le presentó PumpUp, un software para gestión de gimnasios con funciones de registro, control de aforo y check-in mediante NFC. También se mostró la futura integración de un sensor de ritmo cardíaco. Danae probó tanto el frontend administrativo como la app móvil para usuarios, destacando que la navegación es sencilla e intuitiva. Encontró fáciles de ubicar las funciones principales como check-in, aforo y ritmo cardíaco. Señaló que algunos usuarios podrían olvidar realizar el check-in/checkout. Comentó que la interfaz es clara, aunque visualmente algo opaca para su gusto. Consideró que los textos, iconos y estructura son coherentes. Finalmente, dijo que estaría dispuesta a pagar entre 700 y 850 USD por implementar este sistema en su futuro gimnasio.
+
+<h3>Segmento 2: Clientes y usuarios de servicios de entrenamiento</h3>
+
+**Entrevista 1**
+
+Nombre: Darling Fuentes
+
+Edad: 40 años
+
+Ocupación: Organizadora de eventos
+
+![Imagen de entrevista](assets/capitulo-6/entrevista-darling.png)
+
+Resumen: Darling Fuentes considera que la app es clara, intuitiva y consistente. Percibe fácilmente el estado de check-in/check-out y el nivel de ocupación del gimnasio, y afirma que los términos, botones e iconos son coherentes con lo que espera en un entorno real. Destaca que puede navegar sin perder progreso, cancelar acciones y que la interfaz mantiene un estilo uniforme en todas las pantallas. La app previene errores, muestra advertencias antes de acciones importantes y presenta la información sin obligar a recordar pasos. Los procesos de check-in/check-out son rápidos, y aunque algunas acciones podrían ser más directas, en general le resultan eficientes. Señala que el diseño es limpio y moderno, sin áreas sobrecargadas, y que los mensajes de error son claros y acompañados de instrucciones para corregirlos. No necesitó ayuda adicional para usarla, pero le gustaría contar con una sección de guía rápida opcional. En conjunto, la experiencia fue positiva y fluida.
+
+**Entrevista 2**
+
+Nombre: Santiago Román
+
+Edad: 22 años
+
+Ocupación: Analista de sistemas
+
+<img src="./assets/capitulo-6/Santiago_Entrevista.png">
+
+Resumen: Santiago Román, un joven de 22 años que trabaja como analista de sistemas y entrena 3–4 veces por semana, prefiere rutinas claras para entrenar solo y se informa sobre gimnasios mediante redes sociales y reseñas, aunque actualmente no usa aplicaciones fitness. Sus principales motivaciones son sentirse bien, manejar el estrés y ver progreso, pero se frustra con gimnasios saturados, máquinas averiadas y falta de orientación, así como con apps que ofrecen rutinas genéricas y poca claridad técnica. Al elegir un gimnasio prioriza la ubicación, el equipamiento, la limpieza, el precio y la cantidad de personas, y en una aplicación valora la personalización, el seguimiento del progreso, videos claros, integración con dispositivos y recordatorios. Recomendaría un gimnasio o app solo si le ofrece mejoras reales, facilidad de uso, buena atención y una experiencia ordenada y confiable, lo que representa para PumpUp una oportunidad de ofrecer una solución más personalizada, clara y orientada al progreso que lo motive a mantenerse constante.
+
+
+**Enlace a las entrevistas:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQDpi4vefjHzQ4LpGUB4ElDkAac0VC-v7cqXzVrDuff-G18?e=HnhWuC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+
+
 ### 6.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del usuario                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
+
+| HEURÍSTICA                                    | EVALUACIÓN                                                                                                                                                         | NOTA |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| Visibilidad del estado del sistema            | El sistema muestra estados como check-in, check-out, aforo actual, historial de BPM y autenticación. Falta mejorar el feedback cuando expira el token y mostrar más indicadores de carga. | 4/5  |
+| Coincidencia entre el sistema y el mundo real | Los conceptos del sistema reflejan fielmente los procesos reales de un gimnasio. Se puede mejorar la presentación de fechas y horas para hacerlas más claras.       | 4/5  |
+| Control y libertad del usuario                | El usuario puede navegar libremente y realizar check-in/check-out. Faltan más opciones para editar información personal y confirmaciones en acciones importantes.   | 3/5  |
+| Consistencia y estándares                     | Se mantiene un orden claro gracias a Clean Architecture y el uso de estándares REST. Falta uniformidad en iconos y nomenclatura de membresías.                     | 4/5  |
+| Prevención de errores                         | Existen validaciones básicas, pero aún se envían solicitudes sin validar datos previamente. Es necesario validar BPM, campos vacíos y entradas incorrectas.         | 3/5  |
+| Mostrar antes que recordar                    | La app presenta datos importantes sin exigir que el usuario los recuerde. Puede mejorarse mostrando vencimientos o recordatorios de pagos.                         | 4/5  |
+| Flexibilidad y eficiencia de uso              | El diseño favorece interacciones rápidas como el check-in. Se puede potenciar más con inicio de sesión persistente o accesos directos.                             | 4/5  |
+| Diseño estético y minimalista                 | El diseño es moderno y claro. Aún se puede mejorar la coherencia visual entre web y móvil y estandarizar componentes visuales.                                     | 4/5  |
+| Comunicar errores con facilidad               | Los errores se muestran, pero no siempre de forma clara. El frontend necesita mensajes más explicativos, sobre todo para la expiración del JWT.                    | 3/5  |
+| Ayuda y documentación                         | Existe Swagger y un backend organizado, pero falta documentación para onboarding y guías dentro de la app.                                                         | 3/5  |
+
+
 ## 6.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQCjrbRnPeH5QJ0-OizNRHcQAeCe7hivvnx0aEg08soc0-M?e=5LLgPd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+
 # Conclusiones
+
 <h2>TB1</h2>
 
 1. La arquitectura definida permitió organizar el sistema en dominios y módulos claros, favoreciendo la modularidad y la integración con servicios externos sin comprometer la coherencia del monolito planteado.
@@ -2230,8 +3114,22 @@ Ocupación: _____
 
 3. El proceso de diseño e implementación permitió validar la usabilidad de las interfaces con los usuarios finales, refinando interacciones clave y mejorando la experiencia de uso. Esto consolidó la base visual y técnica del producto, garantizando escalabilidad para futuras funcionalidades.
 
+<h2>TB2</h2>
+
+1. La implementación del backend mediante arquitectura por capas permitió estructurar el sistema de forma ordenada, clara y mantenible, asegurando una separación efectiva entre controladores, servicios y repositorios.
+Gracias a este enfoque se logró un flujo de datos consistente, una lógica de negocio desacoplada y una base sólida para futuras extensiones del sistema, además de facilitar la depuración y la escalabilidad a medida que aumenten las funcionalidades.
+
+2. El desarrollo del frontend en React, siguiendo los principios de Clean Architecture, fortaleció la modularidad y la reutilización de componentes, permitiendo un código más limpio, testeable y resistente a cambios futuros.
+Esta organización clara por capas de dominio, aplicación, infraestructura y presentación garantizó una integración eficiente con el backend, una navegación fluida y una experiencia visual coherente con la identidad del proyecto.
+
+3. La aplicación móvil construida con React Native y diseñada bajo el mismo enfoque de Clean Architecture consolidó la experiencia del sistema en entornos móviles, asegurando una interacción intuitiva y fluida para el usuario final.
+La separación explícita entre casos de uso, repositorios, servicios y vistas permitió desarrollar funcionalidades como el check-in, registro de métricas y gestión de perfil sin comprometer la mantenibilidad. Esto fortaleció la cohesión técnica y garantizó una base sólida para futuras actualizaciones o ampliaciones.
+
+
 # Video About-the-Team.
-[URL del video about the team](https://www.example.com)
+
+
+
 
 # Bibliografía
 
@@ -2249,5 +3147,5 @@ Rozanski, N., & Woods, E. (2012). Software Systems Architecture: Working with St
 Entevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EXvX6UhgOwRHu-TdxGSTKJgBtMWEiwYBFuJdf7YpkJPKMQ?e=Om1c40&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
-
+Entrevistas de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQDpi4vefjHzQ4LpGUB4ElDkAac0VC-v7cqXzVrDuff-G18?e=BZTjiD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
