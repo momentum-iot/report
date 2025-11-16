@@ -40,7 +40,7 @@
 | 0.1 | 10/09/2025 |Grupo 1 |Se termina el capitulo I |  
 | 0.2 | 15/09/2025 |Grupo 1 |Se termina el capitulo II Y III |  
 | 0.3 | 20/09/2025 |Grupo 1 |Se termina el capitulo IV |  
-
+| 0.4 | 10/11/2025 |  Grupo 1      |     Se termina el capitulo V Y VI  | 
 </center>
 
 # Project Report Collaboration Insights
@@ -50,6 +50,9 @@ TB1:
 <img src="/assets/contributions/image.png" alt="TB1" width="400" height="400"/>
 TP:
 <img src="/assets/contributions/image-1.png" alt="TB2" width="400" height="400"/>
+
+TB2:
+<img src="/assets/capitulo-6/sprint2/contributions/images.png" alt="TB2"  height="400"/>
 
 # Contenido
 
