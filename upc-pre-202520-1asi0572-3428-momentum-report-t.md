@@ -3003,28 +3003,26 @@ https://pumpup.netlify.app/
 1. ¿Necesitaste instrucciones adicionales para usar la app?  
 2. ¿Qué tipo de ayuda te gustaría tener dentro de la interfaz?
 
-# Tabla de evaluación por heurísticas
-
-| HEURÍSTICA                                 | EVALUACIÓN | NOTA |
-|---------------------------------------------|------------|------|
-| Visibilidad del estado del sistema          |            |      |
-| Coincidencia entre el sistema y el mundo real |          |      |
-| Control y libertad del usuario              |            |      |
-| Consistencia y estándares                   |            |      |
-| Prevención de errores                       |            |      |
-| Mostrar antes que recordar                  |            |      |
-| Flexibilidad y eficiencia de uso            |            |      |
-| Diseño estético y minimalista               |            |      |
-| Comunicación de errores                     |            |      |
-| Ayuda y documentación                       |            |      |
 
 ### 6.3.2. Registro de Entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
+
+**Nombre:** Mateo Mateo Vílchez  
+**Edad:** 21 años  
+**Ocupación:** Estudiante Universitario Administrador de gimnasio (8 meses de experiencia)
+
+![alt text](/assets/capitulo-6/sprint2/images.png)
+
+
+El entrevistado, Mateo Vílchez, tiene 21 años y cuenta con alrededor de 8 meses de experiencia administrando un gimnasio pequeño. Indicó que la gestión del negocio se realizaba completamente de manera manual, usando un cuaderno grande para registrar matriculados, pagos y asistencias. Los cobros se realizaban en efectivo o mediante Yape/Plin. Durante su experiencia contó con 3 a 4 colaboradores por turno, incluyendo recepcionistas y entrenadores.
+
+Mateo destacó que su principal meta como administrador era lograr un mayor control de matriculados, evitar que personas no registradas ingresen al gimnasio y mejorar la seguridad general del local, ya que anteriormente se presentaban casos de personas que ingresaban sin pagar o revisaban lockers sin autorización.
+
+Se le mostró el prototipo móvil de PumpUp, explicando el flujo de registro, visualización del aforo, membresías y funciones de salud como ritmo cardíaco. Consideró que ofrecer esta aplicación a sus clientes sería beneficioso, ya que permitiría un mayor control y orden dentro del gimnasio.
+
+Respecto a la visibilidad del estado del sistema, Mateo comentó que la información es clara y útil, especialmente la relacionada al aforo y membresías. Sobre consistencia y estándares, mencionó que la aplicación es sencilla, directa y coherente en sus elementos visuales. En cuanto al diseño estético, indicó que es entendible y minimalista, valorando especialmente su simplicidad.
+
+En general, calificó la aplicación como práctica, funcional y alineada con las necesidades de un gimnasio pequeño, mencionando que facilitaría la gestión, la seguridad y el control de pagos.
+
 
 **Segmento 2**  
 
@@ -3053,7 +3051,7 @@ Ocupación: Psicología
 La entrevistada, Danae Pacheco, tiene 22 años, estudia psicología y planea abrir un gimnasio en una zona con alta demanda. Se le presentó PumpUp, un software para gestión de gimnasios con funciones de registro, control de aforo y check-in mediante NFC. También se mostró la futura integración de un sensor de ritmo cardíaco. Danae probó tanto el frontend administrativo como la app móvil para usuarios, destacando que la navegación es sencilla e intuitiva. Encontró fáciles de ubicar las funciones principales como check-in, aforo y ritmo cardíaco. Señaló que algunos usuarios podrían olvidar realizar el check-in/checkout. Comentó que la interfaz es clara, aunque visualmente algo opaca para su gusto. Consideró que los textos, iconos y estructura son coherentes. Finalmente, dijo que estaría dispuesta a pagar entre 700 y 850 USD por implementar este sistema en su futuro gimnasio.
 
 ### 6.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN | NOTA      |
+| HEURÍSTICA                                    | EVALUACIÓN | NOTA      |
 | --------------------------------------------- | ---------- | --------- |
 | Visibilidad del estado del sistema            |            | {texto}   |
 | Coincidencia entre el sistema y el mundo real |            | {texto}   |
@@ -3085,6 +3083,8 @@ La entrevistada, Danae Pacheco, tiene 22 años, estudia psicología y planea abr
 3. El proceso de diseño e implementación permitió validar la usabilidad de las interfaces con los usuarios finales, refinando interacciones clave y mejorando la experiencia de uso. Esto consolidó la base visual y técnica del producto, garantizando escalabilidad para futuras funcionalidades.
 
 # Video About-the-Team.
+
+
 
 
 # Bibliografía
