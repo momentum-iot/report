@@ -3029,18 +3029,18 @@ Ocupación: _____
 **Segmento 2**  
 
 
-Nombre: Santiago Román
+Nombre: Darling Fuentes
 
-Edad: 22 años 
+Edad: 40 años
 
-Ocupación: Analista de sistemas 
+Ocupación: Organizadora de eventos
 
-![Imagen de entrevista](/assets/capitulo-6/Santiago_Entrevista.png)
+![Imagen de entrevista](assets/capitulo-6/entrevista-darling.png)
 
 Enlace a la entrevista:
-[Ver entrevista completa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQBu-U-TtvjaQZgWvWfpTbosAUqz02kFiImkmQUtECfULeE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pNc1ot)
+[Ver entrevista completa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQBk9QwdAQx2TLywVljTlg_9AeaRyEr6FkD__Fn8t28h6BM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=az27pa)
 
-Santiago Román, un joven de 22 años que trabaja como analista de sistemas y entrena 3–4 veces por semana, prefiere rutinas claras para entrenar solo y se informa sobre gimnasios mediante redes sociales y reseñas, aunque actualmente no usa aplicaciones fitness. Sus principales motivaciones son sentirse bien, manejar el estrés y ver progreso, pero se frustra con gimnasios saturados, máquinas averiadas y falta de orientación, así como con apps que ofrecen rutinas genéricas y poca claridad técnica. Al elegir un gimnasio prioriza la ubicación, el equipamiento, la limpieza, el precio y la cantidad de personas, y en una aplicación valora la personalización, el seguimiento del progreso, videos claros, integración con dispositivos y recordatorios. Recomendaría un gimnasio o app solo si le ofrece mejoras reales, facilidad de uso, buena atención y una experiencia ordenada y confiable, lo que representa para PumpUp una oportunidad de ofrecer una solución más personalizada, clara y orientada al progreso que lo motive a mantenerse constante.
+Darling Fuentes considera que la app es clara, intuitiva y consistente. Percibe fácilmente el estado de check-in/check-out y el nivel de ocupación del gimnasio, y afirma que los términos, botones e iconos son coherentes con lo que espera en un entorno real. Destaca que puede navegar sin perder progreso, cancelar acciones y que la interfaz mantiene un estilo uniforme en todas las pantallas. La app previene errores, muestra advertencias antes de acciones importantes y presenta la información sin obligar a recordar pasos. Los procesos de check-in/check-out son rápidos, y aunque algunas acciones podrían ser más directas, en general le resultan eficientes. Señala que el diseño es limpio y moderno, sin áreas sobrecargadas, y que los mensajes de error son claros y acompañados de instrucciones para corregirlos. No necesitó ayuda adicional para usarla, pero le gustaría contar con una sección de guía rápida opcional. En conjunto, la experiencia fue positiva y fluida.
 
 Nombre: Danae Pacheco
 
