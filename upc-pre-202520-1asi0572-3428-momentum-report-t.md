@@ -528,7 +528,7 @@ También apunta a usuarios fitness que desean controlar su progreso y acceder f�
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
-Segmento 1: Propietarios y administradores de gimnasios independientes
+<h3>Segmento 1: Propietarios y administradores de gimnasios independientes</h3>
 
 1. Datos personales y contexto
 
@@ -2801,7 +2801,7 @@ Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
-### Front
+### Frontend
 #### Propósito y Alcance
 
 Este documento ofrece una introducción general a la aplicación frontend, incluyendo su propósito de negocio, el stack tecnológico, el enfoque arquitectónico y los conceptos centrales del dominio.
@@ -2847,9 +2847,6 @@ El sistema cubre los siguientes procesos principales:
 - **Monitoreo de Salud:** recolección de datos biométricos como mediciones de ritmo cardíaco.  
 - **Planes de Membresía:** servicios organizados por niveles (BÁSICO, PREMIUM).
 
-
-
-![alt text](image.png)
 ### Mobile
 #### Propósito y Alcance
 
@@ -2894,8 +2891,6 @@ https://pumpup.netlify.app/
 ![alt text](assets/image-1.png)
 
 
-
-
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
 #### Backend
@@ -2910,101 +2905,105 @@ https://pumpup.netlify.app/
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
-# Preguntas generales (enfocadas en interfaz)
+<h3>Preguntas generales (enfocadas en interfaz)</h3>
 
 1. ¿Te resultó fácil entender lo que muestra la pantalla al abrir la aplicación?  
 2. ¿Encontraste rápidamente las funciones principales (check-in, check-out, aforo, ritmo cardíaco)?  
 3. ¿Hubo algo en la interfaz que te generó confusión?  
 4. ¿Qué tan intuitiva te pareció la navegación entre pantallas?
 
-# Entrevistas – Segmento 1: Propietarios y administradores de gimnasios
-*(Evaluación de interfaz administrativa, paneles, aforo, flujo de check-in)*
+<h3>Segmento 1: Propietarios y administradores de gimnasios</h3>
+Evaluación de interfaz administrativa, paneles, aforo, flujo de check-in
 
-## Visibilidad del estado del sistema
+#### Visibilidad del estado del sistema
 1. ¿El sistema muestra claramente el estado del gimnasio (aforo, capacidad, usuarios dentro)?  
 2. ¿Puedes saber en qué parte de la app estás sin confundirte?  
 
-## Coincidencia entre el sistema y el mundo real
+#### Coincidencia entre el sistema y el mundo real
 1. ¿Usa palabras o conceptos fáciles de entender según tu experiencia en gimnasios (check-in, membresía, aforo)?  
 2. ¿Los iconos y etiquetas representan bien las acciones que esperas?
 
-## Control y libertad del usuario
+#### Control y libertad del usuario
 1. ¿Pudiste deshacer o corregir errores fácilmente (ejemplo: check-in mal realizado)?  
 2. ¿Te sientes en control al navegar entre pantallas sin perder el contexto?
 
-## Consistencia y estándares
+#### Consistencia y estándares
 1. ¿Los botones, colores y estructuras se sienten coherentes en toda la aplicación?  
 2. ¿Los textos siguen un formato claro y uniforme?
 
-## Prevención de errores
+#### Prevención de errores
 1. ¿La interfaz evita que realices acciones incorrectas (como registrar dos veces un check-in)?  
 2. ¿Se te advierte cuando estás a punto de realizar algo importante?
 
-## Mostrar antes que recordar
+#### Mostrar antes que recordar
 1. ¿La información clave aparece visible sin necesidad de memorizar dónde estaba?  
 2. ¿Las opciones más importantes están accesibles desde la pantalla principal?
 
-## Flexibilidad y eficiencia de uso
+#### Flexibilidad y eficiencia de uso
 1. ¿Los accesos rápidos o botones principales te ayudan a trabajar más rápido?  
 2. ¿Encontraste alguna acción que sientes que debería ser más directa?
 
-## Diseño estético y minimalista
+#### Diseño estético y minimalista
 1. ¿La interfaz se ve limpia y sin elementos innecesarios?  
 2. ¿Los colores y tamaños ayudan a identificar lo importante?
 
-## Comunicación de errores
+#### Comunicación de errores
 1. ¿Los mensajes de error son claros y te explican qué ocurrió?  
 2. ¿Entendiste cómo solucionar los errores cuando aparecieron?
 
-## Ayuda y documentación
+#### Ayuda y documentación
 1. ¿La app te da orientación o mensajes explicativos cuando no sabes qué hacer?  
 2. ¿Te gustaría ver tutoriales o texto adicional en alguna parte?
 
-# Entrevistas – Segmento 2: Clientes y usuarios del gimnasio
-*(Evaluación de usabilidad móvil: check-in, ocupación, ritmo cardíaco, navegación general)*
+<h3>Segmento 2: Clientes y usuarios del gimnasio</h3>
+Evaluación de usabilidad móvil: check-in, ocupación, ritmo cardíaco, navegación general
 
-## Visibilidad del estado del sistema
+#### Visibilidad del estado del sistema
 1. ¿La app te muestra claramente si estás en estado “Check-In” o “Check-Out”?  
 2. ¿Entendiste de inmediato el nivel de ocupación del gimnasio?
 
-## Coincidencia entre el sistema y el mundo real
+#### Coincidencia entre el sistema y el mundo real
 1. ¿Los términos y botones coinciden con lo que esperas en un gimnasio?  
 2. ¿Los iconos son fáciles de interpretar sin explicación?
 
-## Control y libertad del usuario
+#### Control y libertad del usuario
 1. ¿Pudiste volver atrás sin perder tu progreso o confundirte?  
 2. ¿Puedes cancelar acciones equivocadas fácilmente?
 
-## Consistencia y estándares
+#### Consistencia y estándares
 1. ¿Las pantallas siguen un estilo similar o sentiste cambios bruscos?  
 2. ¿Los botones funcionan igual en todas las secciones?
 
-## Prevención de errores
+#### Prevención de errores
 1. ¿La app evita que presiones opciones incorrectas?  
 2. ¿Te avisa antes de registrar acciones importantes?
 
-## Mostrar antes que recordar
+#### Mostrar antes que recordar
 1. ¿La información que necesitas aparece sin que tengas que recordar pasos previos?  
 2. ¿El historial de visitas y ritmo cardíaco es fácil de encontrar?
 
-## Flexibilidad y eficiencia de uso
+#### Flexibilidad y eficiencia de uso
 1. ¿Te tomó pocos pasos realizar check-in o check-out?  
 2. ¿Hubo acciones que sentiste más lentas o complicadas?
 
-## Diseño estético y minimalista
+#### Diseño estético y minimalista
 1. ¿La interfaz se siente limpia y moderna?  
 2. ¿Hay partes que se ven demasiado cargadas o vacías?
 
-## Comunicación de errores
+#### Comunicación de errores
 1. ¿Los mensajes de error fueron claros si ocurrió alguno?  
 2. ¿La interfaz te guía para corregir lo sucedido?
 
-## Ayuda y documentación
+#### Ayuda y documentación
 1. ¿Necesitaste instrucciones adicionales para usar la app?  
 2. ¿Qué tipo de ayuda te gustaría tener dentro de la interfaz?
 
 
 ### 6.3.2. Registro de Entrevistas.
+
+<h3>Segmento 1: Propietarios y administradores de gimnasios independientes</h3>
+
+**Entrevista 1**
 
 **Nombre:** Mateo Mateo Vílchez  
 **Edad:** 21 años  
@@ -3013,7 +3012,7 @@ https://pumpup.netlify.app/
 ![alt text](/assets/capitulo-6/sprint2/images.png)
 
 
-El entrevistado, Mateo Vílchez, tiene 21 años y cuenta con alrededor de 8 meses de experiencia administrando un gimnasio pequeño. Indicó que la gestión del negocio se realizaba completamente de manera manual, usando un cuaderno grande para registrar matriculados, pagos y asistencias. Los cobros se realizaban en efectivo o mediante Yape/Plin. Durante su experiencia contó con 3 a 4 colaboradores por turno, incluyendo recepcionistas y entrenadores.
+Resumen: El entrevistado, Mateo Vílchez, tiene 21 años y cuenta con alrededor de 8 meses de experiencia administrando un gimnasio pequeño. Indicó que la gestión del negocio se realizaba completamente de manera manual, usando un cuaderno grande para registrar matriculados, pagos y asistencias. Los cobros se realizaban en efectivo o mediante Yape/Plin. Durante su experiencia contó con 3 a 4 colaboradores por turno, incluyendo recepcionistas y entrenadores.
 
 Mateo destacó que su principal meta como administrador era lograr un mayor control de matriculados, evitar que personas no registradas ingresen al gimnasio y mejorar la seguridad general del local, ya que anteriormente se presentaban casos de personas que ingresaban sin pagar o revisaban lockers sin autorización.
 
@@ -3023,22 +3022,7 @@ Respecto a la visibilidad del estado del sistema, Mateo comentó que la informac
 
 En general, calificó la aplicación como práctica, funcional y alineada con las necesidades de un gimnasio pequeño, mencionando que facilitaría la gestión, la seguridad y el control de pagos.
 
-
-**Segmento 2**  
-
-
-Nombre: Darling Fuentes
-
-Edad: 40 años
-
-Ocupación: Organizadora de eventos
-
-![Imagen de entrevista](assets/capitulo-6/entrevista-darling.png)
-
-Enlace a la entrevista:
-[Ver entrevista completa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213384_upc_edu_pe/IQBk9QwdAQx2TLywVljTlg_9AeaRyEr6FkD__Fn8t28h6BM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=az27pa)
-
-Darling Fuentes considera que la app es clara, intuitiva y consistente. Percibe fácilmente el estado de check-in/check-out y el nivel de ocupación del gimnasio, y afirma que los términos, botones e iconos son coherentes con lo que espera en un entorno real. Destaca que puede navegar sin perder progreso, cancelar acciones y que la interfaz mantiene un estilo uniforme en todas las pantallas. La app previene errores, muestra advertencias antes de acciones importantes y presenta la información sin obligar a recordar pasos. Los procesos de check-in/check-out son rápidos, y aunque algunas acciones podrían ser más directas, en general le resultan eficientes. Señala que el diseño es limpio y moderno, sin áreas sobrecargadas, y que los mensajes de error son claros y acompañados de instrucciones para corregirlos. No necesitó ayuda adicional para usarla, pero le gustaría contar con una sección de guía rápida opcional. En conjunto, la experiencia fue positiva y fluida.
+**Entrevista 2**
 
 Nombre: Danae Pacheco
 
@@ -3048,7 +3032,38 @@ Ocupación: Psicología
 
 <img src="./assets/capitulo-6/entrevista-danae.png">
 
-La entrevistada, Danae Pacheco, tiene 22 años, estudia psicología y planea abrir un gimnasio en una zona con alta demanda. Se le presentó PumpUp, un software para gestión de gimnasios con funciones de registro, control de aforo y check-in mediante NFC. También se mostró la futura integración de un sensor de ritmo cardíaco. Danae probó tanto el frontend administrativo como la app móvil para usuarios, destacando que la navegación es sencilla e intuitiva. Encontró fáciles de ubicar las funciones principales como check-in, aforo y ritmo cardíaco. Señaló que algunos usuarios podrían olvidar realizar el check-in/checkout. Comentó que la interfaz es clara, aunque visualmente algo opaca para su gusto. Consideró que los textos, iconos y estructura son coherentes. Finalmente, dijo que estaría dispuesta a pagar entre 700 y 850 USD por implementar este sistema en su futuro gimnasio.
+Resumen: La entrevistada, Danae Pacheco, tiene 22 años, estudia psicología y planea abrir un gimnasio en una zona con alta demanda. Se le presentó PumpUp, un software para gestión de gimnasios con funciones de registro, control de aforo y check-in mediante NFC. También se mostró la futura integración de un sensor de ritmo cardíaco. Danae probó tanto el frontend administrativo como la app móvil para usuarios, destacando que la navegación es sencilla e intuitiva. Encontró fáciles de ubicar las funciones principales como check-in, aforo y ritmo cardíaco. Señaló que algunos usuarios podrían olvidar realizar el check-in/checkout. Comentó que la interfaz es clara, aunque visualmente algo opaca para su gusto. Consideró que los textos, iconos y estructura son coherentes. Finalmente, dijo que estaría dispuesta a pagar entre 700 y 850 USD por implementar este sistema en su futuro gimnasio.
+
+<h3>Segmento 2: Clientes y usuarios de servicios de entrenamiento</h3>
+
+**Entrevista 1**
+
+Nombre: Darling Fuentes
+
+Edad: 40 años
+
+Ocupación: Organizadora de eventos
+
+![Imagen de entrevista](assets/capitulo-6/entrevista-darling.png)
+
+Resumen: Darling Fuentes considera que la app es clara, intuitiva y consistente. Percibe fácilmente el estado de check-in/check-out y el nivel de ocupación del gimnasio, y afirma que los términos, botones e iconos son coherentes con lo que espera en un entorno real. Destaca que puede navegar sin perder progreso, cancelar acciones y que la interfaz mantiene un estilo uniforme en todas las pantallas. La app previene errores, muestra advertencias antes de acciones importantes y presenta la información sin obligar a recordar pasos. Los procesos de check-in/check-out son rápidos, y aunque algunas acciones podrían ser más directas, en general le resultan eficientes. Señala que el diseño es limpio y moderno, sin áreas sobrecargadas, y que los mensajes de error son claros y acompañados de instrucciones para corregirlos. No necesitó ayuda adicional para usarla, pero le gustaría contar con una sección de guía rápida opcional. En conjunto, la experiencia fue positiva y fluida.
+
+**Entrevista 2**
+
+Nombre: Santiago Román
+
+Edad: 22 años
+
+Ocupación: Analista de sistemas
+
+<img src="./assets/capitulo-6/Santiago_Entrevista.png">
+
+Resumen: Santiago Román, un joven de 22 años que trabaja como analista de sistemas y entrena 3–4 veces por semana, prefiere rutinas claras para entrenar solo y se informa sobre gimnasios mediante redes sociales y reseñas, aunque actualmente no usa aplicaciones fitness. Sus principales motivaciones son sentirse bien, manejar el estrés y ver progreso, pero se frustra con gimnasios saturados, máquinas averiadas y falta de orientación, así como con apps que ofrecen rutinas genéricas y poca claridad técnica. Al elegir un gimnasio prioriza la ubicación, el equipamiento, la limpieza, el precio y la cantidad de personas, y en una aplicación valora la personalización, el seguimiento del progreso, videos claros, integración con dispositivos y recordatorios. Recomendaría un gimnasio o app solo si le ofrece mejoras reales, facilidad de uso, buena atención y una experiencia ordenada y confiable, lo que representa para PumpUp una oportunidad de ofrecer una solución más personalizada, clara y orientada al progreso que lo motive a mantenerse constante.
+
+
+**Enlace a las entrevistas:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQDpi4vefjHzQ4LpGUB4ElDkAac0VC-v7cqXzVrDuff-G18?e=HnhWuC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 | HEURÍSTICA                                    | EVALUACIÓN | NOTA      |
@@ -3065,8 +3080,11 @@ La entrevistada, Danae Pacheco, tiene 22 años, estudia psicología y planea abr
 | Ayuda y documentación                         |            | {texto}   |
 ## 6.4. Video About-the-Product.
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQCjrbRnPeH5QJ0-OizNRHcQAeCe7hivvnx0aEg08soc0-M?e=5LLgPd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
 
 # Conclusiones
+
 <h2>TB1</h2>
 
 1. La arquitectura definida permitió organizar el sistema en dominios y módulos claros, favoreciendo la modularidad y la integración con servicios externos sin comprometer la coherencia del monolito planteado.
@@ -3081,6 +3099,18 @@ La entrevistada, Danae Pacheco, tiene 22 años, estudia psicología y planea abr
 2. El desarrollo de la landing page y la aplicación web en React fortaleció la integración entre frontend y backend, asegurando una navegación fluida y una comunicación efectiva con los servicios del sistema. La codificación se orientó a la mantenibilidad, aplicando buenas prácticas de estructuración de componentes y control de estado.
 
 3. El proceso de diseño e implementación permitió validar la usabilidad de las interfaces con los usuarios finales, refinando interacciones clave y mejorando la experiencia de uso. Esto consolidó la base visual y técnica del producto, garantizando escalabilidad para futuras funcionalidades.
+
+<h2>TB2</h2>
+
+1. La implementación del backend mediante arquitectura por capas permitió estructurar el sistema de forma ordenada, clara y mantenible, asegurando una separación efectiva entre controladores, servicios y repositorios.
+Gracias a este enfoque se logró un flujo de datos consistente, una lógica de negocio desacoplada y una base sólida para futuras extensiones del sistema, además de facilitar la depuración y la escalabilidad a medida que aumenten las funcionalidades.
+
+2. El desarrollo del frontend en React, siguiendo los principios de Clean Architecture, fortaleció la modularidad y la reutilización de componentes, permitiendo un código más limpio, testeable y resistente a cambios futuros.
+Esta organización clara por capas de dominio, aplicación, infraestructura y presentación garantizó una integración eficiente con el backend, una navegación fluida y una experiencia visual coherente con la identidad del proyecto.
+
+3. La aplicación móvil construida con React Native y diseñada bajo el mismo enfoque de Clean Architecture consolidó la experiencia del sistema en entornos móviles, asegurando una interacción intuitiva y fluida para el usuario final.
+La separación explícita entre casos de uso, repositorios, servicios y vistas permitió desarrollar funcionalidades como el check-in, registro de métricas y gestión de perfil sin comprometer la mantenibilidad. Esto fortaleció la cohesión técnica y garantizó una base sólida para futuras actualizaciones o ampliaciones.
+
 
 # Video About-the-Team.
 
@@ -3103,5 +3133,5 @@ Rozanski, N., & Woods, E. (2012). Software Systems Architecture: Working with St
 Entevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EXvX6UhgOwRHu-TdxGSTKJgBtMWEiwYBFuJdf7YpkJPKMQ?e=Om1c40&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
-
+Entrevistas de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQDpi4vefjHzQ4LpGUB4ElDkAac0VC-v7cqXzVrDuff-G18?e=BZTjiD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
