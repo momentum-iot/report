@@ -2195,12 +2195,12 @@ Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 La landing page desplegada se encuentra en el siguiente enlace:
-[LANDING PAGE](https://momentum-iot.github.io/PumpUp_Landing_Page/)
+https://momentum-iot.github.io/PumpUp_Landing_Page/
 
 ![alt text](assets/image-2.png)
 
 La aplicacion web se encuentra desplegada en el siguiente enlace:
-[WEB APP](https://pumpup.netlify.app/)
+(https://pumpup.netlify.app/)
 
 ![alt text](assets/image-1.png)
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
@@ -2520,7 +2520,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>da3542</td>
   <td>feat(iam): added refresh token</td>
   <td>Se añadió soporte para refresh token en el módulo IAM.</td>
   <td>Nov 11, 2025</td>
@@ -2529,7 +2529,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>fc3245</td>
   <td>feat: update data loader</td>
   <td>Actualización del cargador de datos.</td>
   <td>Nov 11, 2025</td>
@@ -2538,7 +2538,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>b57a56</td>
   <td>feat: update user repo and service</td>
   <td>Se actualizaron el repositorio y el servicio de usuario.</td>
   <td>Nov 11, 2025</td>
@@ -2547,7 +2547,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>b75a56</td>
   <td>feat: payment and checkin repo changed</td>
   <td>Se modificaron los repositorios de pagos y check-in.</td>
   <td>Nov 11, 2025</td>
@@ -2556,7 +2556,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>345ba56</td>
   <td>feat: update class checkin and payments</td>
   <td>Actualización de las clases de check-in y pagos.</td>
   <td>Nov 11, 2025</td>
@@ -2565,7 +2565,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>45ba256</td>
   <td>feat: update class user</td>
   <td>Actualización de la clase User.</td>
   <td>Nov 11, 2025</td>
@@ -2574,7 +2574,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>bca356</td>
   <td>feat: added value objects for user</td>
   <td>Se añadieron value objects para la entidad Usuario.</td>
   <td>Nov 11, 2025</td>
@@ -2583,7 +2583,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>b54a56</td>
   <td>feat: class member deleted</td>
   <td>Se eliminó un miembro de clase no utilizado.</td>
   <td>Nov 11, 2025</td>
@@ -2592,7 +2592,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>ba52366</td>
   <td>fix: allowed access to login and register endpoints</td>
   <td>Corrección para permitir acceso a los endpoints de login y register.</td>
   <td>Nov 11, 2025</td>
@@ -2602,7 +2602,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>b35a56</td>
   <td>feat(iam): rename UserController to AuthController and update service references</td>
   <td>Reemplazo de UserController por AuthController y ajuste de referencias del servicio.</td>
   <td>Nov 10, 2025</td>
@@ -2611,7 +2611,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>ba5634</td>
   <td>feat(iam): implement JWT authentication and role-based access control</td>
   <td>Implementación de autenticación JWT y control de acceso basado en roles.</td>
   <td>Nov 10, 2025</td>
@@ -2620,7 +2620,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>ba5667</td>
   <td>feat(iam): add user role management and JWT authentication</td>
   <td>Se agregó gestión de roles de usuario junto con autenticación JWT.</td>
   <td>Nov 10, 2025</td>
@@ -2629,7 +2629,7 @@ Los aspectos principales que se tomaron en cuenta fueron la creacion de la versi
 <tr>
   <td>momentum-iot/backEnd</td>
   <td>main</td>
-  <td>(no-id)</td>
+  <td>b734391</td>
   <td>chore: added user role</td>
   <td>Se añadió la definición de rol de usuario.</td>
   <td>Nov 10, 2025</td>
@@ -2785,7 +2785,19 @@ describe("HeartRateScreen", () => {
 ```
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
+* **Landing Page:**
+Video demostración Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/ERT6dAIFQIVDmbtbXNAKYIAB6XhpW1-fV0tRgiuG-aedfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qnzt0L
+<img src="./assets/capitulo-6/evidence-landing.png">
 
+* **Frontend Web Application:**
+Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EXf98cFeMeVDqmc87M_RT8MBeT10xY6wftWNMz9gfHKOBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QduhOb 
+<img src="./assets/capitulo-6/evidence-front.png">
+
+* **Frontend Web Service:**
+<img src="./assets/capitulo-6/Captura de pantalla 2025-11-15 193049.png">
+
+* **App movil** 
+![alt text](</assets/capitulo-6/sprint2/Imagen de WhatsApp 2025-11-15 a las 15.45.41_b4ca33a2.jpg>)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
@@ -2802,36 +2814,47 @@ Esta aplicación es un sistema de gestión de gimnasios y centros deportivos dis
 Permite que los miembros del gimnasio realicen check-in y check-out al ingresar o salir del local, revisen su historial de visitas y administren sus perfiles.
 Al mismo tiempo, brinda a los administradores herramientas para monitorear la concurrencia en tiempo real y gestionar a los miembros.
 
-#### Casos de Uso Principales
-
-Check-in y check-out de miembros en la entrada y salida del gimnasio
-
-Seguimiento en tiempo real de la ocupación del establecimiento y gestión de aforo
-
-Gestión de perfiles de usuario con planes de membresía (BÁSICO, PREMIUM)
-
-Autenticación y autorización con control de acceso basado en roles (USER, ADMIN)
-
-Registro de duración de visitas y analíticas de asistencia
-
-El sistema aplica reglas de negocio específicas de la operación de gimnasios, incluyendo validación de estado del usuario (ACTIVO, RETIRADO, SIN_PAGAR), restricciones basadas en el tipo de membresía y límites de capacidad del local.
 ![alt text](assets/capitulo-6/sprint2/documentation/image-1.png)
 
 ### Backend
+#### Overview
+
+Este documento presenta una introducción general al sistema **gym-admin-backend**, una API REST desarrollada con Spring Boot para la gestión de operaciones de un gimnasio.  
+Incluye el propósito del sistema, su arquitectura, el stack tecnológico y los subsistemas principales.
+
+Para información detallada sobre funcionalidades específicas, consulta:
+
+- Authentication – implementación de seguridad  
+- User Management – operaciones de usuario  
+- Domain Model – entidades del sistema  
+- API Reference – documentación de endpoints  
+
+#### Archivos fuente relevantes
+
+Los archivos principales relacionados con esta documentación incluyen los módulos de autenticación, controladores REST, servicios de dominio y configuraciones del proyecto.
 
 
 
+#### Propósito del Sistema
+
+**gym-admin-backend** es una aplicación RESTful que provee servicios backend para administrar un gimnasio.  
+El sistema cubre los siguientes procesos principales:
+
+- **Gestión de Miembros:** registro de usuarios, autenticación, manejo de perfiles y control de acceso basado en roles.  
+- **Operaciones Financieras:** seguimiento de pagos, control de fechas de vencimiento y facturación de membresías.  
+- **Acceso a la Instalación:** registro de check-in y check-out con monitoreo en tiempo real del aforo.  
+- **Gestión de Equipos:** inventario de máquinas y programación de mantenimiento.  
+- **Monitoreo de Salud:** recolección de datos biométricos como mediciones de ritmo cardíaco.  
+- **Planes de Membresía:** servicios organizados por niveles (BÁSICO, PREMIUM).
+
+
+
+![alt text](image.png)
 ### Mobile
 #### Propósito y Alcance
 
 Este documento ofrece una visión general de **PumpUp Mobile**, una aplicación móvil desarrollada en React Native para la gestión de gimnasios. Permite a los miembros realizar check-in y check-out, ver la ocupación del gimnasio en tiempo real y registrar mediciones de ritmo cardíaco.  
 Este resumen abarca el propósito del sistema, su tecnología y los principales flujos de usuario.
-
-Para información detallada, consultar:  
-- Autenticación: *Authentication System*  
-- Navegación: *Navigation System*  
-- Manejo de estado: *State Management with Contexts*  
-- Arquitectura: *Architecture Overview*
 
 #### Propósito de la Aplicación
 
@@ -2872,83 +2895,128 @@ https://pumpup.netlify.app/
 
 
 
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
-Backend
+#### Backend
 ![alt text](assets/capitulo-6/sprint2/contributions/image.png)
 
-Mobile
+#### Mobile
 ![alt text](assets/capitulo-6/sprint2/contributions/image-1.png)
 
-FrontEnd
+#### FrontEnd
 ![alt text](assets/capitulo-6/sprint2/contributions/image-2.png)
 
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
-### Preguntas generales
+# Preguntas generales (enfocadas en interfaz)
 
-1. ¿Cuál es tu nombre?  
-2. ¿Qué edad tienes?  
-3. ¿A qué te dedicas?  
-4. ¿Qué opinas sobre sistemas o aplicaciones para la gestión de gimnasios o entrenamiento?
+1. ¿Te resultó fácil entender lo que muestra la pantalla al abrir la aplicación?  
+2. ¿Encontraste rápidamente las funciones principales (check-in, check-out, aforo, ritmo cardíaco)?  
+3. ¿Hubo algo en la interfaz que te generó confusión?  
+4. ¿Qué tan intuitiva te pareció la navegación entre pantallas?
 
-### Entrevistas – Segmento 1: Propietarios y administradores de gimnasios
+# Entrevistas – Segmento 1: Propietarios y administradores de gimnasios
+*(Evaluación de interfaz administrativa, paneles, aforo, flujo de check-in)*
 
-#### Datos personales y contexto
-1. ¿Cuál es tu nombre y edad?  
-2. ¿Cuál es tu nivel de estudios?  
-3. ¿Qué cargo ocupas dentro del gimnasio?  
-4. ¿Cuántos años llevas administrando o trabajando en el rubro fitness?  
-5. ¿Qué dispositivo usas más en tu trabajo diario (computadora, tablet, celular)?
+## Visibilidad del estado del sistema
+1. ¿El sistema muestra claramente el estado del gimnasio (aforo, capacidad, usuarios dentro)?  
+2. ¿Puedes saber en qué parte de la app estás sin confundirte?  
 
-#### Operación del gimnasio
-1. ¿Cuántos colaboradores y clientes activos tienes?  
-2. ¿Cómo gestionas actualmente inscripciones, pagos y asistencia?  
-3. ¿Qué herramientas digitales utilizas hoy? (Excel, WhatsApp, software especializado, apps de pago)
+## Coincidencia entre el sistema y el mundo real
+1. ¿Usa palabras o conceptos fáciles de entender según tu experiencia en gimnasios (check-in, membresía, aforo)?  
+2. ¿Los iconos y etiquetas representan bien las acciones que esperas?
 
-#### Objetivos y motivaciones
-1. ¿Cuál es tu principal meta con el gimnasio?  
-2. ¿Qué tipo de experiencia quieres ofrecer a tus clientes?  
-3. ¿Qué te motivó a abrir o administrar un gimnasio pequeño?
+## Control y libertad del usuario
+1. ¿Pudiste deshacer o corregir errores fácilmente (ejemplo: check-in mal realizado)?  
+2. ¿Te sientes en control al navegar entre pantallas sin perder el contexto?
 
-#### Frustraciones y retos
-1. ¿Qué es lo más difícil de gestionar en tu día a día?  
-2. ¿Qué problemas frecuentes enfrentas con clientes, pagos o entrenadores?  
-3. ¿Qué limitaciones encuentras en la tecnología actual?
+## Consistencia y estándares
+1. ¿Los botones, colores y estructuras se sienten coherentes en toda la aplicación?  
+2. ¿Los textos siguen un formato claro y uniforme?
 
-#### Decisiones y expectativas
-1. ¿Qué factores consideras antes de invertir en un nuevo sistema o aplicación?  
-2. ¿Qué te haría confiar y recomendar una solución digital?  
-3. ¿Qué funcionalidades esperas que tenga una plataforma ideal para tu gimnasio?
+## Prevención de errores
+1. ¿La interfaz evita que realices acciones incorrectas (como registrar dos veces un check-in)?  
+2. ¿Se te advierte cuando estás a punto de realizar algo importante?
 
-### Entrevistas – Segmento 2: Clientes y usuarios de servicios de entrenamiento
+## Mostrar antes que recordar
+1. ¿La información clave aparece visible sin necesidad de memorizar dónde estaba?  
+2. ¿Las opciones más importantes están accesibles desde la pantalla principal?
 
-#### Datos personales y contexto
-1. ¿Cuál es tu nombre y edad?  
-2. ¿Cuál es tu ocupación o actividad principal?  
-3. ¿Qué dispositivo usas más para actividades diarias?  
-4. ¿Con qué frecuencia entrenas y dónde lo haces?
+## Flexibilidad y eficiencia de uso
+1. ¿Los accesos rápidos o botones principales te ayudan a trabajar más rápido?  
+2. ¿Encontraste alguna acción que sientes que debería ser más directa?
 
-#### Hábitos y comportamiento
-1. ¿Prefieres entrenar solo, en clases grupales o con entrenador personal?  
-2. ¿Qué canales usas para informarte sobre gimnasios o entrenadores?  
-3. ¿Qué aplicaciones de salud o fitness utilizas?
+## Diseño estético y minimalista
+1. ¿La interfaz se ve limpia y sin elementos innecesarios?  
+2. ¿Los colores y tamaños ayudan a identificar lo importante?
 
-#### Objetivos y motivaciones
-1. ¿Qué te motiva a entrenar?  
-2. ¿Qué resultados esperas de un gimnasio o programa de entrenamiento?  
-3. ¿Qué significa para ti una “buena experiencia” en un gimnasio?
+## Comunicación de errores
+1. ¿Los mensajes de error son claros y te explican qué ocurrió?  
+2. ¿Entendiste cómo solucionar los errores cuando aparecieron?
 
-#### Frustraciones y retos
-1. ¿Qué problemas has tenido en gimnasios anteriores?  
-2. ¿Qué te ha hecho abandonar un gimnasio o dejar de entrenar?  
-3. ¿Qué dificultades encuentras en apps o plataformas de entrenamiento?
+## Ayuda y documentación
+1. ¿La app te da orientación o mensajes explicativos cuando no sabes qué hacer?  
+2. ¿Te gustaría ver tutoriales o texto adicional en alguna parte?
 
-#### Decisiones y expectativas
-1. ¿Qué factores son más importantes al elegir un gimnasio?  
-2. ¿Qué funcionalidades valoras en una aplicación que complemente tu entrenamiento?  
-3. ¿Qué te haría recomendar un gimnasio o app a tus amigos?
+# Entrevistas – Segmento 2: Clientes y usuarios del gimnasio
+*(Evaluación de usabilidad móvil: check-in, ocupación, ritmo cardíaco, navegación general)*
+
+## Visibilidad del estado del sistema
+1. ¿La app te muestra claramente si estás en estado “Check-In” o “Check-Out”?  
+2. ¿Entendiste de inmediato el nivel de ocupación del gimnasio?
+
+## Coincidencia entre el sistema y el mundo real
+1. ¿Los términos y botones coinciden con lo que esperas en un gimnasio?  
+2. ¿Los iconos son fáciles de interpretar sin explicación?
+
+## Control y libertad del usuario
+1. ¿Pudiste volver atrás sin perder tu progreso o confundirte?  
+2. ¿Puedes cancelar acciones equivocadas fácilmente?
+
+## Consistencia y estándares
+1. ¿Las pantallas siguen un estilo similar o sentiste cambios bruscos?  
+2. ¿Los botones funcionan igual en todas las secciones?
+
+## Prevención de errores
+1. ¿La app evita que presiones opciones incorrectas?  
+2. ¿Te avisa antes de registrar acciones importantes?
+
+## Mostrar antes que recordar
+1. ¿La información que necesitas aparece sin que tengas que recordar pasos previos?  
+2. ¿El historial de visitas y ritmo cardíaco es fácil de encontrar?
+
+## Flexibilidad y eficiencia de uso
+1. ¿Te tomó pocos pasos realizar check-in o check-out?  
+2. ¿Hubo acciones que sentiste más lentas o complicadas?
+
+## Diseño estético y minimalista
+1. ¿La interfaz se siente limpia y moderna?  
+2. ¿Hay partes que se ven demasiado cargadas o vacías?
+
+## Comunicación de errores
+1. ¿Los mensajes de error fueron claros si ocurrió alguno?  
+2. ¿La interfaz te guía para corregir lo sucedido?
+
+## Ayuda y documentación
+1. ¿Necesitaste instrucciones adicionales para usar la app?  
+2. ¿Qué tipo de ayuda te gustaría tener dentro de la interfaz?
+
+# Tabla de evaluación por heurísticas
+
+| HEURÍSTICA                                 | EVALUACIÓN | NOTA |
+|---------------------------------------------|------------|------|
+| Visibilidad del estado del sistema          |            |      |
+| Coincidencia entre el sistema y el mundo real |          |      |
+| Control y libertad del usuario              |            |      |
+| Consistencia y estándares                   |            |      |
+| Prevención de errores                       |            |      |
+| Mostrar antes que recordar                  |            |      |
+| Flexibilidad y eficiencia de uso            |            |      |
+| Diseño estético y minimalista               |            |      |
+| Comunicación de errores                     |            |      |
+| Ayuda y documentación                       |            |      |
 
 ### 6.3.2. Registro de Entrevistas.
 **Segmento 1**  
