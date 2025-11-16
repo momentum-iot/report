@@ -2221,7 +2221,7 @@ La aplicacion web se encuentra desplegada en el siguiente enlace:
 
 Los aspectos principales que se tomaron en cuenta fueron la creacion de la version funcional del aplicativo móvil, aplicación web y backend
 
-<table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 1</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-14</td> </tr> <tr> <th>Time</th> <td>12:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 1 Review Summary</th> <td>No aplica por ser el primer sprint</td> </tr> <tr> <th>Sprint n – 1 Retrospective Summary</th> <td>No aplica por ser el primer sprint</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 1 Goal</th> <td> <b>Nuestro enfoque</b> está en entregar la primera versión estable del sistema de accesos, ocupación y membresías sin componentes IoT. <b>Creemos que</b> este avance permitirá validar flujos críticos del negocio. <b>Esto será confirmado cuando</b> los usuarios puedan consultar su plan, ingresar correctamente, ver su aforo, historial y generar sus reportes iniciales. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>40</td> </tr> <tr> <th>Sum of Story Points</th> <td>40</td> </tr> </table>
+<table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 2</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-14</td> </tr> <tr> <th>Time</th> <td>12:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 2 Review Summary</th> <td>Se realizo el desarrollo de la aplicación móvil de Pump Up. Además se hizo un rediseño del frontend del mismo</td> </tr> <tr> <th>Sprint n – 2 Retrospective Summary</th> <td>El equipo trabajó de manera proactiva en todas las reuniones y tareas asignadas, contribuyendo a trabajar en un menor tiempo.</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 2 Goal</th> <td> <b>Nuestro enfoque</b> está en entregar la primera versión estable del sistema de accesos, ocupación y membresías sin componentes IoT. <b>Creemos que</b> este avance permitirá validar flujos críticos del negocio. <b>Esto será confirmado cuando</b> los usuarios puedan consultar su plan, ingresar correctamente, ver su aforo, historial y generar sus reportes iniciales. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>40</td> </tr> <tr> <th>Sum of Story Points</th> <td>40</td> </tr> </table>
 
 #### 6.2.2.3. Sprint Backlog 2.
 <table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #1</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody>
@@ -3066,18 +3066,21 @@ Resumen: Santiago Román, un joven de 22 años que trabaja como analista de sist
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA                                    | EVALUACIÓN | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del usuario                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
+
+| HEURÍSTICA                                    | EVALUACIÓN                                                                                                                                                         | NOTA |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| Visibilidad del estado del sistema            | El sistema muestra estados como check-in, check-out, aforo actual, historial de BPM y autenticación. Falta mejorar el feedback cuando expira el token y mostrar más indicadores de carga. | 4/5  |
+| Coincidencia entre el sistema y el mundo real | Los conceptos del sistema reflejan fielmente los procesos reales de un gimnasio. Se puede mejorar la presentación de fechas y horas para hacerlas más claras.       | 4/5  |
+| Control y libertad del usuario                | El usuario puede navegar libremente y realizar check-in/check-out. Faltan más opciones para editar información personal y confirmaciones en acciones importantes.   | 3/5  |
+| Consistencia y estándares                     | Se mantiene un orden claro gracias a Clean Architecture y el uso de estándares REST. Falta uniformidad en iconos y nomenclatura de membresías.                     | 4/5  |
+| Prevención de errores                         | Existen validaciones básicas, pero aún se envían solicitudes sin validar datos previamente. Es necesario validar BPM, campos vacíos y entradas incorrectas.         | 3/5  |
+| Mostrar antes que recordar                    | La app presenta datos importantes sin exigir que el usuario los recuerde. Puede mejorarse mostrando vencimientos o recordatorios de pagos.                         | 4/5  |
+| Flexibilidad y eficiencia de uso              | El diseño favorece interacciones rápidas como el check-in. Se puede potenciar más con inicio de sesión persistente o accesos directos.                             | 4/5  |
+| Diseño estético y minimalista                 | El diseño es moderno y claro. Aún se puede mejorar la coherencia visual entre web y móvil y estandarizar componentes visuales.                                     | 4/5  |
+| Comunicar errores con facilidad               | Los errores se muestran, pero no siempre de forma clara. El frontend necesita mensajes más explicativos, sobre todo para la expiración del JWT.                    | 3/5  |
+| Ayuda y documentación                         | Existe Swagger y un backend organizado, pero falta documentación para onboarding y guías dentro de la app.                                                         | 3/5  |
+
+
 ## 6.4. Video About-the-Product.
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQCjrbRnPeH5QJ0-OizNRHcQAeCe7hivvnx0aEg08soc0-M?e=5LLgPd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
