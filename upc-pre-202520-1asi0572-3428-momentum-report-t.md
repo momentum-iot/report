@@ -53,6 +53,9 @@ TP:
 TB2:
 <img src="/assets/contributions/image-2.png" alt="TB2" width="400" height="400"/>
 
+TB2:
+<img src="/assets/capitulo-6/sprint2/contributions/images.png" alt="TB2"  height="400"/>
+
 # Contenido
 
 
