@@ -2919,7 +2919,7 @@ https://pumpup.netlify.app/
 ![alt text](assets/capitulo-6/sprint2/contributions/image-2.png)
 
 
-#### 6.2.3. Sprint 3
+### 6.2.3. Sprint 3
 #### 6.2.3.1.Sprint Planning 3.
 #### 6.2.3.2.Aspect Leaders and Collaborators.
 
@@ -3297,11 +3297,13 @@ El Edge Node implementa una arquitectura por capas basada en Domain-Driven Desig
 6. **Respuesta** al dispositivo con resultado de operación
 7. **Sincronización** diferida con backend en la nube
 
-![Edge Node Architecture](assets/capitulo-6/sprint-3/edge-architecture.png)
 
 #### 6.2.3.8.Software Deployment Evidence for Sprint Review.
 
+
+
 #### 6.2.3.9.Team Collaboration Insights during Sprint.
+
 
 
 ## 6.3. Validation Interviews.
