@@ -3113,14 +3113,191 @@ Los aspectos principales que se consideraron fueron el desarrollo de la versión
 </tbody> </table>
 
 #### 6.2.3.4.Development Evidence for Sprint Review.
-
-
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited on (Date)</th> </tr> </thead> <tbody> <tr> <td>momentum-iot/edge-node</td> <td>main</td> <td>8c488a8</td> <td>Initial commit</td> <td>Configuración inicial del proyecto edge-node con estructura base para gateway IoT, implementación de buffer local de eventos, sistema de sincronización con la nube y módulos de comunicación con sensores biométricos y dispositivos NFC.</td> <td>Nov 26, 2025</td> </tr> </tbody> </table>
 
 #### 6.2.3.5.Testing Suite Evidence for Sprint Review.
 
+Edge Node
+```python
+"""
+Unit tests for PumpUp Gym Edge Service API endpoints.
+Tests the IAM and Equipment bounded contexts using Flask test client.
+"""
+
+import unittest
+from unittest.mock import Mock, patch
+from app import app
+
+
+class AccessControlEndpointTest(unittest.TestCase):
+    """Test suite for IAM access control endpoints."""
+
+    def setUp(self):
+        """Set up test client and mock data."""
+        self.app = app
+        self.app.config['TESTING'] = True
+        self.client = self.app.test_client()
+        self.valid_headers = {'X-API-Key': 'gym-api-key-2025'}
+
+    @patch('iam.application.services.AccessControlApplicationService.handle_nfc_scan')
+    def test_should_check_in_member_when_nfc_is_valid(self, mock_handle_nfc):
+        """Test successful check-in with valid NFC card."""
+        expected_response = {
+            'success': True,
+            'action': 'check_in',
+            'member_id': 1,
+            'member_name': 'John Doe',
+            'current_occupancy': 1
+        }
+        mock_handle_nfc.return_value = expected_response
+
+        request_data = {'device_id': 'gym-esp32-001', 'nfc_uid': '04A1B2C3D4E5F6'}
+        response = self.client.post('/api/v1/access/nfc-scan', json=request_data, headers=self.valid_headers)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['success'], True)
+        self.assertEqual(response.json['action'], 'check_in')
+
+    @patch('iam.infrastructure.repositories.CheckInRepository.count_active_check_ins')
+    def test_should_return_current_occupancy_when_requested(self, mock_count):
+        """Test real-time occupancy tracking."""
+        mock_count.return_value = 5
+        response = self.client.get('/api/v1/access/occupancy', headers=self.valid_headers)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['current_occupancy'], 5)
+
+
+class EquipmentSessionEndpointTest(unittest.TestCase):
+    """Test suite for Equipment session management endpoints."""
+
+    def setUp(self):
+        """Set up test client and mock data."""
+        self.app = app
+        self.app.config['TESTING'] = True
+        self.client = self.app.test_client()
+        self.valid_headers = {'X-API-Key': 'gym-api-key-2025'}
+
+    @patch('health.application.services.EquipmentSessionApplicationService.start_session')
+    def test_should_start_equipment_session_when_member_uses_machine(self, mock_start):
+        """Test starting equipment usage session."""
+        expected_response = {'success': True, 'session_id': 1, 'member_id': 1, 'equipment_id': 1}
+        mock_start.return_value = expected_response
+
+        request_data = {'device_id': 'gym-esp32-001', 'member_id': 1, 'equipment_id': 1}
+        response = self.client.post('/api/v1/equipment/session/start', json=request_data, headers=self.valid_headers)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['success'], True)
+
+
+class HeartRateMonitoringEndpointTest(unittest.TestCase):
+    """Test suite for heart rate monitoring endpoint."""
+
+    def setUp(self):
+        """Set up test client and mock data."""
+        self.app = app
+        self.app.config['TESTING'] = True
+        self.client = self.app.test_client()
+        self.valid_headers = {'X-API-Key': 'gym-api-key-2025'}
+
+    @patch('health.application.services.HeartRateApplicationService.record_heart_rate')
+    def test_should_record_bpm_when_value_is_valid(self, mock_record):
+        """Test recording valid BPM reading."""
+        expected_response = {'success': True, 'record_id': 1, 'session_id': 1, 'bpm': 85.0}
+        mock_record.return_value = expected_response
+
+        request_data = {'device_id': 'gym-esp32-001', 'session_id': 1, 'member_id': 1, 'bpm': 85}
+        response = self.client.post('/api/v1/equipment/heart-rate', json=request_data, headers=self.valid_headers)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['bpm'], 85.0)
+
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
 #### 6.2.3.6.Execution Evidence for Sprint Review.
+* **Landing Page:**
+Video demostración Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/ERT6dAIFQIVDmbtbXNAKYIAB6XhpW1-fV0tRgiuG-aedfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qnzt0L
+<img src="./assets/capitulo-6/evidence-landing.png">
+
+* **Frontend Web Application:**
+Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EXf98cFeMeVDqmc87M_RT8MBeT10xY6wftWNMz9gfHKOBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QduhOb 
+<img src="./assets/capitulo-6/evidence-front.png">
+
+* **Frontend Web Service:**
+<img src="./assets/capitulo-6/Captura de pantalla 2025-11-15 193049.png">
+
+* **App movil** 
+![alt text](</assets/capitulo-6/sprint2/Imagen de WhatsApp 2025-11-15 a las 15.45.41_b4ca33a2.jpg>)
+
+* **Edge Node IoT:**
+<img src="./assets/capitulo-6/sprint-3/evidence-edge.png">
 
 #### 6.2.3.7.Services Documentation Evidence for Sprint Review.
+
+### Edge Node
+#### Propósito y Alcance
+
+Este documento ofrece una introducción general al **PumpUp Edge Node**, el gateway IoT que permite la comunicación entre dispositivos físicos (sensores biométricos, lectores NFC) y el backend del sistema PumpUp. Incluye su propósito de negocio, el stack tecnológico, la arquitectura y los flujos principales de datos.
+
+Para información detallada sobre la implementación de endpoints REST y la integración con dispositivos, consulta la documentación técnica del repositorio.
+
+#### Propósito del Sistema
+
+El **PumpUp Edge Node** es un servicio backend desarrollado con Flask que actúa como puente entre los dispositivos IoT del gimnasio y la plataforma en la nube. Sus principales responsabilidades son:
+
+- **Control de Acceso:** validación de miembros mediante lectores NFC y sensores biométricos.
+- **Monitoreo de Ocupación:** registro en tiempo real de check-in y check-out para calcular aforo.
+- **Gestión de Sesiones de Equipos:** tracking del uso de máquinas de ejercicio por parte de los miembros.
+- **Recolección de Datos Biométricos:** captura y almacenamiento de mediciones de ritmo cardíaco (BPM).
+- **Sincronización con la Nube:** buffer local de eventos y sincronización cuando hay conectividad.
+
+#### Stack Tecnológico
+
+| Categoría | Tecnología | Uso |
+|----------|------------|-----|
+| Framework | Flask 3.0+ | API REST para dispositivos IoT |
+| Base de Datos | MySQL | Persistencia de eventos y sesiones |
+| Autenticación | API Key | Validación de dispositivos autorizados |
+| Protocolo | HTTP/REST | Comunicación con dispositivos ESP32 |
+| Lenguaje | Python 3.11+ | Desarrollo del servicio edge |
+| Testing | unittest + Mock | Tests de endpoints y servicios |
+| Arquitectura | DDD (Domain-Driven Design) | Bounded contexts: IAM, Equipment |
+
+#### Arquitectura del Sistema
+
+El Edge Node implementa una arquitectura por capas basada en Domain-Driven Design:
+
+- **Interface Layer:** Controladores REST que exponen endpoints para dispositivos IoT
+- **Application Layer:** Servicios de aplicación que orquestan casos de uso
+- **Domain Layer:** Entidades del dominio (Member, CheckIn, EquipmentSession, HeartRateRecord)
+- **Infrastructure Layer:** Repositorios para persistencia en MySQL
+
+#### Endpoints Principales
+
+**Control de Acceso (IAM)**
+- `POST /api/v1/access/nfc-scan` - Procesa escaneo de tarjeta NFC (check-in/check-out)
+- `GET /api/v1/access/occupancy` - Consulta ocupación actual del gimnasio
+
+**Gestión de Equipos (Health)**
+- `POST /api/v1/equipment/session/start` - Inicia sesión de uso de equipo
+- `POST /api/v1/equipment/session/end` - Finaliza sesión de uso de equipo
+- `POST /api/v1/equipment/heart-rate` - Registra medición de BPM
+
+#### Flujo de Datos
+
+1. **Dispositivo IoT (ESP32)** detecta evento (NFC, sensor biométrico)
+2. **Edge Node** recibe petición HTTP con API Key
+3. **Validación** de dispositivo y datos
+4. **Procesamiento** en capa de aplicación
+5. **Persistencia** en base de datos local
+6. **Respuesta** al dispositivo con resultado de operación
+7. **Sincronización** diferida con backend en la nube
+
+![Edge Node Architecture](assets/capitulo-6/sprint-3/edge-architecture.png)
 
 #### 6.2.3.8.Software Deployment Evidence for Sprint Review.
 
