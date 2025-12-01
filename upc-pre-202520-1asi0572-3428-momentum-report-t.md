@@ -2919,6 +2919,214 @@ https://pumpup.netlify.app/
 ![alt text](assets/capitulo-6/sprint2/contributions/image-2.png)
 
 
+#### 6.2.3. Sprint 3
+#### 6.2.3.1.Sprint Planning 3.
+#### 6.2.3.2.Aspect Leaders and Collaborators.
+
+Los aspectos principales que se consideraron fueron el desarrollo de la versión funcional del dispositivo IoT y la configuración del gateway edge.
+
+
+<table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 3</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-29</td> </tr> <tr> <th>Time</th> <td>19:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 3 Review Summary</th> <td>Se realizo el desarrollo de la aplicación móvil de Pump Up. Además se hizo un rediseño del frontend del mismo</td> </tr> <tr> <th>Sprint n – 3 Retrospective Summary</th> <td>El equipo trabajó de manera proactiva en todas las reuniones y tareas asignadas, contribuyendo a trabajar en un menor tiempo.</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 3 Goal</th> <td> <b>Nuestro enfoque</b> está en desarrollar la versión funcional del dispositivo IoT y la implementación del nodo edge para el sistema PumpUp. <b>Creemos que</b> la integración de estos componentes físicos permitirá validar la comunicación entre sensores, dispositivos biométricos y la plataforma digital. <b>Esto será confirmado cuando</b> el dispositivo IoT capture correctamente datos biométricos, el nodo edge procese y transmita información en tiempo real, y ambos componentes se integren exitosamente con el backend del sistema. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>32</td> </tr> <tr> <th>Sum of Story Points</th> <td>32</td> </tr> </table>
+
+#### 6.2.3.3.Sprint Backlog 3.
+<table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #3</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Task Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status</th> </tr> </thead> <tbody>
+<!-- US01 -->
+<tr>
+  <td rowspan="2">US01</td>
+  <td rowspan="2">Acceso con huella biométrica</td>
+  <td>T01-1</td>
+  <td>Implementar validación de huella</td>
+  <td>Crear módulo que valide la huella enrolada del usuario al ingresar.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T01-2</td>
+  <td>Registrar intentos fallidos</td>
+  <td>Guardar en bitácora cada intento fallido de acceso por huella.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- US02 -->
+<tr>
+  <td rowspan="2">US02</td>
+  <td rowspan="2">Registro de entrada y salida</td>
+  <td>T02-1</td>
+  <td>Registrar ingreso</td>
+  <td>Implementar registro de hora de entrada del usuario.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T02-2</td>
+  <td>Registrar salida</td>
+  <td>Guardar hora de salida y actualizar el historial del usuario.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- US04 -->
+<tr>
+  <td rowspan="2">US04</td>
+  <td rowspan="2">Acceso con tarjeta NFC</td>
+  <td>T04-1</td>
+  <td>Validación de tarjeta</td>
+  <td>Verificar si la tarjeta NFC está asociada a un usuario activo.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T04-2</td>
+  <td>Registro de intentos fallidos NFC</td>
+  <td>Almacenar intentos de acceso con tarjetas no registradas.</td>
+  <td>5</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- US13 -->
+<tr>
+  <td rowspan="2">US13</td>
+  <td rowspan="2">Buffer de eventos en el IoT Edge</td>
+  <td>T13-1</td>
+  <td>Implementar almacenamiento local</td>
+  <td>Crear buffer local en el gateway para almacenar eventos cuando no hay conexión.</td>
+  <td>10</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T13-2</td>
+  <td>Sincronización de eventos</td>
+  <td>Implementar mecanismo de sincronización cuando se recupere la conexión.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- US14 -->
+<tr>
+  <td rowspan="2">US14</td>
+  <td rowspan="2">Autorización local durante corte de nube</td>
+  <td>T14-1</td>
+  <td>Implementar caché de autorizaciones</td>
+  <td>Crear sistema de caché local con autorizaciones frecuentes.</td>
+  <td>9</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T14-2</td>
+  <td>Validación offline</td>
+  <td>Implementar lógica de validación usando datos en caché cuando no hay conexión.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- US15 -->
+<tr>
+  <td rowspan="2">US15</td>
+  <td rowspan="2">Estado operativo del IoT Edge</td>
+  <td>T15-1</td>
+  <td>Implementar heartbeat</td>
+  <td>Crear sistema de heartbeat periódico del gateway al backend.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T15-2</td>
+  <td>Dashboard de estado</td>
+  <td>Mostrar estado online/offline y última comunicación en dashboard.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- US16 -->
+<tr>
+  <td rowspan="2">US16</td>
+  <td rowspan="2">Actualización remota de firmware del gateway</td>
+  <td>T16-1</td>
+  <td>Implementar descarga de firmware</td>
+  <td>Crear mecanismo seguro para descargar paquetes de actualización.</td>
+  <td>10</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T16-2</td>
+  <td>Implementar rollback automático</td>
+  <td>Crear sistema de rollback en caso de fallo durante la actualización.</td>
+  <td>9</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- TS04 -->
+<tr>
+  <td rowspan="2">TS04</td>
+  <td rowspan="2">Gestión de equipos IoT en backend</td>
+  <td>T-TS04-1</td>
+  <td>Crear endpoints de registro</td>
+  <td>Implementar API REST para registrar y actualizar dispositivos IoT.</td>
+  <td>8</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T-TS04-2</td>
+  <td>Base de datos de dispositivos</td>
+  <td>Diseñar y crear tablas para almacenar información de dispositivos IoT.</td>
+  <td>6</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+<!-- TS05 -->
+<tr>
+  <td rowspan="2">TS05</td>
+  <td rowspan="2">Monitoreo y almacenamiento de sensores</td>
+  <td>T-TS05-1</td>
+  <td>Implementar recepción de datos</td>
+  <td>Crear endpoints para recibir datos de sensores IoT Edge.</td>
+  <td>9</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T-TS05-2</td>
+  <td>Almacenamiento en base de datos</td>
+  <td>Guardar datos de sensores con timestamp y metadata en MySQL.</td>
+  <td>7</td>
+  <td>—</td>
+  <td>Done</td>
+</tr>
+
+</tbody> </table>
+
+#### 6.2.3.4.Development Evidence for Sprint Review.
+
+
+
+#### 6.2.3.5.Testing Suite Evidence for Sprint Review.
+
+#### 6.2.3.6.Execution Evidence for Sprint Review.
+
+#### 6.2.3.7.Services Documentation Evidence for Sprint Review.
+
+#### 6.2.3.8.Software Deployment Evidence for Sprint Review.
+
+#### 6.2.3.9.Team Collaboration Insights during Sprint.
+
+
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 <h3>Preguntas generales (enfocadas en interfaz)</h3>
