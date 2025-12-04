@@ -2227,13 +2227,57 @@ La aplicacion web se encuentra desplegada en el siguiente enlace:
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2.
-
+Los aspectos principales que se tomaron en cuenta fueron la creacion de la version funcional del aplicativo móvil, aplicación web y backend
+<table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 2</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-14</td> </tr> <tr> <th>Time</th> <td>12:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 2 Review Summary</th> <td>Se realizo el desarrollo de la aplicación móvil de Pump Up. Además se hizo un rediseño del frontend del mismo</td> </tr> <tr> <th>Sprint n – 2 Retrospective Summary</th> <td>El equipo trabajó de manera proactiva en todas las reuniones y tareas asignadas, contribuyendo a trabajar en un menor tiempo.</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 2 Goal</th> <td> <b>Nuestro enfoque</b> está en entregar la primera versión estable del sistema de accesos, ocupación y membresías sin componentes IoT. <b>Creemos que</b> este avance permitirá validar flujos críticos del negocio. <b>Esto será confirmado cuando</b> los usuarios puedan consultar su plan, ingresar correctamente, ver su aforo, historial y generar sus reportes iniciales. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>40</td> </tr> <tr> <th>Sum of Story Points</th> <td>40</td> </tr> </table>
 
 #### 6.2.2.2. Aspect Leaders and Collaborators.
 
-Los aspectos principales que se tomaron en cuenta fueron la creacion de la version funcional del aplicativo móvil, aplicación web y backend
 
-<table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 2</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-14</td> </tr> <tr> <th>Time</th> <td>12:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 2 Review Summary</th> <td>Se realizo el desarrollo de la aplicación móvil de Pump Up. Además se hizo un rediseño del frontend del mismo</td> </tr> <tr> <th>Sprint n – 2 Retrospective Summary</th> <td>El equipo trabajó de manera proactiva en todas las reuniones y tareas asignadas, contribuyendo a trabajar en un menor tiempo.</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 2 Goal</th> <td> <b>Nuestro enfoque</b> está en entregar la primera versión estable del sistema de accesos, ocupación y membresías sin componentes IoT. <b>Creemos que</b> este avance permitirá validar flujos críticos del negocio. <b>Esto será confirmado cuando</b> los usuarios puedan consultar su plan, ingresar correctamente, ver su aforo, historial y generar sus reportes iniciales. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>40</td> </tr> <tr> <th>Sum of Story Points</th> <td>40</td> </tr> </table>
+<table cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Desarrollo FrontEnd<br>Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo Backend<br>Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo App Movil<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Del Castilo Bueno, Daniel Mateo</td>
+    <td>teocchiii</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Sanchez Montero Carlos</td>
+    <td>carlossm907</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Solis Solis, Leonardo</td>
+    <td>CellBuuZer</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Poma Espinoza, Gustavo Arturo</td>
+    <td>GustavoPomaEspinoz</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Pinto Fuentes, Alvaro</td>
+    <td>AlvaroPFR</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
 
 #### 6.2.2.3. Sprint Backlog 2.
 <table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #1</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status (To-do / In-Process / To-Review / Done)</th> </tr> </thead> <tbody>
