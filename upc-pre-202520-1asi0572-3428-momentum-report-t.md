@@ -3299,12 +3299,25 @@ El Edge Node implementa una arquitectura por capas basada en Domain-Driven Desig
 
 
 #### 6.2.3.8.Software Deployment Evidence for Sprint Review.
+La aplicacion web se encuentra desplegada en el siguiente enlace:
+https://pumpup.netlify.app/
 
+![alt text](assets/image-1.png)
 
 
 #### 6.2.3.9.Team Collaboration Insights during Sprint.
 
+#### Report
+![alt text](assets/capitulo-6/sprint-3/contribution-report.png)
 
+#### Backend
+![alt text](assets/capitulo-6/sprint2/contributions/image.png)
+
+#### Mobile
+![alt text](assets/capitulo-6/sprint2/contributions/image-1.png)
+
+#### FrontEnd
+![alt text](assets/capitulo-6/sprint2/contributions/image-2.png)
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
@@ -3523,6 +3536,7 @@ La separación explícita entre casos de uso, repositorios, servicios y vistas p
 
 
 
+
 # Bibliografía
 
 Bass, L., Clements, P., & Kazman, R. (2021). Software Architecture in Practice (4th ed.). Addison-Wesley.
@@ -3540,4 +3554,11 @@ Entevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221
 
 
 Entrevistas de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQDpi4vefjHzQ4LpGUB4ElDkAac0VC-v7cqXzVrDuff-G18?e=BZTjiD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+
+Video About-the-product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EXvX6UhgOwRHu-TdxGSTKJgBtMWEiwYBFuJdf7YpkJPKMQ?e=Om1c40&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+Video About-the-team: 
+
 
