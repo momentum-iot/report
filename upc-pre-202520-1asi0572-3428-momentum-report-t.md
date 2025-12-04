@@ -2916,15 +2916,60 @@ https://pumpup.netlify.app/
 
 
 ### 6.2.3. Sprint 3
-#### 6.2.3.1.Sprint Planning 3.
-#### 6.2.3.2.Aspect Leaders and Collaborators.
-
+#### 6.2.3.1. Sprint Planning 3.
 Los aspectos principales que se consideraron fueron el desarrollo de la versión funcional del dispositivo IoT y la configuración del gateway edge.
 
 
 <table cellspacing="0" cellpadding="6"> <tr> <th>Sprint #</th> <td>Sprint 3</td> </tr> <tr> <th colspan="2">Sprint Planning Background</th> </tr> <tr> <th>Date</th> <td>2025-11-29</td> </tr> <tr> <th>Time</th> <td>19:00 PM</td> </tr> <tr> <th>Location</th> <td>Zoom Meetings</td> </tr> <tr> <th>Prepared By</th> <td>Del Castillo Bueno, Daniel Mateo</td> </tr> <tr> <th>Attendees (to planning meeting)</th> <td> Carlos Sanchez Montero, Gustavo Arturo Poma Espinoza, Leonardo Solis Solis, Alvaro Pinto Fuentes Rivera </td> </tr> <tr> <th>Sprint 3 Review Summary</th> <td>Se realizo el desarrollo de la aplicación móvil de Pump Up. Además se hizo un rediseño del frontend del mismo</td> </tr> <tr> <th>Sprint n – 3 Retrospective Summary</th> <td>El equipo trabajó de manera proactiva en todas las reuniones y tareas asignadas, contribuyendo a trabajar en un menor tiempo.</td> </tr> <tr> <th colspan="2">Sprint Goal & User Stories</th> </tr> <tr> <th>Sprint 3 Goal</th> <td> <b>Nuestro enfoque</b> está en desarrollar la versión funcional del dispositivo IoT y la implementación del nodo edge para el sistema PumpUp. <b>Creemos que</b> la integración de estos componentes físicos permitirá validar la comunicación entre sensores, dispositivos biométricos y la plataforma digital. <b>Esto será confirmado cuando</b> el dispositivo IoT capture correctamente datos biométricos, el nodo edge procese y transmita información en tiempo real, y ambos componentes se integren exitosamente con el backend del sistema. </td> </tr> <tr> <th>Sprint n Velocity</th> <td>32</td> </tr> <tr> <th>Sum of Story Points</th> <td>32</td> </tr> </table>
 
-#### 6.2.3.3.Sprint Backlog 3.
+#### 6.2.3.2. Aspect Leaders and Collaborators.
+
+<table cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Creacion Nodo Edge<br>Leader (L) / Collaborator (C)</th>
+    <th>Cableado de Componentes<br>Leader (L) / Collaborator (C)</th>
+    <th>Prototipo en Wokwi<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Del Castilo Bueno, Daniel Mateo</td>
+    <td>teocchiii</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Sanchez Montero Carlos</td>
+    <td>carlossm907</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Solis Solis, Leonardo</td>
+    <td>CellBuuZer</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Poma Espinoza, Gustavo Arturo</td>
+    <td>GustavoPomaEspinoz</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Pinto Fuentes, Alvaro</td>
+    <td>AlvaroPFR</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
+
+#### 6.2.3.3. Sprint Backlog 3.
 <table cellspacing="0" cellpadding="6"> <thead> <tr> <th colspan="8">Sprint #3</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="6">Work-Item / Task</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Task Id</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> <th>Status</th> </tr> </thead> <tbody>
 <!-- US01 -->
 <tr>
@@ -3214,7 +3259,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-#### 6.2.3.6.Execution Evidence for Sprint Review.
+#### 6.2.3.6. Execution Evidence for Sprint Review.
 * **Landing Page:**
 Video demostración Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/ERT6dAIFQIVDmbtbXNAKYIAB6XhpW1-fV0tRgiuG-aedfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qnzt0L
 <img src="./assets/capitulo-6/evidence-landing.png">
@@ -3232,7 +3277,7 @@ Video Demostración Frontend: https://upcedupe-my.sharepoint.com/:v:/g/personal/
 * **Edge Node IoT:**
 <img src="./assets/capitulo-6/sprint-3/evidence-edge.png">
 
-#### 6.2.3.7.Services Documentation Evidence for Sprint Review.
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 
 ### Edge Node
 #### Propósito y Alcance
@@ -3294,14 +3339,14 @@ El Edge Node implementa una arquitectura por capas basada en Domain-Driven Desig
 7. **Sincronización** diferida con backend en la nube
 
 
-#### 6.2.3.8.Software Deployment Evidence for Sprint Review.
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review.
 La aplicacion web se encuentra desplegada en el siguiente enlace:
 https://pumpup.netlify.app/
 
 ![alt text](assets/image-1.png)
 
 
-#### 6.2.3.9.Team Collaboration Insights during Sprint.
+#### 6.2.3.9. Team Collaboration Insights during Sprint.
 
 #### Report
 ![alt text](assets/capitulo-6/sprint-3/contribution-report.png)
@@ -3526,6 +3571,12 @@ Esta organización clara por capas de dominio, aplicación, infraestructura y pr
 3. La aplicación móvil construida con React Native y diseñada bajo el mismo enfoque de Clean Architecture consolidó la experiencia del sistema en entornos móviles, asegurando una interacción intuitiva y fluida para el usuario final.
 La separación explícita entre casos de uso, repositorios, servicios y vistas permitió desarrollar funcionalidades como el check-in, registro de métricas y gestión de perfil sin comprometer la mantenibilidad. Esto fortaleció la cohesión técnica y garantizó una base sólida para futuras actualizaciones o ampliaciones.
 
+<h2>TF</h2>
+
+1. La arquitectura de PumpUp evidencia cómo la combinación de ESP32 + PN532 ofrece una solución altamente eficiente para el control de accesos mediante NFC. El PN532, configurado vía SPI para maximizar velocidad y estabilidad, permite identificar miembros en milisegundos, mientras que el ESP32 actúa como un nodo edge inteligente, capaz de validar la información localmente antes de comunicarse con el backend. Esta capacidad de procesar lógica en el borde reduce la carga en el servidor central, mitiga problemas por interrupciones de red y garantiza una experiencia fluida para el usuario al momento de ingresar al gimnasio.
+
+2. Asimismo, la incorporación del sensor MAX30102 dentro del ecosistema agrega un componente de monitoreo fisiológico que potencia el valor de la plataforma. Al medir frecuencia cardíaca y otros parámetros biométricos, el ESP32 puede enviar datos en tiempo real hacia el backend para análisis o para funciones como historial de entrenamientos, alertas de sobreesfuerzo o recomendaciones personalizadas. Este flujo de captura —procesamiento ligero en el edge, limpieza de señal y transmisión eficiente— demuestra que el proyecto puede escalar hacia funcionalidades avanzadas de salud y rendimiento sin comprometer el desempeño general del sistema.
+3. Finalmente, la integración completa entre los sensores IoT (PN532 y MAX30102), el nodo edge, el backend en la nube, el frontend administrativo y la aplicación móvil validó un ecosistema cohesionado y distribuido. Cada componente cumple un rol crítico: el ESP32 como puente entre el mundo físico y digital, el backend gestionando reglas, membresías y almacenamiento, y las interfaces de usuario ofreciendo control y visibilidad. En conjunto, el proyecto PumpUp no solo resuelve el acceso seguro mediante NFC, sino que abre el camino a una plataforma fitness inteligente donde el estado físico, el control de asistencia y la experiencia del usuario convergen en un sistema moderno, automatizado y preparado para escalar.
 
 # Video About-the-Team.
 
