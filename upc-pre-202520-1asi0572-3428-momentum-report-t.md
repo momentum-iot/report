@@ -1506,9 +1506,10 @@ Los Diagramas de Flujo de Usuario en **PumpUp** sirven para mapear las interacci
 
 A continuación, se presenta un Diagrama de Flujo de Usuario para una de las tareas más comunes de un miembro en la aplicación móvil: **"Renovar/Pagar Membresía"**. Este diagrama detallará el proceso desde que el miembro decide realizar el pago hasta su confirmación o gestión de errores.
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/bc64dbef-7e0c-462e-ac7f-a938cdbe474c" />
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/940193c0-2960-4e15-98ab-378bc37c6af9" />
+<img src="./user-flow/user-flow-crear-usuario.png"> 
+<img src="./user-flow/user-flow-inicio-sesion.png">
+<img src="./user-flow/user-flow-registro-entrada.png">
+<img src="./user-flow/user-flow-registro-salida.png">
 
 
 ## 5.5. Applications Prototyping.
