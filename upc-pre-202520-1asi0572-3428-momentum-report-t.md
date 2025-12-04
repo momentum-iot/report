@@ -3584,8 +3584,7 @@ Resumen: Santiago Román, un joven de 22 años que trabaja como analista de sist
 
 ## 6.4. Video About-the-Product.
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQCjrbRnPeH5QJ0-OizNRHcQAeCe7hivvnx0aEg08soc0-M?e=5LLgPd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
-
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/IQC9odtv7Ng2S7s-Za1fkyCuAQNOkB4a_fB7Cy0eBdm80W4?e=uhHKIA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 # Conclusiones
 
@@ -3647,8 +3646,7 @@ Entevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221
 Entrevistas de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/IQDpi4vefjHzQ4LpGUB4ElDkAac0VC-v7cqXzVrDuff-G18?e=BZTjiD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 
-Video About-the-product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EXvX6UhgOwRHu-TdxGSTKJgBtMWEiwYBFuJdf7YpkJPKMQ?e=Om1c40&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+Video About-the-product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/IQC9odtv7Ng2S7s-Za1fkyCuAQNOkB4a_fB7Cy0eBdm80W4?e=uhHKIA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Video About-the-team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/IQDPaPnlsgL8RIoppO7QpGbrAdgZu13IBzwwwubNytGoptA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OoWAvT
 
