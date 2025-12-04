@@ -3625,7 +3625,7 @@ La separación explícita entre casos de uso, repositorios, servicios y vistas p
 # Video About-the-Team.
 
 
-
+Video About the team : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/IQDPaPnlsgL8RIoppO7QpGbrAdgZu13IBzwwwubNytGoptA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OoWAvT 
 
 
 # Bibliografía
@@ -3650,6 +3650,6 @@ Entrevistas de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 Video About-the-product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EXvX6UhgOwRHu-TdxGSTKJgBtMWEiwYBFuJdf7YpkJPKMQ?e=Om1c40&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
-Video About-the-team: 
+Video About-the-team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/IQDPaPnlsgL8RIoppO7QpGbrAdgZu13IBzwwwubNytGoptA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OoWAvT
 
 
